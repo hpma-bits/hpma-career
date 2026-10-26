@@ -1,0 +1,4 @@
+# OS 杂物不入库；数据文件（career.json、manifest.json、schema/、check.html、images/）必须入库。
+.DS_Store
+Thumbs.db
+desktop.ini
