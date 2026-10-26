@@ -1,0 +1,251 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "title": "HPMA 职业数据包 manifest.json",
+ "description": "版本、覆盖率与图片规格。counts=主数据实体条数；coverage=覆盖率统计（图标/双语名/宝石计价——消费端做最优组合计算前要能一眼看出缺什么）。发布 tag: career-v{schema}.{data}.0。",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "schema_version",
+  "data_version",
+  "generated_at",
+  "dataset",
+  "counts",
+  "coverage"
+ ],
+ "properties": {
+  "schema_version": {
+   "type": "integer",
+   "minimum": 1,
+   "description": "与 career.json 一致"
+  },
+  "data_version": {
+   "type": "string",
+   "pattern": "^\\d{8}$",
+   "description": "内容刷新版本，日期 YYYYMMDD（career_shop.json 内为整数，数值一致）"
+  },
+  "generated_at": {
+   "type": "string",
+   "format": "date-time",
+   "description": "ISO8601 带时区偏移；可用 SOURCE_DATE_EPOCH 钉死以做可复现构建"
+  },
+  "dataset": {
+   "const": "career",
+   "description": "职业数据（收购/购入目录 + 配方炊具 + 职业等级/商店等级/研究技能树）"
+  },
+  "locales": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   },
+   "description": "文案语言列表（zh/en）"
+  },
+  "counts": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "plants",
+    "dishes",
+    "seeds",
+    "ingredients",
+    "recipes",
+    "utensils",
+    "shop_levels",
+    "career_levels",
+    "research"
+   ],
+   "properties": {
+    "plants": {
+     "type": "integer",
+     "minimum": 0,
+     "description": "植物条数（与 career_shop.json.plants 一致）"
+    },
+    "dishes": {
+     "type": "integer",
+     "minimum": 0,
+     "description": "料理条数（按名称去重，与 career_shop.json.dishes 一致）"
+    },
+    "seeds": {
+     "type": "integer",
+     "minimum": 0,
+     "description": "种子条数（与 plants 一一对应）"
+    },
+    "ingredients": {
+     "type": "integer",
+     "minimum": 0,
+     "description": "烹饪原材料条数（商店购入 + 植物源）"
+    },
+    "recipes": {
+     "type": "integer",
+     "minimum": 0,
+     "description": "配方条数（灶台 + 甜品台）"
+    },
+    "utensils": {
+     "type": "integer",
+     "minimum": 0,
+     "description": "炊具条数（显示名文本悬空，名称由消费端命名）"
+    },
+    "shop_levels": {
+     "type": "integer",
+     "minimum": 0,
+     "description": "商店等级条数（1..6）"
+    },
+    "career_levels": {
+     "type": "integer",
+     "minimum": 0,
+     "description": "职业等级条数（2 职业 × 18 级）"
+    },
+    "research": {
+     "type": "integer",
+     "minimum": 0,
+     "description": "职业研究技能节点数"
+    }
+   }
+  },
+  "coverage": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "plants",
+    "dishes",
+    "plant_icons",
+    "dish_icons",
+    "seed_icons",
+    "ingredient_icons",
+    "missing_icons",
+    "en_name_plants",
+    "en_name_dishes",
+    "en_name_seeds",
+    "en_name_ingredients",
+    "gem_tier_plants",
+    "gem_tier_dishes",
+    "gem_price_seeds",
+    "plant_sourced_ingredients",
+    "recipes_gastronome",
+    "recipes_dessert",
+    "utensil_icons",
+    "career_level_icons",
+    "research_icons",
+    "en_name_career_levels",
+    "en_name_research",
+    "en_desc_research"
+   ],
+   "properties": {
+    "plants": {
+     "type": "integer",
+     "description": "植物条数（冗余自检位，与 counts 一致）"
+    },
+    "dishes": {
+     "type": "integer",
+     "description": "料理条数（冗余自检位，与 counts 一致）"
+    },
+    "plant_icons": {
+     "type": "integer",
+     "description": "图标落盘成功的植物数"
+    },
+    "dish_icons": {
+     "type": "integer",
+     "description": "图标落盘成功的料理数"
+    },
+    "missing_icons": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "寻址失败的图标文件名（按 basename，热更未随包时出现）"
+    },
+    "en_name_plants": {
+     "type": "integer",
+     "description": "英文名可解析的植物数"
+    },
+    "en_name_dishes": {
+     "type": "integer",
+     "description": "英文名可解析的料理数"
+    },
+    "gem_tier_plants": {
+     "type": "integer",
+     "description": "含宝石计价档的植物数"
+    },
+    "gem_tier_dishes": {
+     "type": "integer",
+     "description": "宝石计价的料理数（按名称组）"
+    },
+    "seed_icons": {
+     "type": "integer",
+     "description": "图标落盘成功的种子数"
+    },
+    "ingredient_icons": {
+     "type": "integer",
+     "description": "图标落盘成功的材料数（不含 cooked_icon 副图）"
+    },
+    "en_name_seeds": {
+     "type": "integer",
+     "description": "英文名可解析的种子数"
+    },
+    "en_name_ingredients": {
+     "type": "integer",
+     "description": "英文名可解析的材料数"
+    },
+    "gem_price_seeds": {
+     "type": "integer",
+     "description": "宝石计价的种子数"
+    },
+    "plant_sourced_ingredients": {
+     "type": "integer",
+     "description": "植物源调料数（shop 为 null、走 plant 通道的材料）"
+    },
+    "recipes_gastronome": {
+     "type": "integer",
+     "description": "灶台配方数"
+    },
+    "recipes_dessert": {
+     "type": "integer",
+     "description": "甜品台配方数"
+    },
+    "utensil_icons": {
+     "type": "integer",
+     "description": "图标落盘成功的炊具数"
+    },
+    "career_level_icons": {
+     "type": "integer",
+     "description": "图标落盘成功的职业等级数"
+    },
+    "research_icons": {
+     "type": "integer",
+     "description": "图标落盘成功的研究技能数"
+    },
+    "en_name_career_levels": {
+     "type": "integer",
+     "description": "英文名可解析的职业等级数"
+    },
+    "en_name_research": {
+     "type": "integer",
+     "description": "英文名可解析的研究技能数"
+    },
+    "en_desc_research": {
+     "type": "integer",
+     "description": "英文描述可解析的研究技能数"
+    }
+   }
+  },
+  "image_spec": {
+   "type": "string",
+   "description": "图片规格说明（植物/料理图标，一律在 images/）"
+  },
+  "webp_images": {
+   "type": "string",
+   "pattern": "^[^/]+/$",
+   "description": "WebP 副本集目录（相对本 manifest，尾斜杠结尾）。缺省表示本包无 WebP 副本集"
+  },
+  "webp_spec": {
+   "type": "string",
+   "description": "WebP 副本规格说明（可选，随 webp_images 一起出现）"
+  },
+  "notes": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   },
+   "description": "消费端需要知道的口径说明"
+  }
+ }
+}

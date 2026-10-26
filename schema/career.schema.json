@@ -1,0 +1,1055 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "title": "HPMA 职业数据包 career.json（收购+购入目录 + 职业研究 v1）",
+ "description": "职业研究两条生产线的完整目录：收购侧（植物 4 品质档 × 稀有色价 / 成品料理 2..4 档）、购入侧（种子、烹饪原材料）、配方与炊具，以及职业等级 1..18、商店等级 1..6 的高价收购参数与 101 条研究技能树。价格 = 基础价；商店等级带来高价收购额外倍率（shop_levels[].hva_rate），职业天赋的菜品售价加成见 research（sub_type 25/26）。币种按 (条目, 档位) 独立（存在低档金币、绽放档宝石的混币种植物）。tag: career-v{schema}.{data}.0。",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "schema_version",
+  "data_version",
+  "generated_at",
+  "labels",
+  "plants",
+  "dishes",
+  "seeds",
+  "ingredients",
+  "recipes",
+  "utensils",
+  "shop_levels",
+  "career_levels",
+  "research"
+ ],
+ "properties": {
+  "schema_version": {
+   "type": "integer",
+   "minimum": 1,
+   "description": "数据结构版本（与 manifest 一致）"
+  },
+  "data_version": {
+   "type": "integer",
+   "minimum": 1,
+   "description": "内容刷新版本（日期 YYYYMMDD），数值与 manifest.json 的 data_version 字符串一致"
+  },
+  "generated_at": {
+   "type": "string",
+   "format": "date-time",
+   "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$",
+   "description": "ISO8601 带时区偏移"
+  },
+  "labels": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "plant_tiers",
+    "dish_tiers",
+    "currencies"
+   ],
+   "properties": {
+    "plant_tiers": {
+     "type": "object",
+     "description": "植物品质档显示名，键为档位 int 的字符串形式（1..4）",
+     "propertyNames": {
+      "enum": [
+       "1",
+       "2",
+       "3",
+       "4"
+      ]
+     },
+     "additionalProperties": {
+      "$ref": "#/definitions/biText"
+     }
+    },
+    "dish_tiers": {
+     "type": "object",
+     "description": "料理品质档显示名，键为档位 int 的字符串形式（2..4）",
+     "propertyNames": {
+      "enum": [
+       "2",
+       "3",
+       "4"
+      ]
+     },
+     "additionalProperties": {
+      "$ref": "#/definitions/biText"
+     }
+    },
+    "currencies": {
+     "type": "object",
+     "description": "币种码 → 显示名与物品 id（gold=金币 1002 / gems=宝石 1001）",
+     "propertyNames": {
+      "enum": [
+       "gold",
+       "gems"
+      ]
+     },
+     "additionalProperties": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "item_id",
+       "zh",
+       "en"
+      ],
+      "properties": {
+       "item_id": {
+        "type": "integer",
+        "description": "游戏内币种物品 id（1001 宝石 / 1002 金币）"
+       },
+       "zh": {
+        "type": "string"
+       },
+       "en": {
+        "type": "string"
+       }
+      }
+     }
+    }
+   }
+  },
+  "plants": {
+   "type": "array",
+   "description": "可售植物（29 株，按 herb_id 升序）。同一株 4 档物品共享名称与图标",
+   "items": {
+   "$ref": "#/definitions/plant"
+  }
+  },
+  "dishes": {
+   "type": "array",
+   "description": "可售成品料理（按名称去重，id 升序；id = 该名称组最小物品 id）。同名称多物品（变体配方）归入同档的 item_ids 数组",
+   "items": {
+   "$ref": "#/definitions/dish"
+  }
+  },
+  "seeds": {
+   "type": "array",
+   "description": "种子购入目录（29 颗，按 herb_id 升序，与 plants 一一对应）。售价/限购/解锁来自草药商店 1 层；unlock_career_lv = 草药学家职业等级序 1..18",
+   "items": {
+   "$ref": "#/definitions/seed"
+  }
+  },
+  "ingredients": {
+   "type": "array",
+   "description": "烹饪原材料目录（43 种，按 item_id 升序）。获取通道二选一：shop=商店购入（美食商店 1 层）/ plant=植物自种（植物源调料，绽放档收获物，链回 plants[].tiers）",
+   "items": {
+   "$ref": "#/definitions/ingredient"
+  }
+  },
+  "recipes": {
+   "type": "array",
+   "description": "配方目录（44 条，按 recipe_id 升序；dishes[].recipe_ids 反向链到此处）。station=工位（gastronome 灶台 / dessert 甜品台）；duration_ms 为游戏计时毫秒值，除以 1000 即秒数（不是分钟）。配方的自有名文本键在游戏文本表悬空，显示名请经 dishes 联接取料理名",
+   "items": {
+   "$ref": "#/definitions/recipe"
+  }
+  },
+  "rarity_backgrounds": {
+   "type": "object",
+   "description": "商店/通用物品格品质光环（可选，153x147）：键 1..4 = 白/蓝/紫/金（按物品 rarity 直排；05 白金为回响进化档不在此）。植物与料理的 tiers[].tier 共用这把尺；消费端把物品图标叠光环中心即为商店格观感。某品质缺失时该键缺省",
+   "propertyNames": {
+    "enum": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
+   },
+   "additionalProperties": {
+    "type": "string",
+    "pattern": "^images/[^/]+\\.png$"
+   }
+  },
+  "shop_levels": {
+   "type": "array",
+   "description": "商店大等级 1..6（按 level 升序）。hva_rate 是高价收购的额外倍率（1/2/3 = +100/200/300%，按大等级两两一档）；hva_slots 为每周高价收购件数；hva_budget 为每周预算区间（闭区间，金币/宝石）",
+   "minItems": 6,
+   "maxItems": 6,
+   "items": {
+    "$ref": "#/definitions/shopLevel"
+   }
+  },
+  "career_levels": {
+   "type": "array",
+   "description": "职业等级（2 职业 × 18 小级，按 (career_id, level) 升序）。level 是全局小等级 1..18，big_level 1..6（每 3 小级一大级）；stats 保留该职业的玩法数值（订单/队列等），键=游戏字段名",
+   "minItems": 36,
+   "maxItems": 36,
+   "items": {
+    "$ref": "#/definitions/careerLevel"
+   }
+  },
+  "research": {
+   "type": "array",
+   "description": "职业研究技能树（101 节点，按 skill_id 升序）。type/sub_type/param 是游戏效果编码，原样保留；已知价格类：sub_type 25/26 = 菜品售价每份研究 +param[0]%、上限 param[1]%",
+   "minItems": 1,
+   "items": {
+    "$ref": "#/definitions/researchSkill"
+   }
+  },
+  "utensils": {
+   "type": "array",
+   "description": "炊具目录（6 件，按 utensil_id 升序；steps[].utensil_id 的取值域）。显示名文本键在游戏文本表全链悬空——i18n.zh/en 的 name 均为 null、name_key 仅作标识，消费端自行命名",
+   "items": {
+   "$ref": "#/definitions/utensil"
+  }
+  }
+ },
+ "definitions": {
+  "biText": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "zh",
+    "en"
+   ],
+   "properties": {
+    "zh": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "en": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   }
+  },
+  "currencyCode": {
+   "type": "string",
+   "enum": [
+    "gold",
+    "gems"
+   ]
+  },
+  "plant": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "herb_id",
+    "i18n",
+    "icon",
+    "tiers"
+   ],
+   "properties": {
+    "herb_id": {
+     "type": "integer",
+     "minimum": 1,
+     "description": "植物 id（图鉴序）"
+    },
+    "i18n": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "zh",
+      "en"
+     ],
+     "properties": {
+      "zh": {
+       "$ref": "#/definitions/entityText"
+      },
+      "en": {
+       "$ref": "#/definitions/entityText"
+      }
+     }
+    },
+    "icon": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "pattern": "^images/[^/]+\\.png$",
+     "description": "植物图标（images/ 内；缺失为 null 并计入 manifest.coverage.missing_icons）"
+    },
+    "tiers": {
+     "type": "array",
+     "minItems": 1,
+     "description": "品质档（tier 1..4；缺失档 = 该株无此档收获物）",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "tier",
+       "item_id",
+       "currency",
+       "price",
+       "price_rare_color"
+      ],
+      "properties": {
+       "tier": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 4
+       },
+       "item_id": {
+        "type": "integer",
+        "description": "该档收获物物品 id"
+       },
+       "currency": {
+        "$ref": "#/definitions/currencyCode"
+       },
+       "price": {
+        "type": "integer",
+        "minimum": 0,
+        "description": "基础收购价（普通色）"
+       },
+       "price_rare_color": {
+        "type": "integer",
+        "minimum": 0,
+        "description": "稀有色收购价（观赏稀有色植株的着色形态；等于 price 表示该档无稀有色溢价——稀有色是运行时着色，无独立图片）"
+       }
+      }
+     }
+    }
+   }
+  },
+  "dish": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "id",
+    "name_key",
+    "i18n",
+    "icon",
+    "recipe_ids",
+    "tiers"
+   ],
+   "properties": {
+    "id": {
+     "type": "integer",
+     "description": "名称组最小物品 id（组内稳定；跨版本新增变体不改变已有组的 id）"
+    },
+    "name_key": {
+     "type": "string",
+     "description": "名称文本键（游戏侧名称身份；同键 = 同一道料理）"
+    },
+    "i18n": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "zh",
+      "en"
+     ],
+     "properties": {
+      "zh": {
+       "$ref": "#/definitions/entityText"
+      },
+      "en": {
+       "$ref": "#/definitions/entityText"
+      }
+     }
+    },
+    "icon": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "pattern": "^images/[^/]+\\.png$",
+     "description": "料理图标（取名称组代表物品；变体各有图标时仅取代表）"
+    },
+    "recipe_ids": {
+     "type": "array",
+     "minItems": 1,
+     "items": {
+      "type": "integer"
+     },
+     "description": "归属配方 id（升序去重；同名称跨配方/变体时多个）"
+    },
+    "tiers": {
+     "type": "array",
+     "minItems": 1,
+     "description": "品质档（tier 2..4 = 稀有/史诗/传说）",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "tier",
+       "currency",
+       "price",
+       "item_ids"
+      ],
+      "properties": {
+       "tier": {
+        "type": "integer",
+        "minimum": 2,
+        "maximum": 4
+       },
+       "currency": {
+        "$ref": "#/definitions/currencyCode"
+       },
+       "price": {
+        "type": "integer",
+        "minimum": 0,
+        "description": "该档收购价（同名称同档的多变体价格一致）"
+       },
+       "item_ids": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+         "type": "integer"
+        },
+        "description": "该档全部物品 id（变体配方各一件）"
+       }
+      }
+     }
+    }
+   }
+  },
+  "recipe": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "recipe_id",
+    "station",
+    "name_key",
+    "unlock_career_lv",
+    "raw_ingredients",
+    "condiments",
+    "steps"
+   ],
+   "properties": {
+    "recipe_id": {
+     "type": "integer",
+     "description": "配方 id（= dishes[].recipe_ids 的取值域）"
+    },
+    "station": {
+     "type": "string",
+     "enum": [
+      "gastronome",
+      "dessert"
+     ],
+     "description": "工位：gastronome=灶台（cook_type 1）/ dessert=甜品台（cook_type 2）"
+    },
+    "name_key": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "配方自有名文本键（仅作标识；文本悬空，勿作显示名）"
+    },
+    "unlock_career_lv": {
+     "type": [
+      "integer",
+      "null"
+     ],
+     "minimum": 1,
+     "description": "解锁所需烹饪艺术家职业等级序；null = 无解锁条件"
+    },
+    "raw_ingredients": {
+     "type": "array",
+     "minItems": 1,
+     "description": "主料（保序：入菜顺序；甜品台首位为基底半成品）。→ ingredients[].item_id",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "item_id",
+       "count"
+      ],
+      "properties": {
+       "item_id": {
+        "type": "integer"
+       },
+       "count": {
+        "type": "integer",
+        "minimum": 1
+       }
+      }
+     }
+    },
+    "condiments": {
+     "type": "array",
+     "description": "调味（→ ingredients[].item_id；含植物源调料）",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "item_id",
+       "count"
+      ],
+      "properties": {
+       "item_id": {
+        "type": "integer"
+       },
+       "count": {
+        "type": "integer",
+        "minimum": 1
+       }
+      }
+     }
+    },
+    "steps": {
+     "type": "array",
+     "minItems": 1,
+     "description": "炊具步骤（保序=烹饪顺序）。utensil_id：101 炭炉/102 烤箱/103 煎锅/104 炖锅/201 冷凝盘/202 空气炸锅（甜品台恒单步；灶台每主料一步，item_id 指明该步主料）",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "utensil_id",
+       "duration_ms",
+       "item_id"
+      ],
+      "properties": {
+       "utensil_id": {
+        "type": "integer",
+        "enum": [
+         101,
+         102,
+         103,
+         104,
+         201,
+         202
+        ]
+       },
+       "duration_ms": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "该步烹饪时长（毫秒；÷1000 = 秒）"
+       },
+       "item_id": {
+        "type": [
+         "integer",
+         "null"
+        ],
+        "description": "该步投放的主料物品 id；甜品台单步为 null（主料整批入位）"
+       }
+      }
+     }
+    }
+   }
+  },
+  "shopLevel": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "level",
+    "hva_rate",
+    "hva_slots",
+    "hva_budget"
+   ],
+   "properties": {
+    "level": {
+     "type": "integer",
+     "minimum": 1,
+     "maximum": 6,
+     "description": "商店大等级（大幅收购档位，按大等级两两一档）"
+    },
+    "hva_rate": {
+     "type": "integer",
+     "minimum": 1,
+     "maximum": 3,
+     "description": "高价收购额外倍率：1/2/3 = +100/200/300%"
+    },
+    "hva_slots": {
+     "type": "integer",
+     "minimum": 1,
+     "description": "每周高价收购件数"
+    },
+    "hva_budget": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "gold",
+      "gems"
+     ],
+     "properties": {
+      "gold": {
+       "$ref": "#/definitions/intRange"
+      },
+      "gems": {
+       "$ref": "#/definitions/intRange"
+      }
+     },
+     "description": "每周高价收购预算区间（金币/宝石，闭区间；宝石为 0,0 表示该等级无宝石预算）"
+    }
+   }
+  },
+  "intRange": {
+   "type": "array",
+   "minItems": 2,
+   "maxItems": 2,
+   "items": {
+    "type": "integer",
+    "minimum": 0
+   }
+  },
+  "careerLevel": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "career_id",
+    "level",
+    "big_level",
+    "sub_level",
+    "need_exp",
+    "skill_points",
+    "i18n",
+    "icon",
+    "stats"
+   ],
+   "properties": {
+    "career_id": {
+     "type": "integer",
+     "enum": [
+      1,
+      2
+     ],
+     "description": "1=草药学家 / 2=烹饪艺术家"
+    },
+    "level": {
+     "type": "integer",
+     "minimum": 1,
+     "maximum": 18,
+     "description": "全局小等级 1..18（种子解锁等级即此轴）"
+    },
+    "big_level": {
+     "type": "integer",
+     "minimum": 1,
+     "maximum": 6,
+     "description": "大等级 1..6（每 3 小级一大级）"
+    },
+    "sub_level": {
+     "type": "integer",
+     "minimum": 1,
+     "maximum": 3,
+     "description": "大等级内序号 1..3"
+    },
+    "need_exp": {
+     "type": "integer",
+     "minimum": 0
+    },
+    "skill_points": {
+     "type": "integer",
+     "minimum": 0,
+     "description": "升级获得的技能点"
+    },
+    "i18n": {
+     "$ref": "#/definitions/biNameDesc"
+    },
+    "icon": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "pattern": "^images/[^/]+\\.png$",
+     "description": "等级徽章图标"
+    },
+    "stats": {
+     "type": "object",
+     "description": "职业特定玩法数值（键=游戏字段名，原样保留；如订单上限/等待队列/刷新间隔）"
+    }
+   }
+  },
+  "researchSkill": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "skill_id",
+    "override_id",
+    "career_id",
+    "type",
+    "sub_type",
+    "param",
+    "career_lv_req",
+    "cost_point",
+    "pre_skills",
+    "pre_tasks",
+    "tree_pos",
+    "auto_unlock",
+    "reset_flag",
+    "is_shield",
+    "i18n",
+    "icon"
+   ],
+   "properties": {
+    "skill_id": {
+     "type": "integer",
+     "description": "技能节点 id"
+    },
+    "override_id": {
+     "type": "integer",
+     "description": "覆盖组 id（同组=同一节点的不同等级/形态）"
+    },
+    "career_id": {
+     "type": "integer",
+     "enum": [
+      1,
+      2
+     ]
+    },
+    "type": {
+     "type": "integer",
+     "description": "效果大类（游戏编码，原样保留）"
+    },
+    "sub_type": {
+     "type": "integer",
+     "description": "效果子类（游戏编码；25/26 = 菜品售价加成）"
+    },
+    "param": {
+     "type": "array",
+     "items": {
+      "type": "number"
+     },
+     "description": "效果参数（sub_type 25/26 时 = [每份研究 +X%, 上限 Y%]）"
+    },
+    "career_lv_req": {
+     "type": "integer",
+     "minimum": 1,
+     "description": "解锁所需职业小等级"
+    },
+    "cost_point": {
+     "type": "integer",
+     "minimum": 0
+    },
+    "pre_skills": {
+     "type": "array",
+     "items": {
+      "type": "integer"
+     },
+     "description": "前置技能节点（→ research[].skill_id）"
+    },
+    "pre_tasks": {
+     "type": "array",
+     "items": {
+      "type": "integer"
+     },
+     "description": "前置任务 id（游戏任务表）"
+    },
+    "tree_pos": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "技能树坐标（行_列）"
+    },
+    "auto_unlock": {
+     "type": "boolean"
+    },
+    "reset_flag": {
+     "type": "boolean",
+     "description": "可否重置"
+    },
+    "is_shield": {
+     "type": "boolean"
+    },
+    "i18n": {
+     "$ref": "#/definitions/biNameDesc"
+    },
+    "icon": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "pattern": "^images/[^/]+\\.png$",
+     "description": "技能图标"
+    }
+   }
+  },
+  "biNameDesc": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "zh",
+    "en"
+   ],
+   "properties": {
+    "zh": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "name",
+      "desc"
+     ],
+     "properties": {
+      "name": {
+       "type": [
+        "string",
+        "null"
+       ]
+      },
+      "desc": {
+       "type": [
+        "string",
+        "null"
+       ]
+      }
+     }
+    },
+    "en": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "name",
+      "desc"
+     ],
+     "properties": {
+      "name": {
+       "type": [
+        "string",
+        "null"
+       ]
+      },
+      "desc": {
+       "type": [
+        "string",
+        "null"
+       ]
+      }
+     }
+    }
+   }
+  },
+  "utensil": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "utensil_id",
+    "name_key",
+    "i18n",
+    "icon"
+   ],
+   "properties": {
+    "utensil_id": {
+     "type": "integer",
+     "enum": [
+      101,
+      102,
+      103,
+      104,
+      201,
+      202
+     ],
+     "description": "炊具 id：101-104=灶台位 / 201-202=甜品台位"
+    },
+    "name_key": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "显示名文本键（游戏拼写 lable；文本悬空，勿作显示名）"
+    },
+    "i18n": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "zh",
+      "en"
+     ],
+     "properties": {
+      "zh": {
+       "$ref": "#/definitions/entityText"
+      },
+      "en": {
+       "$ref": "#/definitions/entityText"
+      }
+     }
+    },
+    "icon": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "pattern": "^images/[^/]+\\.png$",
+     "description": "炊具图标（彩态）"
+    }
+   }
+  },
+  "entityText": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "name"
+   ],
+   "properties": {
+    "name": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "显示名；null = 文本键悬空（计入 manifest.coverage）"
+    }
+   }
+  },
+  "seed": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "item_id",
+    "herb_id",
+    "i18n",
+    "icon",
+    "currency",
+    "price",
+    "buy_limit",
+    "unlock_career_lv"
+   ],
+   "properties": {
+    "item_id": {
+     "type": "integer",
+     "description": "种子物品 id（= 植物图鉴种子行 id）"
+    },
+    "herb_id": {
+     "type": "integer",
+     "minimum": 1,
+     "description": "→ plants[].herb_id（种子与植物一一对应）"
+    },
+    "i18n": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "zh",
+      "en"
+     ],
+     "properties": {
+      "zh": {
+       "$ref": "#/definitions/entityText"
+      },
+      "en": {
+       "$ref": "#/definitions/entityText"
+      }
+     }
+    },
+    "icon": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "pattern": "^images/[^/]+\\.png$",
+     "description": "种子图标（images/ 内）"
+    },
+    "currency": {
+     "$ref": "#/definitions/currencyCode",
+     "description": "购入币种（实测 2 颗宝石计价：嗅幻草/红火焰藻，限购 5）"
+    },
+    "price": {
+     "type": "integer",
+     "minimum": 0,
+     "description": "购入价（单颗）"
+    },
+    "buy_limit": {
+     "type": "integer",
+     "minimum": 0,
+     "description": "限购数量（每刷新周期）"
+    },
+    "unlock_career_lv": {
+     "type": [
+      "integer",
+      "null"
+     ],
+     "minimum": 1,
+     "description": "解锁所需草药学家职业等级序（1..18）；null = 无解锁条件"
+    }
+   }
+  },
+  "ingredient": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "item_id",
+    "i18n",
+    "icon",
+    "cooked_icon",
+    "shop",
+    "plant"
+   ],
+   "properties": {
+    "item_id": {
+     "type": "integer",
+     "description": "材料物品 id"
+    },
+    "i18n": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "zh",
+      "en"
+     ],
+     "properties": {
+      "zh": {
+       "$ref": "#/definitions/entityText"
+      },
+      "en": {
+       "$ref": "#/definitions/entityText"
+      }
+     }
+    },
+    "icon": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "pattern": "^images/[^/]+\\.png$",
+     "description": "材料图标（生料形态）"
+    },
+    "cooked_icon": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "pattern": "^images/[^/]+\\.png$",
+     "description": "入锅后图标（可选，缺失为 null）"
+    },
+    "shop": {
+     "type": [
+      "object",
+      "null"
+     ],
+     "description": "商店购入通道（美食商店 1 层）；植物源调料为 null",
+     "additionalProperties": false,
+     "required": [
+      "currency",
+      "price",
+      "buy_limit"
+     ],
+     "properties": {
+      "currency": {
+       "$ref": "#/definitions/currencyCode"
+      },
+      "price": {
+       "type": "integer",
+       "minimum": 0
+      },
+      "buy_limit": {
+       "type": "integer",
+       "minimum": 0
+      },
+      "unlock_career_lv": {
+       "type": [
+        "integer",
+        "null"
+       ],
+       "minimum": 1,
+       "description": "解锁所需烹饪艺术家职业等级序；null = 无解锁条件"
+      }
+     }
+    },
+    "plant": {
+     "type": [
+      "object",
+      "null"
+     ],
+     "description": "植物自种通道（植物源调料：绽放档收获物）；商店材料为 null",
+     "additionalProperties": false,
+     "required": [
+      "herb_id",
+      "tier"
+     ],
+     "properties": {
+      "herb_id": {
+       "type": "integer",
+       "minimum": 1,
+       "description": "→ plants[].herb_id"
+      },
+      "tier": {
+       "type": "integer",
+       "minimum": 1,
+       "maximum": 4,
+       "description": "所需植物品质档（实测植物源调料均为 4 = 绽放档）"
+      }
+     }
+    }
+   }
+  }
+ }
+}

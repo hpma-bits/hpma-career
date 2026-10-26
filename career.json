@@ -1,0 +1,10501 @@
+{
+ "schema_version": 1,
+ "data_version": 20261026,
+ "generated_at": "2026-10-26T18:32:11+08:00",
+ "labels": {
+  "plant_tiers": {
+   "1": {
+    "zh": "萎靡不振",
+    "en": "Feeble"
+   },
+   "2": {
+    "zh": "普普通通",
+    "en": "Hardy"
+   },
+   "3": {
+    "zh": "圆润饱满",
+    "en": "Flourishing"
+   },
+   "4": {
+    "zh": "稀世珍品",
+    "en": "Radiant"
+   }
+  },
+  "dish_tiers": {
+   "2": {
+    "zh": "稀有",
+    "en": "Rare"
+   },
+   "3": {
+    "zh": "史诗",
+    "en": "Epic"
+   },
+   "4": {
+    "zh": "传说",
+    "en": "Legendary"
+   }
+  },
+  "currencies": {
+   "gems": {
+    "item_id": 1001,
+    "zh": "宝石",
+    "en": "Gems"
+   },
+   "gold": {
+    "item_id": 1002,
+    "zh": "金币",
+    "en": "Gold"
+   }
+  }
+ },
+ "plants": [
+  {
+   "herb_id": 1,
+   "i18n": {
+    "zh": {
+     "name": "曼德拉草"
+    },
+    "en": {
+     "name": "Mandrake"
+    }
+   },
+   "icon": "images/icon_zhiwu_mandelacao_03.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600014,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600011,
+     "currency": "gold",
+     "price": 15,
+     "price_rare_color": 17
+    },
+    {
+     "tier": 3,
+     "item_id": 21600012,
+     "currency": "gold",
+     "price": 22,
+     "price_rare_color": 25
+    },
+    {
+     "tier": 4,
+     "item_id": 21600013,
+     "currency": "gold",
+     "price": 24,
+     "price_rare_color": 27
+    }
+   ]
+  },
+  {
+   "herb_id": 2,
+   "i18n": {
+    "zh": {
+     "name": "玫瑰"
+    },
+    "en": {
+     "name": "Rose"
+    }
+   },
+   "icon": "images/icon_meigui_4.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600024,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600021,
+     "currency": "gold",
+     "price": 30,
+     "price_rare_color": 33
+    },
+    {
+     "tier": 3,
+     "item_id": 21600022,
+     "currency": "gold",
+     "price": 34,
+     "price_rare_color": 38
+    },
+    {
+     "tier": 4,
+     "item_id": 21600023,
+     "currency": "gold",
+     "price": 42,
+     "price_rare_color": 47
+    }
+   ]
+  },
+  {
+   "herb_id": 3,
+   "i18n": {
+    "zh": {
+     "name": "泡泡豆荚"
+    },
+    "en": {
+     "name": "Puffapod"
+    }
+   },
+   "icon": "images/icon_ppdj_4.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600034,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600031,
+     "currency": "gold",
+     "price": 55,
+     "price_rare_color": 61
+    },
+    {
+     "tier": 3,
+     "item_id": 21600032,
+     "currency": "gold",
+     "price": 62,
+     "price_rare_color": 69
+    },
+    {
+     "tier": 4,
+     "item_id": 21600033,
+     "currency": "gold",
+     "price": 85,
+     "price_rare_color": 94
+    }
+   ]
+  },
+  {
+   "herb_id": 4,
+   "i18n": {
+    "zh": {
+     "name": "毒牙天竺葵"
+    },
+    "en": {
+     "name": "Fanged Geranium"
+    }
+   },
+   "icon": "images/icon_tianzhukui_4.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600044,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600041,
+     "currency": "gold",
+     "price": 8,
+     "price_rare_color": 9
+    },
+    {
+     "tier": 3,
+     "item_id": 21600042,
+     "currency": "gold",
+     "price": 9,
+     "price_rare_color": 10
+    },
+    {
+     "tier": 4,
+     "item_id": 21600043,
+     "currency": "gold",
+     "price": 12,
+     "price_rare_color": 14
+    }
+   ]
+  },
+  {
+   "herb_id": 5,
+   "i18n": {
+    "zh": {
+     "name": "中国咬人甘蓝"
+    },
+    "en": {
+     "name": "Chinese Chomping Cabbage"
+    }
+   },
+   "icon": "images/icon_zhongguoyaorenganlan_4.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600054,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600051,
+     "currency": "gold",
+     "price": 36,
+     "price_rare_color": 40
+    },
+    {
+     "tier": 3,
+     "item_id": 21600052,
+     "currency": "gold",
+     "price": 40,
+     "price_rare_color": 44
+    },
+    {
+     "tier": 4,
+     "item_id": 21600053,
+     "currency": "gold",
+     "price": 57,
+     "price_rare_color": 63
+    }
+   ]
+  },
+  {
+   "herb_id": 6,
+   "i18n": {
+    "zh": {
+     "name": "水仙"
+    },
+    "en": {
+     "name": "Daffodil"
+    }
+   },
+   "icon": "images/icon_shuixian_4.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600064,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600061,
+     "currency": "gold",
+     "price": 45,
+     "price_rare_color": 50
+    },
+    {
+     "tier": 3,
+     "item_id": 21600062,
+     "currency": "gold",
+     "price": 50,
+     "price_rare_color": 55
+    },
+    {
+     "tier": 4,
+     "item_id": 21600063,
+     "currency": "gems",
+     "price": 2,
+     "price_rare_color": 3
+    }
+   ]
+  },
+  {
+   "herb_id": 7,
+   "i18n": {
+    "zh": {
+     "name": "羽衣草"
+    },
+    "en": {
+     "name": "Lady's Mantle"
+    }
+   },
+   "icon": "images/icon_yuyicao_4.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600074,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600071,
+     "currency": "gold",
+     "price": 76,
+     "price_rare_color": 84
+    },
+    {
+     "tier": 3,
+     "item_id": 21600072,
+     "currency": "gold",
+     "price": 96,
+     "price_rare_color": 106
+    },
+    {
+     "tier": 4,
+     "item_id": 21600073,
+     "currency": "gold",
+     "price": 105,
+     "price_rare_color": 116
+    }
+   ]
+  },
+  {
+   "herb_id": 8,
+   "i18n": {
+    "zh": {
+     "name": "绣球花"
+    },
+    "en": {
+     "name": "Hydrangea"
+    }
+   },
+   "icon": "images/icon_xiuqiuhua_4.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600084,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600081,
+     "currency": "gold",
+     "price": 135,
+     "price_rare_color": 149
+    },
+    {
+     "tier": 3,
+     "item_id": 21600082,
+     "currency": "gold",
+     "price": 150,
+     "price_rare_color": 165
+    },
+    {
+     "tier": 4,
+     "item_id": 21600083,
+     "currency": "gold",
+     "price": 215,
+     "price_rare_color": 237
+    }
+   ]
+  },
+  {
+   "herb_id": 9,
+   "i18n": {
+    "zh": {
+     "name": "秋海棠"
+    },
+    "en": {
+     "name": "Begonia"
+    }
+   },
+   "icon": "images/icon_qiuhaitang_4.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600094,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600091,
+     "currency": "gold",
+     "price": 45,
+     "price_rare_color": 50
+    },
+    {
+     "tier": 3,
+     "item_id": 21600092,
+     "currency": "gold",
+     "price": 58,
+     "price_rare_color": 64
+    },
+    {
+     "tier": 4,
+     "item_id": 21600093,
+     "currency": "gold",
+     "price": 72,
+     "price_rare_color": 80
+    }
+   ]
+  },
+  {
+   "herb_id": 10,
+   "i18n": {
+    "zh": {
+     "name": "嗅幻草"
+    },
+    "en": {
+     "name": "Niffler's Fancy"
+    }
+   },
+   "icon": "images/icon_xiuhuancao_4.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600104,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600101,
+     "currency": "gems",
+     "price": 1,
+     "price_rare_color": 2
+    },
+    {
+     "tier": 3,
+     "item_id": 21600102,
+     "currency": "gems",
+     "price": 3,
+     "price_rare_color": 4
+    },
+    {
+     "tier": 4,
+     "item_id": 21600103,
+     "currency": "gems",
+     "price": 6,
+     "price_rare_color": 7
+    }
+   ]
+  },
+  {
+   "herb_id": 11,
+   "i18n": {
+    "zh": {
+     "name": "五月花"
+    },
+    "en": {
+     "name": "Mayflower"
+    }
+   },
+   "icon": "images/icon_wuyuehua_4.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600114,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600111,
+     "currency": "gold",
+     "price": 117,
+     "price_rare_color": 129
+    },
+    {
+     "tier": 3,
+     "item_id": 21600112,
+     "currency": "gold",
+     "price": 150,
+     "price_rare_color": 165
+    },
+    {
+     "tier": 4,
+     "item_id": 21600113,
+     "currency": "gold",
+     "price": 186,
+     "price_rare_color": 205
+    }
+   ]
+  },
+  {
+   "herb_id": 12,
+   "i18n": {
+    "zh": {
+     "name": "牡丹"
+    },
+    "en": {
+     "name": "Peony"
+    }
+   },
+   "icon": "images/icon_mudan_4.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600124,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600121,
+     "currency": "gold",
+     "price": 45,
+     "price_rare_color": 50
+    },
+    {
+     "tier": 3,
+     "item_id": 21600122,
+     "currency": "gold",
+     "price": 58,
+     "price_rare_color": 64
+    },
+    {
+     "tier": 4,
+     "item_id": 21600123,
+     "currency": "gems",
+     "price": 2,
+     "price_rare_color": 3
+    }
+   ]
+  },
+  {
+   "herb_id": 13,
+   "i18n": {
+    "zh": {
+     "name": "鳃囊草"
+    },
+    "en": {
+     "name": "Gillyweed"
+    }
+   },
+   "icon": "images/icon_sainangcao_5.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600134,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600131,
+     "currency": "gold",
+     "price": 3,
+     "price_rare_color": 3
+    },
+    {
+     "tier": 3,
+     "item_id": 21600132,
+     "currency": "gold",
+     "price": 4,
+     "price_rare_color": 4
+    },
+    {
+     "tier": 4,
+     "item_id": 21600133,
+     "currency": "gold",
+     "price": 6,
+     "price_rare_color": 6
+    }
+   ]
+  },
+  {
+   "herb_id": 14,
+   "i18n": {
+    "zh": {
+     "name": "三色堇"
+    },
+    "en": {
+     "name": "Wild Pansy"
+    }
+   },
+   "icon": "images/icon_sansejin_4.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600144,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600141,
+     "currency": "gold",
+     "price": 55,
+     "price_rare_color": 61
+    },
+    {
+     "tier": 3,
+     "item_id": 21600142,
+     "currency": "gold",
+     "price": 62,
+     "price_rare_color": 69
+    },
+    {
+     "tier": 4,
+     "item_id": 21600143,
+     "currency": "gold",
+     "price": 85,
+     "price_rare_color": 94
+    }
+   ]
+  },
+  {
+   "herb_id": 15,
+   "i18n": {
+    "zh": {
+     "name": "巨藻"
+    },
+    "en": {
+     "name": "Kelp"
+    }
+   },
+   "icon": "images/icon_juzao_4.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600154,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600151,
+     "currency": "gold",
+     "price": 30,
+     "price_rare_color": 33
+    },
+    {
+     "tier": 3,
+     "item_id": 21600152,
+     "currency": "gold",
+     "price": 44,
+     "price_rare_color": 49
+    },
+    {
+     "tier": 4,
+     "item_id": 21600153,
+     "currency": "gold",
+     "price": 48,
+     "price_rare_color": 53
+    }
+   ]
+  },
+  {
+   "herb_id": 16,
+   "i18n": {
+    "zh": {
+     "name": "绿菊"
+    },
+    "en": {
+     "name": "Fanwort"
+    }
+   },
+   "icon": "images/icon_lvju_4.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600164,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600161,
+     "currency": "gold",
+     "price": 69,
+     "price_rare_color": 76
+    },
+    {
+     "tier": 3,
+     "item_id": 21600162,
+     "currency": "gold",
+     "price": 87,
+     "price_rare_color": 96
+    },
+    {
+     "tier": 4,
+     "item_id": 21600163,
+     "currency": "gold",
+     "price": 107,
+     "price_rare_color": 118
+    }
+   ]
+  },
+  {
+   "herb_id": 17,
+   "i18n": {
+    "zh": {
+     "name": "红波水草"
+    },
+    "en": {
+     "name": "Ludwigia Glandulosa"
+    }
+   },
+   "icon": "images/icon_hongboshuizao_color_03.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600174,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600171,
+     "currency": "gold",
+     "price": 78,
+     "price_rare_color": 86
+    },
+    {
+     "tier": 3,
+     "item_id": 21600172,
+     "currency": "gold",
+     "price": 98,
+     "price_rare_color": 108
+    },
+    {
+     "tier": 4,
+     "item_id": 21600173,
+     "currency": "gold",
+     "price": 120,
+     "price_rare_color": 132
+    }
+   ]
+  },
+  {
+   "herb_id": 18,
+   "i18n": {
+    "zh": {
+     "name": "凤眼莲"
+    },
+    "en": {
+     "name": "Water Hyacinth"
+    }
+   },
+   "icon": "images/icon_fengyanlian_4.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600184,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600181,
+     "currency": "gold",
+     "price": 41,
+     "price_rare_color": 46
+    },
+    {
+     "tier": 3,
+     "item_id": 21600182,
+     "currency": "gold",
+     "price": 52,
+     "price_rare_color": 58
+    },
+    {
+     "tier": 4,
+     "item_id": 21600183,
+     "currency": "gold",
+     "price": 65,
+     "price_rare_color": 72
+    }
+   ]
+  },
+  {
+   "herb_id": 19,
+   "i18n": {
+    "zh": {
+     "name": "红火焰藻"
+    },
+    "en": {
+     "name": "Dragon's Breath Macroalgae"
+    }
+   },
+   "icon": "images/icon_honghuoyanzao_4.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600194,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600191,
+     "currency": "gems",
+     "price": 1,
+     "price_rare_color": 2
+    },
+    {
+     "tier": 3,
+     "item_id": 21600192,
+     "currency": "gems",
+     "price": 2,
+     "price_rare_color": 3
+    },
+    {
+     "tier": 4,
+     "item_id": 21600193,
+     "currency": "gems",
+     "price": 3,
+     "price_rare_color": 4
+    }
+   ]
+  },
+  {
+   "herb_id": 20,
+   "i18n": {
+    "zh": {
+     "name": "菱叶丁香蓼"
+    },
+    "en": {
+     "name": "Mosaic Flower"
+    }
+   },
+   "icon": "images/icon_lingyedingxiangliao_4.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600204,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600201,
+     "currency": "gold",
+     "price": 52,
+     "price_rare_color": 58
+    },
+    {
+     "tier": 3,
+     "item_id": 21600202,
+     "currency": "gold",
+     "price": 65,
+     "price_rare_color": 72
+    },
+    {
+     "tier": 4,
+     "item_id": 21600203,
+     "currency": "gold",
+     "price": 80,
+     "price_rare_color": 88
+    }
+   ]
+  },
+  {
+   "herb_id": 21,
+   "i18n": {
+    "zh": {
+     "name": "睡莲"
+    },
+    "en": {
+     "name": "Water Lily"
+    }
+   },
+   "icon": "images/icon_shuilian_4.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600214,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600211,
+     "currency": "gold",
+     "price": 199,
+     "price_rare_color": 219
+    },
+    {
+     "tier": 3,
+     "item_id": 21600212,
+     "currency": "gold",
+     "price": 221,
+     "price_rare_color": 244
+    },
+    {
+     "tier": 4,
+     "item_id": 21600213,
+     "currency": "gold",
+     "price": 271,
+     "price_rare_color": 299
+    }
+   ]
+  },
+  {
+   "herb_id": 22,
+   "i18n": {
+    "zh": {
+     "name": "铃兰"
+    },
+    "en": {
+     "name": "Lily of the Valley"
+    }
+   },
+   "icon": "images/icon_linglan_4.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600224,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600221,
+     "currency": "gold",
+     "price": 42,
+     "price_rare_color": 47
+    },
+    {
+     "tier": 3,
+     "item_id": 21600222,
+     "currency": "gold",
+     "price": 46,
+     "price_rare_color": 51
+    },
+    {
+     "tier": 4,
+     "item_id": 21600223,
+     "currency": "gold",
+     "price": 57,
+     "price_rare_color": 63
+    }
+   ]
+  },
+  {
+   "herb_id": 23,
+   "i18n": {
+    "zh": {
+     "name": "向日葵"
+    },
+    "en": {
+     "name": "Sunflower"
+    }
+   },
+   "icon": "images/icon_xiangrikui_4.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600234,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600231,
+     "currency": "gold",
+     "price": 75,
+     "price_rare_color": 83
+    },
+    {
+     "tier": 3,
+     "item_id": 21600232,
+     "currency": "gold",
+     "price": 96,
+     "price_rare_color": 106
+    },
+    {
+     "tier": 4,
+     "item_id": 21600233,
+     "currency": "gems",
+     "price": 4,
+     "price_rare_color": 5
+    }
+   ]
+  },
+  {
+   "herb_id": 24,
+   "i18n": {
+    "zh": {
+     "name": "米布米宝"
+    },
+    "en": {
+     "name": "Mimbulus Mimbletonia"
+    }
+   },
+   "icon": "images/icon_mibumibao_4.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600244,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600241,
+     "currency": "gold",
+     "price": 39,
+     "price_rare_color": 43
+    },
+    {
+     "tier": 3,
+     "item_id": 21600242,
+     "currency": "gold",
+     "price": 50,
+     "price_rare_color": 55
+    },
+    {
+     "tier": 4,
+     "item_id": 21600243,
+     "currency": "gold",
+     "price": 62,
+     "price_rare_color": 69
+    }
+   ]
+  },
+  {
+   "herb_id": 25,
+   "i18n": {
+    "zh": {
+     "name": "龙舌兰香草"
+    },
+    "en": {
+     "name": "Vining Marjoram"
+    }
+   },
+   "icon": "images/icon_xiangcao_04.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600254,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600251,
+     "currency": "gold",
+     "price": 18,
+     "price_rare_color": 20
+    },
+    {
+     "tier": 3,
+     "item_id": 21600252,
+     "currency": "gold",
+     "price": 23,
+     "price_rare_color": 26
+    },
+    {
+     "tier": 4,
+     "item_id": 21600253,
+     "currency": "gold",
+     "price": 25,
+     "price_rare_color": 28
+    }
+   ]
+  },
+  {
+   "herb_id": 26,
+   "i18n": {
+    "zh": {
+     "name": "火焰肉桂"
+    },
+    "en": {
+     "name": "Charred Cinnamon Tree"
+    }
+   },
+   "icon": "images/icon_huoyanrougui_04.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600264,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600261,
+     "currency": "gold",
+     "price": 24,
+     "price_rare_color": 27
+    },
+    {
+     "tier": 3,
+     "item_id": 21600262,
+     "currency": "gold",
+     "price": 31,
+     "price_rare_color": 35
+    },
+    {
+     "tier": 4,
+     "item_id": 21600263,
+     "currency": "gold",
+     "price": 34,
+     "price_rare_color": 38
+    }
+   ]
+  },
+  {
+   "herb_id": 27,
+   "i18n": {
+    "zh": {
+     "name": "幽兰月桂"
+    },
+    "en": {
+     "name": "Paleleaf Laurel"
+    }
+   },
+   "icon": "images/icon_youlanyuegui_04.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600274,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600271,
+     "currency": "gold",
+     "price": 24,
+     "price_rare_color": 27
+    },
+    {
+     "tier": 3,
+     "item_id": 21600272,
+     "currency": "gold",
+     "price": 31,
+     "price_rare_color": 35
+    },
+    {
+     "tier": 4,
+     "item_id": 21600273,
+     "currency": "gold",
+     "price": 34,
+     "price_rare_color": 38
+    }
+   ]
+  },
+  {
+   "herb_id": 28,
+   "i18n": {
+    "zh": {
+     "name": "迷迭香"
+    },
+    "en": {
+     "name": "Wildbloom Thyme"
+    }
+   },
+   "icon": "images/icon_mizongcao_04.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600284,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600281,
+     "currency": "gold",
+     "price": 41,
+     "price_rare_color": 46
+    },
+    {
+     "tier": 3,
+     "item_id": 21600282,
+     "currency": "gold",
+     "price": 46,
+     "price_rare_color": 51
+    },
+    {
+     "tier": 4,
+     "item_id": 21600283,
+     "currency": "gold",
+     "price": 56,
+     "price_rare_color": 62
+    }
+   ]
+  },
+  {
+   "herb_id": 29,
+   "i18n": {
+    "zh": {
+     "name": "鼠尾草"
+    },
+    "en": {
+     "name": "Sage"
+    }
+   },
+   "icon": "images/icon_shuweicao_5.png",
+   "tiers": [
+    {
+     "tier": 1,
+     "item_id": 21600294,
+     "currency": "gold",
+     "price": 1,
+     "price_rare_color": 1
+    },
+    {
+     "tier": 2,
+     "item_id": 21600291,
+     "currency": "gold",
+     "price": 41,
+     "price_rare_color": 46
+    },
+    {
+     "tier": 3,
+     "item_id": 21600292,
+     "currency": "gold",
+     "price": 46,
+     "price_rare_color": 51
+    },
+    {
+     "tier": 4,
+     "item_id": 21600293,
+     "currency": "gold",
+     "price": 56,
+     "price_rare_color": 62
+    }
+   ]
+  }
+ ],
+ "dishes": [
+  {
+   "id": 202514001,
+   "name_key": "name_202514001",
+   "i18n": {
+    "zh": {
+     "name": "火焰蜜汁烤翅"
+    },
+    "en": {
+     "name": "Honey-glazed Wings"
+    }
+   },
+   "icon": "images/icon_mizhikaochi.png",
+   "recipe_ids": [
+    202516001
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 176,
+     "item_ids": [
+      202514001
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 229,
+     "item_ids": [
+      202514026
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 317,
+     "item_ids": [
+      202514051
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514002,
+   "name_key": "name_202514002",
+   "i18n": {
+    "zh": {
+     "name": "蜂蜜烤羊腿"
+    },
+    "en": {
+     "name": "Midsummer Lamb Roast"
+    }
+   },
+   "icon": "images/icon_mizhikaoyangtui.png",
+   "recipe_ids": [
+    202516002
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 176,
+     "item_ids": [
+      202514002
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 229,
+     "item_ids": [
+      202514027
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 317,
+     "item_ids": [
+      202514052
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514003,
+   "name_key": "name_202514003",
+   "i18n": {
+    "zh": {
+     "name": "海鱼黄金焗饭"
+    },
+    "en": {
+     "name": "Gilded Shore Risotto"
+    }
+   },
+   "icon": "images/icon_yinyujufan.png",
+   "recipe_ids": [
+    202516003
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 160,
+     "item_ids": [
+      202514003
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 208,
+     "item_ids": [
+      202514028
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 288,
+     "item_ids": [
+      202514053
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514004,
+   "name_key": "name_202514004",
+   "i18n": {
+    "zh": {
+     "name": "香草战斧牛排"
+    },
+    "en": {
+     "name": "Wild Herb Tomahawk"
+    }
+   },
+   "icon": "images/icon_longmianzhanfuniupai.png",
+   "recipe_ids": [
+    202516004
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 264,
+     "item_ids": [
+      202514004
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 343,
+     "item_ids": [
+      202514029
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 475,
+     "item_ids": [
+      202514054
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514005,
+   "name_key": "name_202514005",
+   "i18n": {
+    "zh": {
+     "name": "果香烤乳猪"
+    },
+    "en": {
+     "name": "Farmstead Feast Roast"
+    }
+   },
+   "icon": "images/icon_kaoruzhu.png",
+   "recipe_ids": [
+    202516005
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 120,
+     "item_ids": [
+      202514005
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 156,
+     "item_ids": [
+      202514030
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 216,
+     "item_ids": [
+      202514055
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514006,
+   "name_key": "name_202514006",
+   "i18n": {
+    "zh": {
+     "name": "香草风味烤扇贝"
+    },
+    "en": {
+     "name": "Simple Seared Scallops"
+    }
+   },
+   "icon": "images/icon_xiangcaoshanbei.png",
+   "recipe_ids": [
+    202516006
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 176,
+     "item_ids": [
+      202514006
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 229,
+     "item_ids": [
+      202514031
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 317,
+     "item_ids": [
+      202514056
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514007,
+   "name_key": "name_202514007",
+   "i18n": {
+    "zh": {
+     "name": "奶油蘑菇炖饭"
+    },
+    "en": {
+     "name": "Woodland Mushroom Risotto"
+    }
+   },
+   "icon": "images/icon_naiyoumogudunfan.png",
+   "recipe_ids": [
+    202516007
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 72,
+     "item_ids": [
+      202514007
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 94,
+     "item_ids": [
+      202514032
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 130,
+     "item_ids": [
+      202514057
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514008,
+   "name_key": "name_202514008",
+   "i18n": {
+    "zh": {
+     "name": "浓香烤全鸡"
+    },
+    "en": {
+     "name": "Hearthroast Chicken"
+    }
+   },
+   "icon": "images/icon_ningmengkaoquanji.png",
+   "recipe_ids": [
+    202516008
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 80,
+     "item_ids": [
+      202514008
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 104,
+     "item_ids": [
+      202514033
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 144,
+     "item_ids": [
+      202514058
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514009,
+   "name_key": "name_202514009",
+   "i18n": {
+    "zh": {
+     "name": "盐烤海虾"
+    },
+    "en": {
+     "name": "Saltbaked Shrimp"
+    }
+   },
+   "icon": "images/icon_haiyanlingxia.png",
+   "recipe_ids": [
+    202516009
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 120,
+     "item_ids": [
+      202514009
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 156,
+     "item_ids": [
+      202514034
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 216,
+     "item_ids": [
+      202514059
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514010,
+   "name_key": "name_202514010",
+   "i18n": {
+    "zh": {
+     "name": "红酒鹿肉炖汤"
+    },
+    "en": {
+     "name": "Braised Venison Stew"
+    }
+   },
+   "icon": "images/icon_hongjiulurounongtang.png",
+   "recipe_ids": [
+    202516010
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 176,
+     "item_ids": [
+      202514010
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 229,
+     "item_ids": [
+      202514035
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 317,
+     "item_ids": [
+      202514060
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514011,
+   "name_key": "name_202514011",
+   "i18n": {
+    "zh": {
+     "name": "酒心果子露"
+    },
+    "en": {
+     "name": "Dôme Figue Miel"
+    }
+   },
+   "icon": "images/icon_jiuziguozilu.png",
+   "recipe_ids": [
+    202516011
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 160,
+     "item_ids": [
+      202514011
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 208,
+     "item_ids": [
+      202514036
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 288,
+     "item_ids": [
+      202514061
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514012,
+   "name_key": "name_202514012",
+   "i18n": {
+    "zh": {
+     "name": "甜奶油蛋派"
+    },
+    "en": {
+     "name": "Hearty Custard Pie"
+    }
+   },
+   "icon": "images/icon_danxingguangpai.png",
+   "recipe_ids": [
+    202516012
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 108,
+     "item_ids": [
+      202514012
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 140,
+     "item_ids": [
+      202514037
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 194,
+     "item_ids": [
+      202514062
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514013,
+   "name_key": "name_202514013",
+   "i18n": {
+    "zh": {
+     "name": "墨汁海鲜意面"
+    },
+    "en": {
+     "name": "Deepwater Ink Pasta"
+    }
+   },
+   "icon": "images/icon_juwuzeihaixianyimian.png",
+   "recipe_ids": [
+    202516013
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 260,
+     "item_ids": [
+      202514013
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 338,
+     "item_ids": [
+      202514038
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 468,
+     "item_ids": [
+      202514063
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514014,
+   "name_key": "name_202514014",
+   "i18n": {
+    "zh": {
+     "name": "奶油蟹粉面"
+    },
+    "en": {
+     "name": "Golden Cream Pasta"
+    }
+   },
+   "icon": "images/icon_naiyouxiefen.png",
+   "recipe_ids": [
+    202516014
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 192,
+     "item_ids": [
+      202514014
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 250,
+     "item_ids": [
+      202514039
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 346,
+     "item_ids": [
+      202514064
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514015,
+   "name_key": "name_202514015",
+   "i18n": {
+    "zh": {
+     "name": "香煎怪肉排"
+    },
+    "en": {
+     "name": "Charred Mystery Steak"
+    }
+   },
+   "icon": "images/icon_sanqiangzhengbalongroupai.png",
+   "recipe_ids": [
+    202516015
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 312,
+     "item_ids": [
+      202514015
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 406,
+     "item_ids": [
+      202514040
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 562,
+     "item_ids": [
+      202514065
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514016,
+   "name_key": "name_202514016",
+   "i18n": {
+    "zh": {
+     "name": "烈焰香煎鹅肝"
+    },
+    "en": {
+     "name": "Cinnamon-seared Foie Gras"
+    }
+   },
+   "icon": "images/icon_lieyanjianegan.png",
+   "recipe_ids": [
+    202516016
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 312,
+     "item_ids": [
+      202514016
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 406,
+     "item_ids": [
+      202514041
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 562,
+     "item_ids": [
+      202514066
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514017,
+   "name_key": "name_202514017",
+   "i18n": {
+    "zh": {
+     "name": "幽兰秘制肉卷"
+    },
+    "en": {
+     "name": "Paleleaf Meat Roll"
+    }
+   },
+   "icon": "images/icon_yueyingmizhiroujuan.png",
+   "recipe_ids": [
+    202516017
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 132,
+     "item_ids": [
+      202514017
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 172,
+     "item_ids": [
+      202514042
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 238,
+     "item_ids": [
+      202514067
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514018,
+   "name_key": "name_202514018",
+   "i18n": {
+    "zh": {
+     "name": "浓醇提拉米苏"
+    },
+    "en": {
+     "name": "Velvet Tiramisu"
+    }
+   },
+   "icon": "images/icon_tilamisu.png",
+   "recipe_ids": [
+    202516018
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 160,
+     "item_ids": [
+      202514018
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 208,
+     "item_ids": [
+      202514043
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 288,
+     "item_ids": [
+      202514068
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514019,
+   "name_key": "name_202514019",
+   "i18n": {
+    "zh": {
+     "name": "香浓可可混莓果冻"
+    },
+    "en": {
+     "name": "Cocoa-Berry Bliss"
+    }
+   },
+   "icon": "images/icon_ziluolanguodong.png",
+   "recipe_ids": [
+    202516019
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 220,
+     "item_ids": [
+      202514019
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 286,
+     "item_ids": [
+      202514044
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 396,
+     "item_ids": [
+      202514069
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514020,
+   "name_key": "name_202514020",
+   "i18n": {
+    "zh": {
+     "name": "迷迭香风味沙拉"
+    },
+    "en": {
+     "name": "Wildbloom Salad"
+    }
+   },
+   "icon": "images/icon_yinshuangshala.png",
+   "recipe_ids": [
+    202516020
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 220,
+     "item_ids": [
+      202514020
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 286,
+     "item_ids": [
+      202514045
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 396,
+     "item_ids": [
+      202514070
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514021,
+   "name_key": "name_202514021",
+   "i18n": {
+    "zh": {
+     "name": "勇气与胆识之宴"
+    },
+    "en": {
+     "name": "Feast of Courage and Chivalry"
+    }
+   },
+   "icon": "images/icon_glfd_yongqishengyan.png",
+   "recipe_ids": [
+    202516021
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gems",
+     "price": 3,
+     "item_ids": [
+      202514021
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gems",
+     "price": 6,
+     "item_ids": [
+      202514046
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gems",
+     "price": 10,
+     "item_ids": [
+      202514071
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514022,
+   "name_key": "name_202514022",
+   "i18n": {
+    "zh": {
+     "name": "野心与荣耀之宴"
+    },
+    "en": {
+     "name": "Feast of Cunning and Ambition"
+    }
+   },
+   "icon": "images/icon_sltl_duxingshengyan.png",
+   "recipe_ids": [
+    202516022
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gems",
+     "price": 3,
+     "item_ids": [
+      202514022
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gems",
+     "price": 6,
+     "item_ids": [
+      202514047
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gems",
+     "price": 10,
+     "item_ids": [
+      202514072
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514023,
+   "name_key": "name_202514023",
+   "i18n": {
+    "zh": {
+     "name": "智慧与风雅之宴"
+    },
+    "en": {
+     "name": "Feast of Wisdom and Wit"
+    }
+   },
+   "icon": "images/icon_lwkl_zhihuishengyan.png",
+   "recipe_ids": [
+    202516023
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gems",
+     "price": 3,
+     "item_ids": [
+      202514023
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gems",
+     "price": 6,
+     "item_ids": [
+      202514048
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gems",
+     "price": 10,
+     "item_ids": [
+      202514073
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514024,
+   "name_key": "name_202514024",
+   "i18n": {
+    "zh": {
+     "name": "忠诚与无私之宴"
+    },
+    "en": {
+     "name": "Feast of Loyalty and Dedication"
+    }
+   },
+   "icon": "images/icon_hqpq_fengraoshengyan.png",
+   "recipe_ids": [
+    202516024
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gems",
+     "price": 3,
+     "item_ids": [
+      202514024
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gems",
+     "price": 6,
+     "item_ids": [
+      202514049
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gems",
+     "price": 10,
+     "item_ids": [
+      202514074
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514025,
+   "name_key": "name_202514025",
+   "i18n": {
+    "zh": {
+     "name": "霍格沃茨盛宴"
+    },
+    "en": {
+     "name": "The Founders' Feast"
+    }
+   },
+   "icon": "images/icon_xueyuanshengyan.png",
+   "recipe_ids": [
+    202516025
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gems",
+     "price": 3,
+     "item_ids": [
+      202514025
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gems",
+     "price": 6,
+     "item_ids": [
+      202514050
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gems",
+     "price": 10,
+     "item_ids": [
+      202514075
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514101,
+   "name_key": "name_202514101",
+   "i18n": {
+    "zh": {
+     "name": "银枝果月饼"
+    },
+    "en": {
+     "name": "Mooncake (Fig)"
+    }
+   },
+   "icon": "images/icon_yingzhiguoyuebing.png",
+   "recipe_ids": [
+    202516101
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 160,
+     "item_ids": [
+      202514101
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 208,
+     "item_ids": [
+      202514117
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 288,
+     "item_ids": [
+      202514133
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514102,
+   "name_key": "name_202514102",
+   "i18n": {
+    "zh": {
+     "name": "可可月饼"
+    },
+    "en": {
+     "name": "Mooncake (Cocoa)"
+    }
+   },
+   "icon": "images/icon_kekeyuebing.png",
+   "recipe_ids": [
+    202516102
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 160,
+     "item_ids": [
+      202514102
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 208,
+     "item_ids": [
+      202514118
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 288,
+     "item_ids": [
+      202514134
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514103,
+   "name_key": "name_202514103",
+   "i18n": {
+    "zh": {
+     "name": "甜味月饼"
+    },
+    "en": {
+     "name": "Mooncake (Sweet)"
+    }
+   },
+   "icon": "images/icon_tianweiyuebing.png",
+   "recipe_ids": [
+    202516103
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 160,
+     "item_ids": [
+      202514103
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 208,
+     "item_ids": [
+      202514119
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 288,
+     "item_ids": [
+      202514135
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514104,
+   "name_key": "name_202514104",
+   "i18n": {
+    "zh": {
+     "name": "莓果月饼"
+    },
+    "en": {
+     "name": "Mooncake (Berry)"
+    }
+   },
+   "icon": "images/icon_meiguoyuebing.png",
+   "recipe_ids": [
+    202516104
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 176,
+     "item_ids": [
+      202514104
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 229,
+     "item_ids": [
+      202514120
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 317,
+     "item_ids": [
+      202514136
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514105,
+   "name_key": "name_202514105",
+   "i18n": {
+    "zh": {
+     "name": "迷迭香月饼"
+    },
+    "en": {
+     "name": "Mooncake (Thyme)"
+    }
+   },
+   "icon": "images/icon_midiexiangyuebing.png",
+   "recipe_ids": [
+    202516105
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 160,
+     "item_ids": [
+      202514105
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 208,
+     "item_ids": [
+      202514121
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 288,
+     "item_ids": [
+      202514137
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514106,
+   "name_key": "name_202514106",
+   "i18n": {
+    "zh": {
+     "name": "牛肉月饼"
+    },
+    "en": {
+     "name": "Mooncake (Beef)"
+    }
+   },
+   "icon": "images/icon_niurouyuebing.png",
+   "recipe_ids": [
+    202516106
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 176,
+     "item_ids": [
+      202514106
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 229,
+     "item_ids": [
+      202514122
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 317,
+     "item_ids": [
+      202514138
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514107,
+   "name_key": "name_202514107",
+   "i18n": {
+    "zh": {
+     "name": "蟹粉月饼"
+    },
+    "en": {
+     "name": "Mooncake (Crab Roe)"
+    }
+   },
+   "icon": "images/icon_xiefenyuebing.png",
+   "recipe_ids": [
+    202516107
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 176,
+     "item_ids": [
+      202514107
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 229,
+     "item_ids": [
+      202514123
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 317,
+     "item_ids": [
+      202514139
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514108,
+   "name_key": "name_202514108",
+   "i18n": {
+    "zh": {
+     "name": "奶酪香米月饼"
+    },
+    "en": {
+     "name": "Mooncake (Creamy Rice)"
+    }
+   },
+   "icon": "images/icon_nailaoxiangmiyuebing.png",
+   "recipe_ids": [
+    202516108
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 176,
+     "item_ids": [
+      202514108
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 229,
+     "item_ids": [
+      202514124
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 317,
+     "item_ids": [
+      202514140
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514109,
+   "name_key": "name_202514109",
+   "i18n": {
+    "zh": {
+     "name": "冰皮银枝果月饼"
+    },
+    "en": {
+     "name": "Snow Skin Mooncake (Fig)"
+    }
+   },
+   "icon": "images/icon_yingzhiguobingpi.png",
+   "recipe_ids": [
+    202516201
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 160,
+     "item_ids": [
+      202514109
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 208,
+     "item_ids": [
+      202514125
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 288,
+     "item_ids": [
+      202514141
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514110,
+   "name_key": "name_202514110",
+   "i18n": {
+    "zh": {
+     "name": "冰皮可可月饼"
+    },
+    "en": {
+     "name": "Snow Skin Mooncake (Cocoa)"
+    }
+   },
+   "icon": "images/icon_kekebingpi.png",
+   "recipe_ids": [
+    202516202
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 160,
+     "item_ids": [
+      202514110
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 208,
+     "item_ids": [
+      202514126
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 288,
+     "item_ids": [
+      202514142
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514111,
+   "name_key": "name_202514111",
+   "i18n": {
+    "zh": {
+     "name": "冰皮甜味月饼"
+    },
+    "en": {
+     "name": "Snow Skin Mooncake (Sweet)"
+    }
+   },
+   "icon": "images/icon_tianweibingpi.png",
+   "recipe_ids": [
+    202516203
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 160,
+     "item_ids": [
+      202514111
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 208,
+     "item_ids": [
+      202514127
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 288,
+     "item_ids": [
+      202514143
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514112,
+   "name_key": "name_202514112",
+   "i18n": {
+    "zh": {
+     "name": "冰皮莓果月饼"
+    },
+    "en": {
+     "name": "Snow Skin Mooncake (Berry)"
+    }
+   },
+   "icon": "images/icon_meiguobingpi.png",
+   "recipe_ids": [
+    202516204
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 176,
+     "item_ids": [
+      202514112
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 229,
+     "item_ids": [
+      202514128
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 317,
+     "item_ids": [
+      202514144
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514113,
+   "name_key": "name_202514113",
+   "i18n": {
+    "zh": {
+     "name": "冰皮迷迭香月饼"
+    },
+    "en": {
+     "name": "Snow Skin Mooncake (Thyme)"
+    }
+   },
+   "icon": "images/icon_midiexiangbingpi.png",
+   "recipe_ids": [
+    202516205
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 160,
+     "item_ids": [
+      202514113
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 208,
+     "item_ids": [
+      202514129
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 288,
+     "item_ids": [
+      202514145
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514114,
+   "name_key": "name_202514114",
+   "i18n": {
+    "zh": {
+     "name": "冰皮牛肉月饼"
+    },
+    "en": {
+     "name": "Snow Skin Mooncake (Beef)"
+    }
+   },
+   "icon": "images/icon_niuroubingpi.png",
+   "recipe_ids": [
+    202516206
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 176,
+     "item_ids": [
+      202514114
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 229,
+     "item_ids": [
+      202514130
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 317,
+     "item_ids": [
+      202514146
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514115,
+   "name_key": "name_202514115",
+   "i18n": {
+    "zh": {
+     "name": "冰皮蟹粉月饼"
+    },
+    "en": {
+     "name": "Snow Skin Mooncake (Crab Roe)"
+    }
+   },
+   "icon": "images/icon_xiefenbingpi.png",
+   "recipe_ids": [
+    202516207
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 176,
+     "item_ids": [
+      202514115
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 229,
+     "item_ids": [
+      202514131
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 317,
+     "item_ids": [
+      202514147
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514116,
+   "name_key": "name_202514116",
+   "i18n": {
+    "zh": {
+     "name": "冰皮奶酪香米月饼"
+    },
+    "en": {
+     "name": "Snow Skin Mooncake (Creamy Rice)"
+    }
+   },
+   "icon": "images/icon_nailaoxiangmibingpi.png",
+   "recipe_ids": [
+    202516208
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 176,
+     "item_ids": [
+      202514116
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 229,
+     "item_ids": [
+      202514132
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 317,
+     "item_ids": [
+      202514148
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514165,
+   "name_key": "name_202516026",
+   "i18n": {
+    "zh": {
+     "name": "神秘圣诞姜饼人"
+    },
+    "en": {
+     "name": "Holiday Gingerbread"
+    }
+   },
+   "icon": "images/pic_caipin_binggan.png",
+   "recipe_ids": [
+    202516026
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 160,
+     "item_ids": [
+      202514165
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 208,
+     "item_ids": [
+      202514166
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 288,
+     "item_ids": [
+      202514167
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514169,
+   "name_key": "name_202514169",
+   "i18n": {
+    "zh": {
+     "name": "伙伴姜饼人"
+    },
+    "en": {
+     "name": "Gingerbread Companion"
+    }
+   },
+   "icon": "images/pic_caipin_binggan01.png",
+   "recipe_ids": [
+    202516026
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 160,
+     "item_ids": [
+      202514169,
+      202514170,
+      202514171,
+      202514172,
+      202514173,
+      202514174,
+      202514175,
+      202514176,
+      202514177
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 208,
+     "item_ids": [
+      202514178,
+      202514179,
+      202514180,
+      202514181,
+      202514182,
+      202514183,
+      202514184,
+      202514185,
+      202514186
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 288,
+     "item_ids": [
+      202514187,
+      202514188,
+      202514189,
+      202514190,
+      202514191,
+      202514192,
+      202514193,
+      202514194,
+      202514195
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514196,
+   "name_key": "name_202514196",
+   "i18n": {
+    "zh": {
+     "name": "年年有鱼"
+    },
+    "en": {
+     "name": "Braised New Year Fish"
+    }
+   },
+   "icon": "images/icon_niannianyouyu.png",
+   "recipe_ids": [
+    202516027
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 120,
+     "item_ids": [
+      202514196
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 156,
+     "item_ids": [
+      202514197
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 216,
+     "item_ids": [
+      202514198
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202514199,
+   "name_key": "name_202514199",
+   "i18n": {
+    "zh": {
+     "name": "招财进宝汤饺"
+    },
+    "en": {
+     "name": "New Year Jiaozi"
+    }
+   },
+   "icon": "images/icon_jiaozi.png",
+   "recipe_ids": [
+    202516028
+   ],
+   "tiers": [
+    {
+     "tier": 2,
+     "currency": "gold",
+     "price": 160,
+     "item_ids": [
+      202514199
+     ]
+    },
+    {
+     "tier": 3,
+     "currency": "gold",
+     "price": 208,
+     "item_ids": [
+      202514200
+     ]
+    },
+    {
+     "tier": 4,
+     "currency": "gold",
+     "price": 288,
+     "item_ids": [
+      202514201
+     ]
+    }
+   ]
+  }
+ ],
+ "seeds": [
+  {
+   "item_id": 21600010,
+   "herb_id": 1,
+   "i18n": {
+    "zh": {
+     "name": "曼德拉草种子"
+    },
+    "en": {
+     "name": "Mandrake Starter"
+    }
+   },
+   "icon": "images/icon_mandelacao_0.png",
+   "currency": "gold",
+   "price": 5,
+   "buy_limit": 99,
+   "unlock_career_lv": 7
+  },
+  {
+   "item_id": 21600020,
+   "herb_id": 2,
+   "i18n": {
+    "zh": {
+     "name": "玫瑰种子"
+    },
+    "en": {
+     "name": "Rose Starter"
+    }
+   },
+   "icon": "images/icon_meigui_0.png",
+   "currency": "gold",
+   "price": 5,
+   "buy_limit": 99,
+   "unlock_career_lv": 3
+  },
+  {
+   "item_id": 21600030,
+   "herb_id": 3,
+   "i18n": {
+    "zh": {
+     "name": "泡泡豆荚种子"
+    },
+    "en": {
+     "name": "Puffapod Starter"
+    }
+   },
+   "icon": "images/icon_ppdj_0.png",
+   "currency": "gold",
+   "price": 12,
+   "buy_limit": 99,
+   "unlock_career_lv": 4
+  },
+  {
+   "item_id": 21600040,
+   "herb_id": 4,
+   "i18n": {
+    "zh": {
+     "name": "毒牙天竺葵种子"
+    },
+    "en": {
+     "name": "Fanged Geranium Starter"
+    }
+   },
+   "icon": "images/icon_tianzhukui_0.png",
+   "currency": "gold",
+   "price": 1,
+   "buy_limit": 99,
+   "unlock_career_lv": 1
+  },
+  {
+   "item_id": 21600050,
+   "herb_id": 5,
+   "i18n": {
+    "zh": {
+     "name": "中国咬人甘蓝种子"
+    },
+    "en": {
+     "name": "Chinese Chomping Cabbage Starter"
+    }
+   },
+   "icon": "images/icon_zhongguoyaorenganlan_0.png",
+   "currency": "gold",
+   "price": 5,
+   "buy_limit": 99,
+   "unlock_career_lv": 8
+  },
+  {
+   "item_id": 21600060,
+   "herb_id": 6,
+   "i18n": {
+    "zh": {
+     "name": "水仙种子"
+    },
+    "en": {
+     "name": "Daffodil Starter"
+    }
+   },
+   "icon": "images/icon_shuixian_0.png",
+   "currency": "gold",
+   "price": 8,
+   "buy_limit": 10,
+   "unlock_career_lv": 12
+  },
+  {
+   "item_id": 21600070,
+   "herb_id": 7,
+   "i18n": {
+    "zh": {
+     "name": "羽衣草种子"
+    },
+    "en": {
+     "name": "Lady's Mantle Starter"
+    }
+   },
+   "icon": "images/icon_yuyicao_0.png",
+   "currency": "gold",
+   "price": 10,
+   "buy_limit": 99,
+   "unlock_career_lv": 6
+  },
+  {
+   "item_id": 21600080,
+   "herb_id": 8,
+   "i18n": {
+    "zh": {
+     "name": "绣球花种子"
+    },
+    "en": {
+     "name": "Hydrangea Starter"
+    }
+   },
+   "icon": "images/icon_xiuqiuhua_0.png",
+   "currency": "gold",
+   "price": 10,
+   "buy_limit": 99,
+   "unlock_career_lv": 11
+  },
+  {
+   "item_id": 21600090,
+   "herb_id": 9,
+   "i18n": {
+    "zh": {
+     "name": "秋海棠种子"
+    },
+    "en": {
+     "name": "Begonia Starter"
+    }
+   },
+   "icon": "images/icon_qiuhaitang_0.png",
+   "currency": "gold",
+   "price": 5,
+   "buy_limit": 99,
+   "unlock_career_lv": 10
+  },
+  {
+   "item_id": 21600100,
+   "herb_id": 10,
+   "i18n": {
+    "zh": {
+     "name": "嗅幻草种子"
+    },
+    "en": {
+     "name": "Niffler's Fancy Starter"
+    }
+   },
+   "icon": "images/icon_xiuhuancao_0.png",
+   "currency": "gems",
+   "price": 2,
+   "buy_limit": 5,
+   "unlock_career_lv": 5
+  },
+  {
+   "item_id": 21600110,
+   "herb_id": 11,
+   "i18n": {
+    "zh": {
+     "name": "五月花种子"
+    },
+    "en": {
+     "name": "Mayflower Starter"
+    }
+   },
+   "icon": "images/icon_wuyuehua_0.png",
+   "currency": "gold",
+   "price": 10,
+   "buy_limit": 99,
+   "unlock_career_lv": 10
+  },
+  {
+   "item_id": 21600120,
+   "herb_id": 12,
+   "i18n": {
+    "zh": {
+     "name": "牡丹种子"
+    },
+    "en": {
+     "name": "Peony Starter"
+    }
+   },
+   "icon": "images/icon_mudan_0.png",
+   "currency": "gold",
+   "price": 8,
+   "buy_limit": 10,
+   "unlock_career_lv": 9
+  },
+  {
+   "item_id": 21600130,
+   "herb_id": 13,
+   "i18n": {
+    "zh": {
+     "name": "鳃囊草种子"
+    },
+    "en": {
+     "name": "Gillyweed Starter"
+    }
+   },
+   "icon": "images/icon_sainangcao_0.png",
+   "currency": "gold",
+   "price": 1,
+   "buy_limit": 10,
+   "unlock_career_lv": 2
+  },
+  {
+   "item_id": 21600140,
+   "herb_id": 14,
+   "i18n": {
+    "zh": {
+     "name": "三色堇种子"
+    },
+    "en": {
+     "name": "Wild Pansy Starter"
+    }
+   },
+   "icon": "images/icon_sansejin_0.png",
+   "currency": "gold",
+   "price": 12,
+   "buy_limit": 99,
+   "unlock_career_lv": 4
+  },
+  {
+   "item_id": 21600150,
+   "herb_id": 15,
+   "i18n": {
+    "zh": {
+     "name": "巨藻种子"
+    },
+    "en": {
+     "name": "Kelp Starter"
+    }
+   },
+   "icon": "images/icon_juzao_0.png",
+   "currency": "gold",
+   "price": 5,
+   "buy_limit": 99,
+   "unlock_career_lv": 7
+  },
+  {
+   "item_id": 21600160,
+   "herb_id": 16,
+   "i18n": {
+    "zh": {
+     "name": "绿菊种子"
+    },
+    "en": {
+     "name": "Fanwort Starter"
+    }
+   },
+   "icon": "images/icon_lvju_0.png",
+   "currency": "gold",
+   "price": 10,
+   "buy_limit": 99,
+   "unlock_career_lv": 6
+  },
+  {
+   "item_id": 21600170,
+   "herb_id": 17,
+   "i18n": {
+    "zh": {
+     "name": "红波水草种子"
+    },
+    "en": {
+     "name": "Ludwigia Glandulosa Starter"
+    }
+   },
+   "icon": "images/icon_hongboshuizao_0.png",
+   "currency": "gold",
+   "price": 12,
+   "buy_limit": 99,
+   "unlock_career_lv": 11
+  },
+  {
+   "item_id": 21600180,
+   "herb_id": 18,
+   "i18n": {
+    "zh": {
+     "name": "凤眼莲种子"
+    },
+    "en": {
+     "name": "Water Hyacinth Starter"
+    }
+   },
+   "icon": "images/icon_fengyanlian_0.png",
+   "currency": "gold",
+   "price": 6,
+   "buy_limit": 99,
+   "unlock_career_lv": 13
+  },
+  {
+   "item_id": 21600190,
+   "herb_id": 19,
+   "i18n": {
+    "zh": {
+     "name": "红火焰藻种子"
+    },
+    "en": {
+     "name": "Dragon's Breath Macroalgae Starter"
+    }
+   },
+   "icon": "images/icon_honghuoyanzao_0.png",
+   "currency": "gems",
+   "price": 1,
+   "buy_limit": 5,
+   "unlock_career_lv": 9
+  },
+  {
+   "item_id": 21600200,
+   "herb_id": 20,
+   "i18n": {
+    "zh": {
+     "name": "菱叶丁香蓼种子"
+    },
+    "en": {
+     "name": "Mosaic Flower Starter"
+    }
+   },
+   "icon": "images/icon_lingyedingxiangliao_0.png",
+   "currency": "gold",
+   "price": 8,
+   "buy_limit": 99,
+   "unlock_career_lv": 15
+  },
+  {
+   "item_id": 21600210,
+   "herb_id": 21,
+   "i18n": {
+    "zh": {
+     "name": "睡莲种子"
+    },
+    "en": {
+     "name": "Water Lily Starter"
+    }
+   },
+   "icon": "images/icon_shuilian_0.png",
+   "currency": "gold",
+   "price": 18,
+   "buy_limit": 99,
+   "unlock_career_lv": 18
+  },
+  {
+   "item_id": 21600220,
+   "herb_id": 22,
+   "i18n": {
+    "zh": {
+     "name": "铃兰种子"
+    },
+    "en": {
+     "name": "Lily of the Valley Starter"
+    }
+   },
+   "icon": "images/icon_linglan_0.png",
+   "currency": "gold",
+   "price": 6,
+   "buy_limit": 99,
+   "unlock_career_lv": 14
+  },
+  {
+   "item_id": 21600230,
+   "herb_id": 23,
+   "i18n": {
+    "zh": {
+     "name": "向日葵种子"
+    },
+    "en": {
+     "name": "Sunflower Starter"
+    }
+   },
+   "icon": "images/icon_xiangrikui_0.png",
+   "currency": "gold",
+   "price": 12,
+   "buy_limit": 10,
+   "unlock_career_lv": 16
+  },
+  {
+   "item_id": 21600240,
+   "herb_id": 24,
+   "i18n": {
+    "zh": {
+     "name": "米布米宝种子"
+    },
+    "en": {
+     "name": "Mimbulus Mimbletonia Starter"
+    }
+   },
+   "icon": "images/icon_mibumibao_0.png",
+   "currency": "gold",
+   "price": 6,
+   "buy_limit": 99,
+   "unlock_career_lv": 17
+  },
+  {
+   "item_id": 21600250,
+   "herb_id": 25,
+   "i18n": {
+    "zh": {
+     "name": "龙舌兰香草种子"
+    },
+    "en": {
+     "name": "Vining Marjoram Starter"
+    }
+   },
+   "icon": "images/icon_xiangcao_00.png",
+   "currency": "gold",
+   "price": 3,
+   "buy_limit": 99,
+   "unlock_career_lv": 3
+  },
+  {
+   "item_id": 21600260,
+   "herb_id": 26,
+   "i18n": {
+    "zh": {
+     "name": "火焰肉桂种子"
+    },
+    "en": {
+     "name": "Charred Cinnamon Starter"
+    }
+   },
+   "icon": "images/icon_huoyanrougui_00.png",
+   "currency": "gold",
+   "price": 5,
+   "buy_limit": 99,
+   "unlock_career_lv": 6
+  },
+  {
+   "item_id": 21600270,
+   "herb_id": 27,
+   "i18n": {
+    "zh": {
+     "name": "幽兰月桂种子"
+    },
+    "en": {
+     "name": "Paleleaf Laurel Starter"
+    }
+   },
+   "icon": "images/icon_youlanyuegui_00.png",
+   "currency": "gold",
+   "price": 5,
+   "buy_limit": 99,
+   "unlock_career_lv": 6
+  },
+  {
+   "item_id": 21600280,
+   "herb_id": 28,
+   "i18n": {
+    "zh": {
+     "name": "迷迭香种子"
+    },
+    "en": {
+     "name": "Wildbloom Thyme Starter"
+    }
+   },
+   "icon": "images/icon_mizongcao_00.png",
+   "currency": "gold",
+   "price": 8,
+   "buy_limit": 99,
+   "unlock_career_lv": 13
+  },
+  {
+   "item_id": 21600290,
+   "herb_id": 29,
+   "i18n": {
+    "zh": {
+     "name": "鼠尾草种子"
+    },
+    "en": {
+     "name": "Sage Starter"
+    }
+   },
+   "icon": "images/icon_shuweicao_0.png",
+   "currency": "gold",
+   "price": 8,
+   "buy_limit": 99,
+   "unlock_career_lv": 13
+  }
+ ],
+ "ingredients": [
+  {
+   "item_id": 21600253,
+   "i18n": {
+    "zh": {
+     "name": "龙舌兰香草"
+    },
+    "en": {
+     "name": "Vining Marjoram"
+    }
+   },
+   "icon": "images/icon_xiangcao_04.png",
+   "cooked_icon": "images/icon_xiangcaojia.png",
+   "shop": null,
+   "plant": {
+    "herb_id": 25,
+    "tier": 4
+   }
+  },
+  {
+   "item_id": 21600263,
+   "i18n": {
+    "zh": {
+     "name": "火焰肉桂"
+    },
+    "en": {
+     "name": "Charred Cinnamon Tree"
+    }
+   },
+   "icon": "images/icon_huoyanrougui_04.png",
+   "cooked_icon": "images/icon_huoyanrougui.png",
+   "shop": null,
+   "plant": {
+    "herb_id": 26,
+    "tier": 4
+   }
+  },
+  {
+   "item_id": 21600273,
+   "i18n": {
+    "zh": {
+     "name": "幽兰月桂"
+    },
+    "en": {
+     "name": "Paleleaf Laurel"
+    }
+   },
+   "icon": "images/icon_youlanyuegui_04.png",
+   "cooked_icon": "images/icon_youlanyuegui_04.png",
+   "shop": null,
+   "plant": {
+    "herb_id": 27,
+    "tier": 4
+   }
+  },
+  {
+   "item_id": 21600283,
+   "i18n": {
+    "zh": {
+     "name": "迷迭香"
+    },
+    "en": {
+     "name": "Wildbloom Thyme"
+    }
+   },
+   "icon": "images/icon_mizongcao_04.png",
+   "cooked_icon": "images/icon_mizongcao_04.png",
+   "shop": null,
+   "plant": {
+    "herb_id": 28,
+    "tier": 4
+   }
+  },
+  {
+   "item_id": 202513001,
+   "i18n": {
+    "zh": {
+     "name": "香料粉"
+    },
+    "en": {
+     "name": "Hearthspice"
+    }
+   },
+   "icon": "images/icon_huanyingjiaofeng.png",
+   "cooked_icon": "images/icon_huanyingjiaofeng.png",
+   "shop": {
+    "currency": "gold",
+    "price": 8,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513002,
+   "i18n": {
+    "zh": {
+     "name": "金色蜂蜜"
+    },
+    "en": {
+     "name": "Acacia Honey"
+    }
+   },
+   "icon": "images/icon_jinyueyefengmi.png",
+   "cooked_icon": "images/icon_jinyueyefengmi.png",
+   "shop": {
+    "currency": "gold",
+    "price": 8,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513003,
+   "i18n": {
+    "zh": {
+     "name": "洋葱"
+    },
+    "en": {
+     "name": "Midsummer Onion"
+    }
+   },
+   "icon": "images/icon_jinseyangcong.png",
+   "cooked_icon": "images/icon_jinseyangcong.png",
+   "shop": {
+    "currency": "gold",
+    "price": 8,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513004,
+   "i18n": {
+    "zh": {
+     "name": "鲜甜柠檬"
+    },
+    "en": {
+     "name": "Sunkissed Lemon"
+    }
+   },
+   "icon": "images/icon_fenghuangningmeng.png",
+   "cooked_icon": "images/icon_fenghuangningmeng.png",
+   "shop": {
+    "currency": "gold",
+    "price": 8,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513005,
+   "i18n": {
+    "zh": {
+     "name": "海盐堆"
+    },
+    "en": {
+     "name": "Fleur de Sel"
+    }
+   },
+   "icon": "images/icon_xinghuihaiyan.png",
+   "cooked_icon": "images/icon_xinghuihaiyan.png",
+   "shop": {
+    "currency": "gold",
+    "price": 8,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513006,
+   "i18n": {
+    "zh": {
+     "name": "甜味奶油"
+    },
+    "en": {
+     "name": "Buttermilk Cream"
+    }
+   },
+   "icon": "images/icon_jinglingnaiyou.png",
+   "cooked_icon": "images/icon_jinglingnaiyou.png",
+   "shop": {
+    "currency": "gold",
+    "price": 8,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513007,
+   "i18n": {
+    "zh": {
+     "name": "醇香红酒"
+    },
+    "en": {
+     "name": "Elderberry Liqueur"
+    }
+   },
+   "icon": "images/icon_huanyinghongjiu.png",
+   "cooked_icon": "images/icon_huanyinghongjiu.png",
+   "shop": {
+    "currency": "gold",
+    "price": 8,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513008,
+   "i18n": {
+    "zh": {
+     "name": "天使细面"
+    },
+    "en": {
+     "name": "Pliant Pasta"
+    }
+   },
+   "icon": "images/icon_tianshiximian.png",
+   "cooked_icon": "images/icon_tianshiximian_01.png",
+   "shop": {
+    "currency": "gold",
+    "price": 16,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513011,
+   "i18n": {
+    "zh": {
+     "name": "浓可可"
+    },
+    "en": {
+     "name": "Roasted Cocoa"
+    }
+   },
+   "icon": "images/icon_huanyekeke.png",
+   "cooked_icon": "images/icon_huanyekeke_01.png",
+   "shop": {
+    "currency": "gold",
+    "price": 16,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513012,
+   "i18n": {
+    "zh": {
+     "name": "秘制糖霜"
+    },
+    "en": {
+     "name": "Granulated Sugar"
+    }
+   },
+   "icon": "images/icon_miyingtangshuang.png",
+   "cooked_icon": "images/icon_miyingtangshuang.png",
+   "shop": {
+    "currency": "gold",
+    "price": 8,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513013,
+   "i18n": {
+    "zh": {
+     "name": "奶酪香米"
+    },
+    "en": {
+     "name": "Creamfield Rice"
+    }
+   },
+   "icon": "images/icon_nailaoxiangmi.png",
+   "cooked_icon": "images/icon_nailaoxiangmi_01.png",
+   "shop": {
+    "currency": "gold",
+    "price": 16,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513015,
+   "i18n": {
+    "zh": {
+     "name": "火鸡的翅膀"
+    },
+    "en": {
+     "name": "Plump Wing"
+    }
+   },
+   "icon": "images/icon_fenghuangchi.png",
+   "cooked_icon": "images/icon_fenghuangchi_01.png",
+   "shop": {
+    "currency": "gold",
+    "price": 24,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513016,
+   "i18n": {
+    "zh": {
+     "name": "羊肉"
+    },
+    "en": {
+     "name": "Tender Lamb"
+    }
+   },
+   "icon": "images/icon_yangrou.png",
+   "cooked_icon": "images/icon_yangrou_01.png",
+   "shop": {
+    "currency": "gold",
+    "price": 24,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513017,
+   "i18n": {
+    "zh": {
+     "name": "鱼肉"
+    },
+    "en": {
+     "name": "Clearwater Fish"
+    }
+   },
+   "icon": "images/icon_yurou.png",
+   "cooked_icon": "images/icon_yurou_01.png",
+   "shop": {
+    "currency": "gold",
+    "price": 24,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513018,
+   "i18n": {
+    "zh": {
+     "name": "牛肉"
+    },
+    "en": {
+     "name": "Prime Cut Beef"
+    }
+   },
+   "icon": "images/icon_baiyourou.png",
+   "cooked_icon": "images/icon_niurou_01.png",
+   "shop": {
+    "currency": "gold",
+    "price": 24,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513019,
+   "i18n": {
+    "zh": {
+     "name": "猪肉"
+    },
+    "en": {
+     "name": "Farmstead Pork"
+    }
+   },
+   "icon": "images/icon_zhurou.png",
+   "cooked_icon": "images/icon_zhurou_01.png",
+   "shop": {
+    "currency": "gold",
+    "price": 24,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513020,
+   "i18n": {
+    "zh": {
+     "name": "扇贝"
+    },
+    "en": {
+     "name": "Whiteshore Scallop"
+    }
+   },
+   "icon": "images/icon_shanbei.png",
+   "cooked_icon": "images/icon_shanbei_01.png",
+   "shop": {
+    "currency": "gold",
+    "price": 24,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513021,
+   "i18n": {
+    "zh": {
+     "name": "蘑菇"
+    },
+    "en": {
+     "name": "Wild Mushroom"
+    }
+   },
+   "icon": "images/icon_mogu.png",
+   "cooked_icon": "images/icon_mogu_01.png",
+   "shop": {
+    "currency": "gold",
+    "price": 24,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513022,
+   "i18n": {
+    "zh": {
+     "name": "鸡肉"
+    },
+    "en": {
+     "name": "Roasting Chicken"
+    }
+   },
+   "icon": "images/icon_qinrou.png",
+   "cooked_icon": "images/icon_qinrou_01.png",
+   "shop": {
+    "currency": "gold",
+    "price": 24,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513023,
+   "i18n": {
+    "zh": {
+     "name": "鲜虾"
+    },
+    "en": {
+     "name": "Shoreline Shrimp"
+    }
+   },
+   "icon": "images/icon_xia.png",
+   "cooked_icon": "images/icon_xia_01.png",
+   "shop": {
+    "currency": "gold",
+    "price": 24,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513024,
+   "i18n": {
+    "zh": {
+     "name": "鹿肉"
+    },
+    "en": {
+     "name": "Forest Venison"
+    }
+   },
+   "icon": "images/icon_lurou.png",
+   "cooked_icon": "images/icon_lurou_01.png",
+   "shop": {
+    "currency": "gold",
+    "price": 24,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513025,
+   "i18n": {
+    "zh": {
+     "name": "银枝果"
+    },
+    "en": {
+     "name": "Blanquette Fig"
+    }
+   },
+   "icon": "images/icon_yinzhiguo.png",
+   "cooked_icon": "images/icon_yinzhiguo_01.png",
+   "shop": {
+    "currency": "gold",
+    "price": 16,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513026,
+   "i18n": {
+    "zh": {
+     "name": "巨型蛋"
+    },
+    "en": {
+     "name": "Hearty Egg"
+    }
+   },
+   "icon": "images/icon_eponiaodan.png",
+   "cooked_icon": "images/icon_eponiaodan_01.png",
+   "shop": {
+    "currency": "gold",
+    "price": 24,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513027,
+   "i18n": {
+    "zh": {
+     "name": "鱿鱼须"
+    },
+    "en": {
+     "name": "Deepwater Tentacle"
+    }
+   },
+   "icon": "images/icon_juwuzei.png",
+   "cooked_icon": "images/icon_juwuzei_01.png",
+   "shop": {
+    "currency": "gold",
+    "price": 24,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513028,
+   "i18n": {
+    "zh": {
+     "name": "蟹粉"
+    },
+    "en": {
+     "name": "Golden Crab Roe"
+    }
+   },
+   "icon": "images/icon_pangxie.png",
+   "cooked_icon": "images/icon_pangxie_01.png",
+   "shop": {
+    "currency": "gold",
+    "price": 24,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513029,
+   "i18n": {
+    "zh": {
+     "name": "古怪的肉"
+    },
+    "en": {
+     "name": "Mystery Meat"
+    }
+   },
+   "icon": "images/icon_shenglongrou.png",
+   "cooked_icon": "images/icon_shenglongrou_01.png",
+   "shop": {
+    "currency": "gold",
+    "price": 24,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513030,
+   "i18n": {
+    "zh": {
+     "name": "鹅肝"
+    },
+    "en": {
+     "name": "Foie Gras"
+    }
+   },
+   "icon": "images/icon_egan.png",
+   "cooked_icon": "images/icon_egan_01.png",
+   "shop": {
+    "currency": "gold",
+    "price": 24,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513031,
+   "i18n": {
+    "zh": {
+     "name": "柔软的肉"
+    },
+    "en": {
+     "name": "Succulent Cut"
+    }
+   },
+   "icon": "images/icon_yuechishourou.png",
+   "cooked_icon": "images/icon_yuechishourou_01.png",
+   "shop": {
+    "currency": "gold",
+    "price": 24,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513032,
+   "i18n": {
+    "zh": {
+     "name": "缤纷糖霜"
+    },
+    "en": {
+     "name": "Sparkling Sugar"
+    }
+   },
+   "icon": "images/icon_yinghuofenchen.png",
+   "cooked_icon": "images/icon_yinghuofenchen.png",
+   "shop": {
+    "currency": "gold",
+    "price": 16,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513033,
+   "i18n": {
+    "zh": {
+     "name": "紫罗兰莓果"
+    },
+    "en": {
+     "name": "Brambleberry"
+    }
+   },
+   "icon": "images/icon_ziluolanmeiguo.png",
+   "cooked_icon": "images/icon_ziluolanmeiguo.png",
+   "shop": {
+    "currency": "gold",
+    "price": 24,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513035,
+   "i18n": {
+    "zh": {
+     "name": "赤焰猛兽爪"
+    },
+    "en": {
+     "name": "Scorched Sunchaser Paw"
+    }
+   },
+   "icon": "images/icon_shouzhang.png",
+   "cooked_icon": "images/icon_shouzhang_01.png",
+   "shop": {
+    "currency": "gold",
+    "price": 500,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513036,
+   "i18n": {
+    "zh": {
+     "name": "醇香黄金酒"
+    },
+    "en": {
+     "name": "Coiled Gold Brew"
+    }
+   },
+   "icon": "images/icon_sltl_suannai.png",
+   "cooked_icon": "images/icon_sltl_suannai_01.png",
+   "shop": {
+    "currency": "gold",
+    "price": 500,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513037,
+   "i18n": {
+    "zh": {
+     "name": "苍蓝智慧冻"
+    },
+    "en": {
+     "name": "Curious Sapphire Gelée"
+    }
+   },
+   "icon": "images/icon_canglanzhizhezhiyu.png",
+   "cooked_icon": "images/icon_canglanzhizhezhiyu.png",
+   "shop": {
+    "currency": "gold",
+    "price": 500,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513038,
+   "i18n": {
+    "zh": {
+     "name": "丰饶混肉酱"
+    },
+    "en": {
+     "name": "Hearty Harvest Gravy"
+    }
+   },
+   "icon": "images/icon_fengshouroujiang.png",
+   "cooked_icon": "images/icon_fengshouroujiang_01.png",
+   "shop": {
+    "currency": "gold",
+    "price": 500,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513039,
+   "i18n": {
+    "zh": {
+     "name": "霍格沃茨晨露"
+    },
+    "en": {
+     "name": "Oathborne Dew"
+    }
+   },
+   "icon": "images/icon_chenxilu.png",
+   "cooked_icon": "images/icon_chenxilu_01.png",
+   "shop": {
+    "currency": "gold",
+    "price": 500,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513040,
+   "i18n": {
+    "zh": {
+     "name": "特殊面粉"
+    },
+    "en": {
+     "name": "Golden Moon Flour"
+    }
+   },
+   "icon": "images/icon_mianfen2.png",
+   "cooked_icon": "images/icon_mianfen2.png",
+   "shop": {
+    "currency": "gold",
+    "price": 24,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513041,
+   "i18n": {
+    "zh": {
+     "name": "粘米粉"
+    },
+    "en": {
+     "name": "Snowy Rice Flour"
+    }
+   },
+   "icon": "images/icon_mianfen3.png",
+   "cooked_icon": "images/icon_mianfen3.png",
+   "shop": {
+    "currency": "gold",
+    "price": 24,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513042,
+   "i18n": {
+    "zh": {
+     "name": "丝滑黄油"
+    },
+    "en": {
+     "name": "Cultured Butter"
+    }
+   },
+   "icon": "images/icon_huangyou.png",
+   "cooked_icon": "images/icon_huangyou.png",
+   "shop": {
+    "currency": "gold",
+    "price": 24,
+    "buy_limit": 99
+   },
+   "plant": null
+  },
+  {
+   "item_id": 202513043,
+   "i18n": {
+    "zh": {
+     "name": "饺子皮"
+    },
+    "en": {
+     "name": "Dough Wrappers"
+    }
+   },
+   "icon": "images/icon_jiaozipi_sheng.png",
+   "cooked_icon": "images/icon_jiaozipi_shu.png",
+   "shop": {
+    "currency": "gold",
+    "price": 24,
+    "buy_limit": 99
+   },
+   "plant": null
+  }
+ ],
+ "recipes": [
+  {
+   "recipe_id": 202516001,
+   "station": "gastronome",
+   "name_key": "cook_name_01",
+   "unlock_career_lv": 8,
+   "raw_ingredients": [
+    {
+     "item_id": 202513015,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 202513012,
+     "count": 1
+    },
+    {
+     "item_id": 202513002,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 101,
+     "duration_ms": 4000,
+     "item_id": 202513015
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516002,
+   "station": "gastronome",
+   "name_key": "cook_name_02",
+   "unlock_career_lv": 9,
+   "raw_ingredients": [
+    {
+     "item_id": 202513016,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 202513002,
+     "count": 1
+    },
+    {
+     "item_id": 202513001,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 102,
+     "duration_ms": 4000,
+     "item_id": 202513016
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516003,
+   "station": "gastronome",
+   "name_key": "cook_name_03",
+   "unlock_career_lv": 1,
+   "raw_ingredients": [
+    {
+     "item_id": 202513017,
+     "count": 1
+    },
+    {
+     "item_id": 202513013,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 202513006,
+     "count": 1
+    },
+    {
+     "item_id": 202513003,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 102,
+     "duration_ms": 3000,
+     "item_id": 202513017
+    },
+    {
+     "utensil_id": 104,
+     "duration_ms": 2000,
+     "item_id": 202513013
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516004,
+   "station": "gastronome",
+   "name_key": "cook_name_04",
+   "unlock_career_lv": 7,
+   "raw_ingredients": [
+    {
+     "item_id": 202513018,
+     "count": 1
+    },
+    {
+     "item_id": 21600253,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 202513001,
+     "count": 1
+    },
+    {
+     "item_id": 202513005,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 103,
+     "duration_ms": 5000,
+     "item_id": 202513018
+    },
+    {
+     "utensil_id": 101,
+     "duration_ms": 4000,
+     "item_id": 21600253
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516005,
+   "station": "gastronome",
+   "name_key": "cook_name_05",
+   "unlock_career_lv": 1,
+   "raw_ingredients": [
+    {
+     "item_id": 202513019,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 202513004,
+     "count": 1
+    },
+    {
+     "item_id": 202513001,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 102,
+     "duration_ms": 4000,
+     "item_id": 202513019
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516006,
+   "station": "gastronome",
+   "name_key": "cook_name_06",
+   "unlock_career_lv": 7,
+   "raw_ingredients": [
+    {
+     "item_id": 202513020,
+     "count": 1
+    },
+    {
+     "item_id": 21600253,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 202513005,
+     "count": 1
+    },
+    {
+     "item_id": 202513004,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 101,
+     "duration_ms": 2000,
+     "item_id": 202513020
+    },
+    {
+     "utensil_id": 101,
+     "duration_ms": 4000,
+     "item_id": 21600253
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516007,
+   "station": "gastronome",
+   "name_key": "cook_name_07",
+   "unlock_career_lv": 1,
+   "raw_ingredients": [
+    {
+     "item_id": 202513021,
+     "count": 1
+    },
+    {
+     "item_id": 202513013,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 202513007,
+     "count": 1
+    },
+    {
+     "item_id": 202513001,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 103,
+     "duration_ms": 2000,
+     "item_id": 202513021
+    },
+    {
+     "utensil_id": 104,
+     "duration_ms": 2000,
+     "item_id": 202513013
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516008,
+   "station": "gastronome",
+   "name_key": "cook_name_08",
+   "unlock_career_lv": 7,
+   "raw_ingredients": [
+    {
+     "item_id": 202513022,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 202513003,
+     "count": 1
+    },
+    {
+     "item_id": 202513002,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 102,
+     "duration_ms": 3000,
+     "item_id": 202513022
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516009,
+   "station": "gastronome",
+   "name_key": "cook_name_09",
+   "unlock_career_lv": 4,
+   "raw_ingredients": [
+    {
+     "item_id": 202513023,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 202513004,
+     "count": 1
+    },
+    {
+     "item_id": 202513005,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 101,
+     "duration_ms": 4000,
+     "item_id": 202513023
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516010,
+   "station": "gastronome",
+   "name_key": "cook_name_10",
+   "unlock_career_lv": 4,
+   "raw_ingredients": [
+    {
+     "item_id": 202513024,
+     "count": 1
+    },
+    {
+     "item_id": 202513025,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 202513007,
+     "count": 1
+    },
+    {
+     "item_id": 21600273,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 104,
+     "duration_ms": 4000,
+     "item_id": 202513024
+    },
+    {
+     "utensil_id": 103,
+     "duration_ms": 3000,
+     "item_id": 202513025
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516011,
+   "station": "dessert",
+   "name_key": "cook_name_11",
+   "unlock_career_lv": 7,
+   "raw_ingredients": [
+    {
+     "item_id": 202513025,
+     "count": 1
+    },
+    {
+     "item_id": 202513032,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 202513002,
+     "count": 1
+    },
+    {
+     "item_id": 202513007,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 202,
+     "duration_ms": 3000,
+     "item_id": null
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516012,
+   "station": "gastronome",
+   "name_key": "cook_name_12",
+   "unlock_career_lv": 4,
+   "raw_ingredients": [
+    {
+     "item_id": 202513026,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 202513006,
+     "count": 1
+    },
+    {
+     "item_id": 202513002,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 102,
+     "duration_ms": 3000,
+     "item_id": 202513026
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516013,
+   "station": "gastronome",
+   "name_key": "cook_name_13",
+   "unlock_career_lv": 10,
+   "raw_ingredients": [
+    {
+     "item_id": 202513027,
+     "count": 1
+    },
+    {
+     "item_id": 202513008,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 202513007,
+     "count": 1
+    },
+    {
+     "item_id": 21600273,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 102,
+     "duration_ms": 5000,
+     "item_id": 202513027
+    },
+    {
+     "utensil_id": 104,
+     "duration_ms": 3000,
+     "item_id": 202513008
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516014,
+   "station": "gastronome",
+   "name_key": "cook_name_14",
+   "unlock_career_lv": 10,
+   "raw_ingredients": [
+    {
+     "item_id": 202513028,
+     "count": 1
+    },
+    {
+     "item_id": 202513008,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 202513006,
+     "count": 1
+    },
+    {
+     "item_id": 202513002,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 103,
+     "duration_ms": 3000,
+     "item_id": 202513028
+    },
+    {
+     "utensil_id": 104,
+     "duration_ms": 3000,
+     "item_id": 202513008
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516015,
+   "station": "gastronome",
+   "name_key": "cook_name_15",
+   "unlock_career_lv": 11,
+   "raw_ingredients": [
+    {
+     "item_id": 202513029,
+     "count": 1
+    },
+    {
+     "item_id": 21600263,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 202513005,
+     "count": 1
+    },
+    {
+     "item_id": 202513001,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 103,
+     "duration_ms": 5000,
+     "item_id": 202513029
+    },
+    {
+     "utensil_id": 101,
+     "duration_ms": 4000,
+     "item_id": 21600263
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516016,
+   "station": "gastronome",
+   "name_key": "cook_name_16",
+   "unlock_career_lv": 12,
+   "raw_ingredients": [
+    {
+     "item_id": 202513030,
+     "count": 1
+    },
+    {
+     "item_id": 21600263,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 202513003,
+     "count": 1
+    },
+    {
+     "item_id": 202513004,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 103,
+     "duration_ms": 5000,
+     "item_id": 202513030
+    },
+    {
+     "utensil_id": 104,
+     "duration_ms": 4000,
+     "item_id": 21600263
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516017,
+   "station": "gastronome",
+   "name_key": "cook_name_17",
+   "unlock_career_lv": 4,
+   "raw_ingredients": [
+    {
+     "item_id": 202513031,
+     "count": 1
+    },
+    {
+     "item_id": 202513025,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 21600273,
+     "count": 1
+    },
+    {
+     "item_id": 202513003,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 101,
+     "duration_ms": 2000,
+     "item_id": 202513031
+    },
+    {
+     "utensil_id": 103,
+     "duration_ms": 3000,
+     "item_id": 202513025
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516018,
+   "station": "dessert",
+   "name_key": "cook_name_18",
+   "unlock_career_lv": 8,
+   "raw_ingredients": [
+    {
+     "item_id": 202513026,
+     "count": 1
+    },
+    {
+     "item_id": 202513011,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 202513006,
+     "count": 1
+    },
+    {
+     "item_id": 202513004,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 202,
+     "duration_ms": 3000,
+     "item_id": null
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516019,
+   "station": "dessert",
+   "name_key": "cook_name_19",
+   "unlock_career_lv": 9,
+   "raw_ingredients": [
+    {
+     "item_id": 202513033,
+     "count": 1
+    },
+    {
+     "item_id": 202513011,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 202513012,
+     "count": 1
+    },
+    {
+     "item_id": 202513006,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 201,
+     "duration_ms": 4000,
+     "item_id": null
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516020,
+   "station": "dessert",
+   "name_key": "cook_name_20",
+   "unlock_career_lv": 10,
+   "raw_ingredients": [
+    {
+     "item_id": 202513025,
+     "count": 1
+    },
+    {
+     "item_id": 21600283,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 202513012,
+     "count": 1
+    },
+    {
+     "item_id": 202513004,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 201,
+     "duration_ms": 4000,
+     "item_id": null
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516021,
+   "station": "gastronome",
+   "name_key": "cook_name_21",
+   "unlock_career_lv": 13,
+   "raw_ingredients": [
+    {
+     "item_id": 202513035,
+     "count": 1
+    },
+    {
+     "item_id": 202513018,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 202513004,
+     "count": 1
+    },
+    {
+     "item_id": 202513005,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 103,
+     "duration_ms": 5000,
+     "item_id": 202513035
+    },
+    {
+     "utensil_id": 104,
+     "duration_ms": 4000,
+     "item_id": 202513018
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516022,
+   "station": "gastronome",
+   "name_key": "cook_name_22",
+   "unlock_career_lv": 13,
+   "raw_ingredients": [
+    {
+     "item_id": 202513036,
+     "count": 1
+    },
+    {
+     "item_id": 202513026,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 202513006,
+     "count": 1
+    },
+    {
+     "item_id": 202513003,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 101,
+     "duration_ms": 5000,
+     "item_id": 202513036
+    },
+    {
+     "utensil_id": 104,
+     "duration_ms": 4000,
+     "item_id": 202513026
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516023,
+   "station": "dessert",
+   "name_key": "cook_name_23",
+   "unlock_career_lv": 13,
+   "raw_ingredients": [
+    {
+     "item_id": 202513037,
+     "count": 1
+    },
+    {
+     "item_id": 202513032,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 202513004,
+     "count": 1
+    },
+    {
+     "item_id": 202513007,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 202,
+     "duration_ms": 5000,
+     "item_id": null
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516024,
+   "station": "gastronome",
+   "name_key": "cook_name_24",
+   "unlock_career_lv": 13,
+   "raw_ingredients": [
+    {
+     "item_id": 202513038,
+     "count": 1
+    },
+    {
+     "item_id": 202513017,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 202513004,
+     "count": 1
+    },
+    {
+     "item_id": 202513007,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 104,
+     "duration_ms": 5000,
+     "item_id": 202513038
+    },
+    {
+     "utensil_id": 101,
+     "duration_ms": 3000,
+     "item_id": 202513017
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516025,
+   "station": "gastronome",
+   "name_key": "cook_name_25",
+   "unlock_career_lv": 16,
+   "raw_ingredients": [
+    {
+     "item_id": 202513039,
+     "count": 1
+    },
+    {
+     "item_id": 202513022,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 202513001,
+     "count": 1
+    },
+    {
+     "item_id": 202513007,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 102,
+     "duration_ms": 5000,
+     "item_id": 202513039
+    },
+    {
+     "utensil_id": 101,
+     "duration_ms": 4000,
+     "item_id": 202513022
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516026,
+   "station": "dessert",
+   "name_key": "cook_name_28",
+   "unlock_career_lv": 7,
+   "raw_ingredients": [
+    {
+     "item_id": 202513042,
+     "count": 1
+    },
+    {
+     "item_id": 202513032,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 202513006,
+     "count": 1
+    },
+    {
+     "item_id": 202513005,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 202,
+     "duration_ms": 4000,
+     "item_id": null
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516027,
+   "station": "gastronome",
+   "name_key": "cook_name_29",
+   "unlock_career_lv": 1,
+   "raw_ingredients": [
+    {
+     "item_id": 202513017,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 202513001,
+     "count": 1
+    },
+    {
+     "item_id": 202513002,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 103,
+     "duration_ms": 4000,
+     "item_id": 202513017
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516028,
+   "station": "gastronome",
+   "name_key": "cook_name_30",
+   "unlock_career_lv": 1,
+   "raw_ingredients": [
+    {
+     "item_id": 202513043,
+     "count": 1
+    },
+    {
+     "item_id": 202513016,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 202513001,
+     "count": 1
+    },
+    {
+     "item_id": 202513005,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 104,
+     "duration_ms": 3000,
+     "item_id": 202513043
+    },
+    {
+     "utensil_id": 101,
+     "duration_ms": 4000,
+     "item_id": 202513016
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516101,
+   "station": "dessert",
+   "name_key": "cook_name_26",
+   "unlock_career_lv": 7,
+   "raw_ingredients": [
+    {
+     "item_id": 202513040,
+     "count": 1
+    },
+    {
+     "item_id": 202513025,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 21600273,
+     "count": 1
+    },
+    {
+     "item_id": 202513012,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 202,
+     "duration_ms": 4000,
+     "item_id": null
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516102,
+   "station": "dessert",
+   "name_key": "cook_name_26",
+   "unlock_career_lv": 7,
+   "raw_ingredients": [
+    {
+     "item_id": 202513040,
+     "count": 1
+    },
+    {
+     "item_id": 202513011,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 21600273,
+     "count": 1
+    },
+    {
+     "item_id": 202513012,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 202,
+     "duration_ms": 4000,
+     "item_id": null
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516103,
+   "station": "dessert",
+   "name_key": "cook_name_26",
+   "unlock_career_lv": 7,
+   "raw_ingredients": [
+    {
+     "item_id": 202513040,
+     "count": 1
+    },
+    {
+     "item_id": 202513032,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 21600273,
+     "count": 1
+    },
+    {
+     "item_id": 202513012,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 202,
+     "duration_ms": 4000,
+     "item_id": null
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516104,
+   "station": "dessert",
+   "name_key": "cook_name_26",
+   "unlock_career_lv": 7,
+   "raw_ingredients": [
+    {
+     "item_id": 202513040,
+     "count": 1
+    },
+    {
+     "item_id": 202513033,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 21600273,
+     "count": 1
+    },
+    {
+     "item_id": 202513012,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 202,
+     "duration_ms": 4000,
+     "item_id": null
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516105,
+   "station": "dessert",
+   "name_key": "cook_name_26",
+   "unlock_career_lv": 7,
+   "raw_ingredients": [
+    {
+     "item_id": 202513040,
+     "count": 1
+    },
+    {
+     "item_id": 21600283,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 21600273,
+     "count": 1
+    },
+    {
+     "item_id": 202513012,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 202,
+     "duration_ms": 4000,
+     "item_id": null
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516106,
+   "station": "dessert",
+   "name_key": "cook_name_26",
+   "unlock_career_lv": 7,
+   "raw_ingredients": [
+    {
+     "item_id": 202513040,
+     "count": 1
+    },
+    {
+     "item_id": 202513018,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 21600273,
+     "count": 1
+    },
+    {
+     "item_id": 202513012,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 202,
+     "duration_ms": 4000,
+     "item_id": null
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516107,
+   "station": "dessert",
+   "name_key": "cook_name_26",
+   "unlock_career_lv": 7,
+   "raw_ingredients": [
+    {
+     "item_id": 202513040,
+     "count": 1
+    },
+    {
+     "item_id": 202513028,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 21600273,
+     "count": 1
+    },
+    {
+     "item_id": 202513012,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 202,
+     "duration_ms": 4000,
+     "item_id": null
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516108,
+   "station": "dessert",
+   "name_key": "cook_name_26",
+   "unlock_career_lv": 7,
+   "raw_ingredients": [
+    {
+     "item_id": 202513040,
+     "count": 1
+    },
+    {
+     "item_id": 202513013,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 21600273,
+     "count": 1
+    },
+    {
+     "item_id": 202513012,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 202,
+     "duration_ms": 4000,
+     "item_id": null
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516201,
+   "station": "dessert",
+   "name_key": "cook_name_27",
+   "unlock_career_lv": 7,
+   "raw_ingredients": [
+    {
+     "item_id": 202513041,
+     "count": 1
+    },
+    {
+     "item_id": 202513025,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 21600273,
+     "count": 1
+    },
+    {
+     "item_id": 202513012,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 201,
+     "duration_ms": 4000,
+     "item_id": null
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516202,
+   "station": "dessert",
+   "name_key": "cook_name_27",
+   "unlock_career_lv": 7,
+   "raw_ingredients": [
+    {
+     "item_id": 202513041,
+     "count": 1
+    },
+    {
+     "item_id": 202513011,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 21600273,
+     "count": 1
+    },
+    {
+     "item_id": 202513012,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 201,
+     "duration_ms": 4000,
+     "item_id": null
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516203,
+   "station": "dessert",
+   "name_key": "cook_name_27",
+   "unlock_career_lv": 7,
+   "raw_ingredients": [
+    {
+     "item_id": 202513041,
+     "count": 1
+    },
+    {
+     "item_id": 202513032,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 21600273,
+     "count": 1
+    },
+    {
+     "item_id": 202513012,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 201,
+     "duration_ms": 4000,
+     "item_id": null
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516204,
+   "station": "dessert",
+   "name_key": "cook_name_27",
+   "unlock_career_lv": 7,
+   "raw_ingredients": [
+    {
+     "item_id": 202513041,
+     "count": 1
+    },
+    {
+     "item_id": 202513033,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 21600273,
+     "count": 1
+    },
+    {
+     "item_id": 202513012,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 201,
+     "duration_ms": 4000,
+     "item_id": null
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516205,
+   "station": "dessert",
+   "name_key": "cook_name_27",
+   "unlock_career_lv": 7,
+   "raw_ingredients": [
+    {
+     "item_id": 202513041,
+     "count": 1
+    },
+    {
+     "item_id": 21600283,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 21600273,
+     "count": 1
+    },
+    {
+     "item_id": 202513012,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 201,
+     "duration_ms": 4000,
+     "item_id": null
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516206,
+   "station": "dessert",
+   "name_key": "cook_name_27",
+   "unlock_career_lv": 7,
+   "raw_ingredients": [
+    {
+     "item_id": 202513041,
+     "count": 1
+    },
+    {
+     "item_id": 202513018,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 21600273,
+     "count": 1
+    },
+    {
+     "item_id": 202513012,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 201,
+     "duration_ms": 4000,
+     "item_id": null
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516207,
+   "station": "dessert",
+   "name_key": "cook_name_27",
+   "unlock_career_lv": 7,
+   "raw_ingredients": [
+    {
+     "item_id": 202513041,
+     "count": 1
+    },
+    {
+     "item_id": 202513028,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 21600273,
+     "count": 1
+    },
+    {
+     "item_id": 202513012,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 201,
+     "duration_ms": 4000,
+     "item_id": null
+    }
+   ]
+  },
+  {
+   "recipe_id": 202516208,
+   "station": "dessert",
+   "name_key": "cook_name_27",
+   "unlock_career_lv": 7,
+   "raw_ingredients": [
+    {
+     "item_id": 202513041,
+     "count": 1
+    },
+    {
+     "item_id": 202513013,
+     "count": 1
+    }
+   ],
+   "condiments": [
+    {
+     "item_id": 21600273,
+     "count": 1
+    },
+    {
+     "item_id": 202513012,
+     "count": 1
+    }
+   ],
+   "steps": [
+    {
+     "utensil_id": 201,
+     "duration_ms": 4000,
+     "item_id": null
+    }
+   ]
+  }
+ ],
+ "utensils": [
+  {
+   "utensil_id": 101,
+   "name_key": "cook_lable_name_1",
+   "i18n": {
+    "zh": {
+     "name": null
+    },
+    "en": {
+     "name": null
+    }
+   },
+   "icon": "images/pic_tongyong_tanlu02.png"
+  },
+  {
+   "utensil_id": 102,
+   "name_key": "cook_lable_name_2",
+   "i18n": {
+    "zh": {
+     "name": null
+    },
+    "en": {
+     "name": null
+    }
+   },
+   "icon": "images/pic_tongyong_kaoxiang02.png"
+  },
+  {
+   "utensil_id": 103,
+   "name_key": "cook_lable_name_3",
+   "i18n": {
+    "zh": {
+     "name": null
+    },
+    "en": {
+     "name": null
+    }
+   },
+   "icon": "images/pic_tongyong_jianguo02.png"
+  },
+  {
+   "utensil_id": 104,
+   "name_key": "cook_lable_name_4",
+   "i18n": {
+    "zh": {
+     "name": null
+    },
+    "en": {
+     "name": null
+    }
+   },
+   "icon": "images/pic_tongyong_dunguo02.png"
+  },
+  {
+   "utensil_id": 201,
+   "name_key": "cook_lable_name_5",
+   "i18n": {
+    "zh": {
+     "name": null
+    },
+    "en": {
+     "name": null
+    }
+   },
+   "icon": "images/pic_tongyong_lengningpan02.png"
+  },
+  {
+   "utensil_id": 202,
+   "name_key": "cook_lable_name_6",
+   "i18n": {
+    "zh": {
+     "name": null
+    },
+    "en": {
+     "name": null
+    }
+   },
+   "icon": "images/pic_hongbeiyanjiu_kongqizhaguo01.png"
+  }
+ ],
+ "shop_levels": [
+  {
+   "level": 1,
+   "hva_rate": 1,
+   "hva_slots": 1,
+   "hva_budget": {
+    "gold": [
+     1000,
+     2000
+    ],
+    "gems": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "level": 2,
+   "hva_rate": 1,
+   "hva_slots": 2,
+   "hva_budget": {
+    "gold": [
+     2000,
+     3000
+    ],
+    "gems": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "level": 3,
+   "hva_rate": 2,
+   "hva_slots": 2,
+   "hva_budget": {
+    "gold": [
+     3000,
+     4000
+    ],
+    "gems": [
+     25,
+     30
+    ]
+   }
+  },
+  {
+   "level": 4,
+   "hva_rate": 2,
+   "hva_slots": 3,
+   "hva_budget": {
+    "gold": [
+     5000,
+     5500
+    ],
+    "gems": [
+     35,
+     40
+    ]
+   }
+  },
+  {
+   "level": 5,
+   "hva_rate": 3,
+   "hva_slots": 3,
+   "hva_budget": {
+    "gold": [
+     5500,
+     6000
+    ],
+    "gems": [
+     45,
+     50
+    ]
+   }
+  },
+  {
+   "level": 6,
+   "hva_rate": 3,
+   "hva_slots": 3,
+   "hva_budget": {
+    "gold": [
+     6500,
+     7000
+    ],
+    "gems": [
+     50,
+     55
+    ]
+   }
+  }
+ ],
+ "career_levels": [
+  {
+   "career_id": 1,
+   "level": 1,
+   "big_level": 1,
+   "sub_level": 1,
+   "need_exp": 1,
+   "skill_points": 1,
+   "i18n": {
+    "zh": {
+     "name": "草药爱好者I",
+     "desc": "你对植物有着特别的兴趣，于是开始了你的草药学家之旅。你的经验和知识尚浅，连泡泡豆荚开花都能把你吓一跳。"
+    },
+    "en": {
+     "name": "Budding Herbologist I",
+     "desc": "Your passion for Herbology prompts you to research it as a potential future career. You're green by all means and even a blooming Puffapod is enough to startle you."
+    }
+   },
+   "icon": "images/pic_caoyao_huizhang_01.png",
+   "stats": {
+    "extra_param": 82010,
+    "unlock_care": 1
+   }
+  },
+  {
+   "career_id": 1,
+   "level": 2,
+   "big_level": 1,
+   "sub_level": 2,
+   "need_exp": 10,
+   "skill_points": 1,
+   "i18n": {
+    "zh": {
+     "name": "草药爱好者II",
+     "desc": "你对植物有着特别的兴趣，于是开始了你的草药学家之旅。你的经验和知识尚浅，连泡泡豆荚开花都能把你吓一跳。"
+    },
+    "en": {
+     "name": "Budding Herbologist II",
+     "desc": "Your passion for Herbology prompts you to research it as a potential future career. You're green by all means and even a blooming Puffapod is enough to startle you."
+    }
+   },
+   "icon": "images/pic_caoyao_huizhang_01.png",
+   "stats": {
+    "extra_param": 0,
+    "guide_id": 82012,
+    "unlock_care": 11
+   }
+  },
+  {
+   "career_id": 1,
+   "level": 3,
+   "big_level": 1,
+   "sub_level": 3,
+   "need_exp": 15,
+   "skill_points": 1,
+   "i18n": {
+    "zh": {
+     "name": "草药爱好者III",
+     "desc": "你对植物有着特别的兴趣，于是开始了你的草药学家之旅。你的经验和知识尚浅，连泡泡豆荚开花都能把你吓一跳。"
+    },
+    "en": {
+     "name": "Budding Herbologist III",
+     "desc": "Your passion for Herbology prompts you to research it as a potential future career. You're green by all means and even a blooming Puffapod is enough to startle you."
+    }
+   },
+   "icon": "images/pic_caoyao_huizhang_01.png",
+   "stats": {
+    "extra_param": 0,
+    "guide_id": 82014,
+    "unlock_care": 3
+   }
+  },
+  {
+   "career_id": 1,
+   "level": 4,
+   "big_level": 2,
+   "sub_level": 1,
+   "need_exp": 30,
+   "skill_points": 5,
+   "i18n": {
+    "zh": {
+     "name": "草药旁听生I",
+     "desc": "经过一段时间的研究，你掌握了基本的草药学知识——不过偶尔还会弄混蟹爪兰和魔鬼网！"
+    },
+    "en": {
+     "name": "Novice Herbologist I",
+     "desc": "After some time and effort, your knowledge of plants magical and mundane improves. However, the distinction between a crab cactus and a Devil's Snare still confuses you sometimes."
+    }
+   },
+   "icon": "images/pic_caoyao_huizhang_02.png",
+   "stats": {
+    "extra_param": 0,
+    "unlock_care": 2
+   }
+  },
+  {
+   "career_id": 1,
+   "level": 5,
+   "big_level": 2,
+   "sub_level": 2,
+   "need_exp": 50,
+   "skill_points": 1,
+   "i18n": {
+    "zh": {
+     "name": "草药旁听生II",
+     "desc": "经过一段时间的研究，你掌握了基本的草药学知识——不过偶尔还会弄混蟹爪兰和魔鬼网！"
+    },
+    "en": {
+     "name": "Novice Herbologist II",
+     "desc": "After some time and effort, your knowledge of plants magical and mundane improves. However, the distinction between a crab cactus and a Devil's Snare still confuses you sometimes."
+    }
+   },
+   "icon": "images/pic_caoyao_huizhang_02.png",
+   "stats": {
+    "extra_param": 0
+   }
+  },
+  {
+   "career_id": 1,
+   "level": 6,
+   "big_level": 2,
+   "sub_level": 3,
+   "need_exp": 70,
+   "skill_points": 1,
+   "i18n": {
+    "zh": {
+     "name": "草药旁听生III",
+     "desc": "经过一段时间的研究，你掌握了基本的草药学知识——不过偶尔还会弄混蟹爪兰和魔鬼网！"
+    },
+    "en": {
+     "name": "Novice Herbologist III",
+     "desc": "After some time and effort, your knowledge of plants magical and mundane improves. However, the distinction between a crab cactus and a Devil's Snare still confuses you sometimes."
+    }
+   },
+   "icon": "images/pic_caoyao_huizhang_02.png",
+   "stats": {
+    "extra_param": 0
+   }
+  },
+  {
+   "career_id": 1,
+   "level": 7,
+   "big_level": 3,
+   "sub_level": 1,
+   "need_exp": 90,
+   "skill_points": 5,
+   "i18n": {
+    "zh": {
+     "name": "草药学徒I",
+     "desc": "你的同学们都对你出色的草药学能力而赞叹！但这对你来说不值一提，你正忙着和一株曼德拉草交朋友呢。"
+    },
+    "en": {
+     "name": "Junior Herbologist I",
+     "desc": "Your herbology skills have earned the approval of your classmates, but who has time for humans when they can make friends with a Mandrake?"
+    }
+   },
+   "icon": "images/pic_caoyao_huizhang_03.png",
+   "stats": {
+    "extra_param": 0,
+    "guide_id": 82020,
+    "unlock_care": 4
+   }
+  },
+  {
+   "career_id": 1,
+   "level": 8,
+   "big_level": 3,
+   "sub_level": 2,
+   "need_exp": 120,
+   "skill_points": 1,
+   "i18n": {
+    "zh": {
+     "name": "草药学徒II",
+     "desc": "你的同学们都对你出色的草药学能力而赞叹！但这对你来说不值一提，你正忙着和一株曼德拉草交朋友呢。"
+    },
+    "en": {
+     "name": "Junior Herbologist II",
+     "desc": "Your herbology skills have earned the approval of your classmates, but who has time for humans when they can make friends with a Mandrake?"
+    }
+   },
+   "icon": "images/pic_caoyao_huizhang_03.png",
+   "stats": {
+    "extra_param": 0
+   }
+  },
+  {
+   "career_id": 1,
+   "level": 9,
+   "big_level": 3,
+   "sub_level": 3,
+   "need_exp": 150,
+   "skill_points": 1,
+   "i18n": {
+    "zh": {
+     "name": "草药学徒III",
+     "desc": "你的同学们都对你出色的草药学能力而赞叹！但这对你来说不值一提，你正忙着和一株曼德拉草交朋友呢。"
+    },
+    "en": {
+     "name": "Junior Herbologist III",
+     "desc": "Your herbology skills have earned the approval of your classmates, but who has time for humans when they can make friends with a Mandrake?"
+    }
+   },
+   "icon": "images/pic_caoyao_huizhang_03.png",
+   "stats": {
+    "extra_param": 0
+   }
+  },
+  {
+   "career_id": 1,
+   "level": 10,
+   "big_level": 4,
+   "sub_level": 1,
+   "need_exp": 200,
+   "skill_points": 5,
+   "i18n": {
+    "zh": {
+     "name": "熟练草药师I",
+     "desc": "你的种植盆井井有条，生机勃勃。你的培育技术在曼德拉草中有口皆碑，它们都希望能移植到你的种植盆里！"
+    },
+    "en": {
+     "name": "Practiced Herbologist I",
+     "desc": "Plants thrive under your methodical care. You've even earned a reputation among Mandrakes as all of them want to move into your pots!"
+    }
+   },
+   "icon": "images/pic_caoyao_huizhang_04.png",
+   "stats": {
+    "extra_param": 0,
+    "unlock_care": 10
+   }
+  },
+  {
+   "career_id": 1,
+   "level": 11,
+   "big_level": 4,
+   "sub_level": 2,
+   "need_exp": 250,
+   "skill_points": 1,
+   "i18n": {
+    "zh": {
+     "name": "熟练草药师II",
+     "desc": "你的种植盆井井有条，生机勃勃。你的培育技术在曼德拉草中有口皆碑，它们都希望能移植到你的种植盆里！"
+    },
+    "en": {
+     "name": "Practiced Herbologist II",
+     "desc": "Plants thrive under your methodical care. You've even earned a reputation among Mandrakes as all of them want to move into your pots!"
+    }
+   },
+   "icon": "images/pic_caoyao_huizhang_04.png",
+   "stats": {
+    "extra_param": 0
+   }
+  },
+  {
+   "career_id": 1,
+   "level": 12,
+   "big_level": 4,
+   "sub_level": 3,
+   "need_exp": 300,
+   "skill_points": 1,
+   "i18n": {
+    "zh": {
+     "name": "熟练草药师III",
+     "desc": "你的种植盆井井有条，生机勃勃。你的培育技术在曼德拉草中有口皆碑，它们都希望能移植到你的种植盆里！"
+    },
+    "en": {
+     "name": "Practiced Herbologist III",
+     "desc": "Plants thrive under your methodical care. You've even earned a reputation among Mandrakes as all of them want to move into your pots!"
+    }
+   },
+   "icon": "images/pic_caoyao_huizhang_04.png",
+   "stats": {
+    "extra_param": 0
+   }
+  },
+  {
+   "career_id": 1,
+   "level": 13,
+   "big_level": 5,
+   "sub_level": 1,
+   "need_exp": 400,
+   "skill_points": 5,
+   "i18n": {
+    "zh": {
+     "name": "草药学者I",
+     "desc": "你在草药学上展现了惊人的天赋，就连隆巴顿教授都会邀请你一起探讨草药学知识！"
+    },
+    "en": {
+     "name": "Natural Herbologist I",
+     "desc": "You display remarkable understanding and talent for Herbology to the point where even Professor Longbottom considers you a peer!"
+    }
+   },
+   "icon": "images/pic_caoyao_huizhang_05.png",
+   "stats": {
+    "extra_param": 0
+   }
+  },
+  {
+   "career_id": 1,
+   "level": 14,
+   "big_level": 5,
+   "sub_level": 2,
+   "need_exp": 500,
+   "skill_points": 1,
+   "i18n": {
+    "zh": {
+     "name": "草药学者II",
+     "desc": "你在草药学上展现了惊人的天赋，就连隆巴顿教授都会邀请你一起探讨草药学知识！"
+    },
+    "en": {
+     "name": "Natural Herbologist II",
+     "desc": "You display remarkable understanding and talent for Herbology to the point where even Professor Longbottom considers you a peer!"
+    }
+   },
+   "icon": "images/pic_caoyao_huizhang_05.png",
+   "stats": {
+    "extra_param": 0
+   }
+  },
+  {
+   "career_id": 1,
+   "level": 15,
+   "big_level": 5,
+   "sub_level": 3,
+   "need_exp": 600,
+   "skill_points": 1,
+   "i18n": {
+    "zh": {
+     "name": "草药学者III",
+     "desc": "你在草药学上展现了惊人的天赋，就连隆巴顿教授都会邀请你一起探讨草药学知识！"
+    },
+    "en": {
+     "name": "Natural Herbologist III",
+     "desc": "You display remarkable understanding and talent for Herbology to the point where even Professor Longbottom considers you a peer!"
+    }
+   },
+   "icon": "images/pic_caoyao_huizhang_05.png",
+   "stats": {
+    "extra_param": 0
+   }
+  },
+  {
+   "career_id": 1,
+   "level": 16,
+   "big_level": 6,
+   "sub_level": 1,
+   "need_exp": 700,
+   "skill_points": 5,
+   "i18n": {
+    "zh": {
+     "name": "草药大师I",
+     "desc": "你已经成长为精通草药学，造诣深厚大师了！无论是什么样的植物，都能被你轻松拿捏。"
+    },
+    "en": {
+     "name": "Master Herbologist I",
+     "desc": "You display remarkable understanding and talent for Herbology to the point where even Professor Longbottom considers you a peer!"
+    }
+   },
+   "icon": "images/pic_caoyao_huizhang_06.png",
+   "stats": {
+    "extra_param": 0
+   }
+  },
+  {
+   "career_id": 1,
+   "level": 17,
+   "big_level": 6,
+   "sub_level": 2,
+   "need_exp": 800,
+   "skill_points": 1,
+   "i18n": {
+    "zh": {
+     "name": "草药大师II",
+     "desc": "你已经成长为精通草药学，造诣深厚大师了！无论是什么样的植物，都能被你轻松拿捏。"
+    },
+    "en": {
+     "name": "Master Herbologist II",
+     "desc": "You display remarkable understanding and talent for Herbology to the point where even Professor Longbottom considers you a peer!"
+    }
+   },
+   "icon": "images/pic_caoyao_huizhang_06.png",
+   "stats": {
+    "extra_param": 0
+   }
+  },
+  {
+   "career_id": 1,
+   "level": 18,
+   "big_level": 6,
+   "sub_level": 3,
+   "need_exp": 1000,
+   "skill_points": 1,
+   "i18n": {
+    "zh": {
+     "name": "草药大师III",
+     "desc": "你已经成长为精通草药学，造诣深厚大师了！无论是什么样的植物，都能被你轻松拿捏。"
+    },
+    "en": {
+     "name": "Master Herbologist III",
+     "desc": "You display remarkable understanding and talent for Herbology to the point where even Professor Longbottom considers you a peer!"
+    }
+   },
+   "icon": "images/pic_caoyao_huizhang_06.png",
+   "stats": {
+    "extra_param": 0
+   }
+  },
+  {
+   "career_id": 2,
+   "level": 1,
+   "big_level": 1,
+   "sub_level": 1,
+   "need_exp": 10,
+   "skill_points": 1,
+   "i18n": {
+    "zh": {
+     "name": "烹饪学徒I",
+     "desc": "在面粉与焦香的初次邂逅中，你战战兢兢地拿起了打蛋器……别担心，这个厨房被布置了保护魔咒，你不会真的把它炸掉！"
+    },
+    "en": {
+     "name": "Kitchen Hand I",
+     "desc": "You know where the spoons are. Probably. You may not handle kitchen emergencies well, but you're ready to learn!"
+    }
+   },
+   "icon": "images/pic_chushi_huizhang_01.png",
+   "stats": {
+    "bag_uplimit": 50,
+    "extra_param": 0,
+    "finish_count": 6,
+    "max_order": 4,
+    "order_dish_max": [
+     100,
+     0
+    ],
+    "refresh_interval": [
+     3,
+     5
+    ],
+    "wait_queue": 6
+   }
+  },
+  {
+   "career_id": 2,
+   "level": 2,
+   "big_level": 1,
+   "sub_level": 2,
+   "need_exp": 20,
+   "skill_points": 1,
+   "i18n": {
+    "zh": {
+     "name": "烹饪学徒II",
+     "desc": "在面粉与焦香的初次邂逅中，你战战兢兢地拿起了打蛋器……别担心，这个厨房被布置了保护魔咒，你不会真的把它炸掉！"
+    },
+    "en": {
+     "name": "Kitchen Hand II",
+     "desc": "You know where the spoons are. Probably. You may not handle kitchen emergencies well, but you're ready to learn!"
+    }
+   },
+   "icon": "images/pic_chushi_huizhang_01.png",
+   "stats": {
+    "bag_uplimit": 55,
+    "extra_param": 0,
+    "finish_count": 6,
+    "max_order": 4,
+    "order_dish_max": [
+     100,
+     0
+    ],
+    "refresh_interval": [
+     3,
+     5
+    ],
+    "wait_queue": 6
+   }
+  },
+  {
+   "career_id": 2,
+   "level": 3,
+   "big_level": 1,
+   "sub_level": 3,
+   "need_exp": 40,
+   "skill_points": 1,
+   "i18n": {
+    "zh": {
+     "name": "烹饪学徒III",
+     "desc": "在面粉与焦香的初次邂逅中，你战战兢兢地拿起了打蛋器……别担心，这个厨房被布置了保护魔咒，你不会真的把它炸掉！"
+    },
+    "en": {
+     "name": "Kitchen Hand III",
+     "desc": "You know where the spoons are. Probably. You may not handle kitchen emergencies well, but you're ready to learn!"
+    }
+   },
+   "icon": "images/pic_chushi_huizhang_01.png",
+   "stats": {
+    "bag_uplimit": 60,
+    "extra_param": 0,
+    "finish_count": 6,
+    "max_order": 4,
+    "order_dish_max": [
+     70,
+     30
+    ],
+    "refresh_interval": [
+     3,
+     5
+    ],
+    "wait_queue": 6
+   }
+  },
+  {
+   "career_id": 2,
+   "level": 4,
+   "big_level": 2,
+   "sub_level": 1,
+   "need_exp": 80,
+   "skill_points": 5,
+   "i18n": {
+    "zh": {
+     "name": "厨房助手I",
+     "desc": "经过一段时间的学习，你已经可以用咒语完成完美发酵了——偶尔出现的过度膨胀的面团都被家养小精灵清理掉了。"
+    },
+    "en": {
+     "name": "Apprentice Cook I",
+     "desc": "You now burn fewer things, but are still banned from flambé. You probably know a recipe or two by heart."
+    }
+   },
+   "icon": "images/pic_chushi_huizhang_02.png",
+   "stats": {
+    "bag_uplimit": 65,
+    "extra_param": 0,
+    "finish_count": 7,
+    "max_order": 4,
+    "order_dish_max": [
+     70,
+     30
+    ],
+    "refresh_interval": [
+     3,
+     5
+    ],
+    "wait_queue": 6
+   }
+  },
+  {
+   "career_id": 2,
+   "level": 5,
+   "big_level": 2,
+   "sub_level": 2,
+   "need_exp": 120,
+   "skill_points": 1,
+   "i18n": {
+    "zh": {
+     "name": "厨房助手II",
+     "desc": "经过一段时间的学习，你已经可以用咒语完成完美发酵了——偶尔出现的过度膨胀的面团都被家养小精灵清理掉了。"
+    },
+    "en": {
+     "name": "Apprentice Cook II",
+     "desc": "You now burn fewer things, but are still banned from flambé. You probably know a recipe or two by heart."
+    }
+   },
+   "icon": "images/pic_chushi_huizhang_02.png",
+   "stats": {
+    "bag_uplimit": 70,
+    "extra_param": 0,
+    "finish_count": 7,
+    "max_order": 4,
+    "order_dish_max": [
+     70,
+     30
+    ],
+    "refresh_interval": [
+     3,
+     5
+    ],
+    "wait_queue": 6
+   }
+  },
+  {
+   "career_id": 2,
+   "level": 6,
+   "big_level": 2,
+   "sub_level": 3,
+   "need_exp": 160,
+   "skill_points": 1,
+   "i18n": {
+    "zh": {
+     "name": "厨房助手III",
+     "desc": "经过一段时间的学习，你已经可以用咒语完成完美发酵了——偶尔出现的过度膨胀的面团都被家养小精灵清理掉了。"
+    },
+    "en": {
+     "name": "Apprentice Cook III",
+     "desc": "You now burn fewer things, but are still banned from flambé. You probably know a recipe or two by heart.."
+    }
+   },
+   "icon": "images/pic_chushi_huizhang_02.png",
+   "stats": {
+    "bag_uplimit": 75,
+    "extra_param": 0,
+    "finish_count": 7,
+    "max_order": 4,
+    "order_dish_max": [
+     70,
+     30
+    ],
+    "refresh_interval": [
+     3,
+     5
+    ],
+    "wait_queue": 6
+   }
+  },
+  {
+   "career_id": 2,
+   "level": 7,
+   "big_level": 3,
+   "sub_level": 1,
+   "need_exp": 240,
+   "skill_points": 5,
+   "i18n": {
+    "zh": {
+     "name": "灶台指挥家I",
+     "desc": "魔法炖锅中的美食酝酿起舞，烤箱里美妙的乐章正在发生。你的厨具已经完全被你的精湛厨艺征服，甚至为你吟咏歌唱。"
+    },
+    "en": {
+     "name": "Sous Chef I",
+     "desc": "One step below glory, one step above cleaning squid guts. You've got the experience...just a little more to go."
+    }
+   },
+   "icon": "images/pic_chushi_huizhang_03.png",
+   "stats": {
+    "bag_uplimit": 80,
+    "extra_param": 0,
+    "finish_count": 8,
+    "max_order": 4,
+    "order_dish_max": [
+     70,
+     30
+    ],
+    "refresh_interval": [
+     3,
+     5
+    ],
+    "wait_queue": 6
+   }
+  },
+  {
+   "career_id": 2,
+   "level": 8,
+   "big_level": 3,
+   "sub_level": 2,
+   "need_exp": 280,
+   "skill_points": 1,
+   "i18n": {
+    "zh": {
+     "name": "灶台指挥家II",
+     "desc": "魔法炖锅中的美食酝酿起舞，烤箱里美妙的乐章正在发生。你的厨具已经完全被你的精湛厨艺征服，甚至为你吟咏歌唱。"
+    },
+    "en": {
+     "name": "Sous Chef II",
+     "desc": "One step below glory, one step above cleaning squid guts. You've got the experience...just a little more to go."
+    }
+   },
+   "icon": "images/pic_chushi_huizhang_03.png",
+   "stats": {
+    "bag_uplimit": 85,
+    "extra_param": 0,
+    "finish_count": 8,
+    "max_order": 4,
+    "order_dish_max": [
+     70,
+     30
+    ],
+    "refresh_interval": [
+     3,
+     5
+    ],
+    "wait_queue": 6
+   }
+  },
+  {
+   "career_id": 2,
+   "level": 9,
+   "big_level": 3,
+   "sub_level": 3,
+   "need_exp": 320,
+   "skill_points": 1,
+   "i18n": {
+    "zh": {
+     "name": "灶台指挥家III",
+     "desc": "魔法炖锅中的美食酝酿起舞，烤箱里美妙的乐章正在发生。你的厨具已经完全被你的精湛厨艺征服，甚至为你吟咏歌唱。"
+    },
+    "en": {
+     "name": "Sous Chef III",
+     "desc": "One step below glory, one step above cleaning squid guts. You've got the experience...just a little more to go."
+    }
+   },
+   "icon": "images/pic_chushi_huizhang_03.png",
+   "stats": {
+    "bag_uplimit": 90,
+    "extra_param": 0,
+    "finish_count": 8,
+    "max_order": 4,
+    "order_dish_max": [
+     70,
+     30
+    ],
+    "refresh_interval": [
+     3,
+     5
+    ],
+    "wait_queue": 6
+   }
+  },
+  {
+   "career_id": 2,
+   "level": 10,
+   "big_level": 4,
+   "sub_level": 1,
+   "need_exp": 400,
+   "skill_points": 5,
+   "i18n": {
+    "zh": {
+     "name": "料理长I",
+     "desc": "你的烹饪台秩序井然，有条不紊。任何原料供应商都乐意将食材交到你的手上，你总能让食材发挥到最美妙的状态！"
+    },
+    "en": {
+     "name": "Head Chef I",
+     "desc": "A leader in the kitchen. You move with purpose, precision, and just the right amount of authority."
+    }
+   },
+   "icon": "images/pic_chushi_huizhang_04.png",
+   "stats": {
+    "bag_uplimit": 95,
+    "extra_param": 0,
+    "finish_count": 9,
+    "max_order": 4,
+    "order_dish_max": [
+     70,
+     30
+    ],
+    "refresh_interval": [
+     3,
+     5
+    ],
+    "wait_queue": 6
+   }
+  },
+  {
+   "career_id": 2,
+   "level": 11,
+   "big_level": 4,
+   "sub_level": 2,
+   "need_exp": 500,
+   "skill_points": 1,
+   "i18n": {
+    "zh": {
+     "name": "料理长II",
+     "desc": "你的烹饪台秩序井然，有条不紊。任何原料供应商都乐意将食材交到你的手上，你总能让食材发挥到最美妙的状态！"
+    },
+    "en": {
+     "name": "Head Chef II",
+     "desc": "A leader in the kitchen. You move with purpose, precision, and just the right amount of authority."
+    }
+   },
+   "icon": "images/pic_chushi_huizhang_04.png",
+   "stats": {
+    "bag_uplimit": 100,
+    "extra_param": 0,
+    "finish_count": 9,
+    "max_order": 4,
+    "order_dish_max": [
+     70,
+     30
+    ],
+    "refresh_interval": [
+     3,
+     5
+    ],
+    "wait_queue": 6
+   }
+  },
+  {
+   "career_id": 2,
+   "level": 12,
+   "big_level": 4,
+   "sub_level": 3,
+   "need_exp": 600,
+   "skill_points": 1,
+   "i18n": {
+    "zh": {
+     "name": "料理长III",
+     "desc": "你的烹饪台秩序井然，有条不紊。任何原料供应商都乐意将食材交到你的手上，你总能让食材发挥到最美妙的状态！"
+    },
+    "en": {
+     "name": "Head Chef III",
+     "desc": "A leader in the kitchen. You move with purpose, precision, and just the right amount of authority."
+    }
+   },
+   "icon": "images/pic_chushi_huizhang_04.png",
+   "stats": {
+    "bag_uplimit": 100,
+    "extra_param": 0,
+    "finish_count": 9,
+    "max_order": 4,
+    "order_dish_max": [
+     70,
+     30
+    ],
+    "refresh_interval": [
+     3,
+     5
+    ],
+    "wait_queue": 6
+   }
+  },
+  {
+   "career_id": 2,
+   "level": 13,
+   "big_level": 5,
+   "sub_level": 1,
+   "need_exp": 700,
+   "skill_points": 5,
+   "i18n": {
+    "zh": {
+     "name": "风味专家I",
+     "desc": "你在烹饪中展现了惊人的天赋，霍格沃茨厨房中的家养小精灵们都希望得到你的指点！"
+    },
+    "en": {
+     "name": "Culinary Virtuoso I",
+     "desc": "You no longer turn food into fire—you turn it into art. People would queue for the honour of tasting your work."
+    }
+   },
+   "icon": "images/pic_chushi_huizhang_05.png",
+   "stats": {
+    "bag_uplimit": 100,
+    "extra_param": 0,
+    "finish_count": 9,
+    "max_order": 4,
+    "order_dish_max": [
+     50,
+     50
+    ],
+    "refresh_interval": [
+     3,
+     5
+    ],
+    "wait_queue": 6
+   }
+  },
+  {
+   "career_id": 2,
+   "level": 14,
+   "big_level": 5,
+   "sub_level": 2,
+   "need_exp": 800,
+   "skill_points": 1,
+   "i18n": {
+    "zh": {
+     "name": "风味专家II",
+     "desc": "你在烹饪中展现了惊人的天赋，霍格沃茨厨房中的家养小精灵们都希望得到你的指点！"
+    },
+    "en": {
+     "name": "Culinary Virtuoso II",
+     "desc": "You no longer turn food into fire—you turn it into art. People would queue for the honour of tasting your work."
+    }
+   },
+   "icon": "images/pic_chushi_huizhang_05.png",
+   "stats": {
+    "bag_uplimit": 100,
+    "extra_param": 0,
+    "finish_count": 10,
+    "max_order": 4,
+    "order_dish_max": [
+     50,
+     50
+    ],
+    "refresh_interval": [
+     3,
+     5
+    ],
+    "wait_queue": 6
+   }
+  },
+  {
+   "career_id": 2,
+   "level": 15,
+   "big_level": 5,
+   "sub_level": 3,
+   "need_exp": 900,
+   "skill_points": 1,
+   "i18n": {
+    "zh": {
+     "name": "风味专家III",
+     "desc": "你在烹饪中展现了惊人的天赋，霍格沃茨厨房中的家养小精灵们都希望得到你的指点！"
+    },
+    "en": {
+     "name": "Culinary Virtuoso III",
+     "desc": "You no longer turn food into fire—you turn it into art. People would queue for the honour of tasting your work."
+    }
+   },
+   "icon": "images/pic_chushi_huizhang_05.png",
+   "stats": {
+    "bag_uplimit": 100,
+    "extra_param": 0,
+    "finish_count": 10,
+    "max_order": 4,
+    "order_dish_max": [
+     0,
+     100
+    ],
+    "refresh_interval": [
+     3,
+     5
+    ],
+    "wait_queue": 6
+   }
+  },
+  {
+   "career_id": 2,
+   "level": 16,
+   "big_level": 6,
+   "sub_level": 1,
+   "need_exp": 1000,
+   "skill_points": 5,
+   "i18n": {
+    "zh": {
+     "name": "厨房大师I",
+     "desc": "你已经成长为精通料理的烹饪大师了！无论什么菜式，都能被你轻松掌握。"
+    },
+    "en": {
+     "name": "Master of Flavour I",
+     "desc": "Sweet, savoury, spicy, umami... Flavour itself bends to your will. You're a legend with a ladle."
+    }
+   },
+   "icon": "images/pic_chushi_huizhang_06.png",
+   "stats": {
+    "bag_uplimit": 100,
+    "extra_param": 0,
+    "finish_count": 10,
+    "max_order": 4,
+    "order_dish_max": [
+     0,
+     100
+    ],
+    "refresh_interval": [
+     3,
+     5
+    ],
+    "wait_queue": 6
+   }
+  },
+  {
+   "career_id": 2,
+   "level": 17,
+   "big_level": 6,
+   "sub_level": 2,
+   "need_exp": 1200,
+   "skill_points": 1,
+   "i18n": {
+    "zh": {
+     "name": "厨房大师II",
+     "desc": "你已经成长为精通料理的烹饪大师了！无论什么菜式，都能被你轻松掌握。"
+    },
+    "en": {
+     "name": "Master of Flavour II",
+     "desc": "Sweet, savoury, spicy, umami... Flavour itself bends to your will. You're a legend with a ladle."
+    }
+   },
+   "icon": "images/pic_chushi_huizhang_06.png",
+   "stats": {
+    "bag_uplimit": 100,
+    "extra_param": 0,
+    "finish_count": 10,
+    "max_order": 4,
+    "order_dish_max": [
+     0,
+     100
+    ],
+    "refresh_interval": [
+     3,
+     5
+    ],
+    "wait_queue": 6
+   }
+  },
+  {
+   "career_id": 2,
+   "level": 18,
+   "big_level": 6,
+   "sub_level": 3,
+   "need_exp": 1400,
+   "skill_points": 1,
+   "i18n": {
+    "zh": {
+     "name": "厨房大师III",
+     "desc": "你已经成长为精通料理的烹饪大师了！无论什么菜式，都能被你轻松掌握。"
+    },
+    "en": {
+     "name": "Master of Flavour III",
+     "desc": "Sweet, savoury, spicy, umami... Flavour itself bends to your will. You're a legend with a ladle."
+    }
+   },
+   "icon": "images/pic_chushi_huizhang_06.png",
+   "stats": {
+    "bag_uplimit": 100,
+    "extra_param": 0,
+    "finish_count": 10,
+    "max_order": 4,
+    "order_dish_max": [
+     0,
+     100
+    ],
+    "refresh_interval": [
+     3,
+     5
+    ],
+    "wait_queue": 6
+   }
+  }
+ ],
+ "research": [
+  {
+   "skill_id": 11001001,
+   "override_id": 11001001,
+   "career_id": 1,
+   "type": 3,
+   "sub_type": 7,
+   "param": [
+    1,
+    1
+   ],
+   "career_lv_req": 1,
+   "cost_point": 0,
+   "pre_skills": [],
+   "pre_tasks": [],
+   "tree_pos": "1_4",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "收获的喜悦·一",
+     "desc": "收获时,额外多收获1株。"
+    },
+    "en": {
+     "name": "Bountiful Harvest I",
+     "desc": "Obtain an additional plant when harvesting."
+    }
+   },
+   "icon": "images/icon_skill_wendinghuode_01.png"
+  },
+  {
+   "skill_id": 11001002,
+   "override_id": 11001002,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 1,
+   "param": [
+    12
+   ],
+   "career_lv_req": 1,
+   "cost_point": 0,
+   "pre_skills": [],
+   "pre_tasks": [],
+   "tree_pos": "1_2",
+   "auto_unlock": true,
+   "reset_flag": false,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "清水如泉·一",
+     "desc": "释放20点湿润值/每秒"
+    },
+    "en": {
+     "name": "Aguamenti I",
+     "desc": "Increase 20 Moisture points per second."
+    }
+   },
+   "icon": "images/icon_skill_qingshuiruquan_01.png"
+  },
+  {
+   "skill_id": 11001003,
+   "override_id": 11001003,
+   "career_id": 1,
+   "type": 3,
+   "sub_type": 6,
+   "param": [
+    2
+   ],
+   "career_lv_req": 1,
+   "cost_point": 0,
+   "pre_skills": [],
+   "pre_tasks": [],
+   "tree_pos": "1_3",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "草药保姆·一",
+     "desc": "同时种植数量+1，当前可同时栽种2株植物进行照料。"
+    },
+    "en": {
+     "name": "Plants Battler I",
+     "desc": "Can grow 1 more plant all at once, making the total to 2."
+    }
+   },
+   "icon": "images/icon_skill_zhushu_02.png"
+  },
+  {
+   "skill_id": 11001004,
+   "override_id": 11001004,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 3,
+   "param": [
+    6
+   ],
+   "career_lv_req": 3,
+   "cost_point": 0,
+   "pre_skills": [],
+   "pre_tasks": [
+    2160003
+   ],
+   "tree_pos": "1_1",
+   "auto_unlock": true,
+   "reset_flag": false,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "荧光闪烁·一",
+     "desc": "释放25点光照值/每秒"
+    },
+    "en": {
+     "name": "Light Bringer I",
+     "desc": "Increase 25 Light points per second."
+    }
+   },
+   "icon": "images/icon_skill_yingguangshansuo_01.png"
+  },
+  {
+   "skill_id": 11001005,
+   "override_id": 11001002,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 1,
+   "param": [
+    13
+   ],
+   "career_lv_req": 4,
+   "cost_point": 1,
+   "pre_skills": [
+    11001002
+   ],
+   "pre_tasks": [
+    2160004
+   ],
+   "tree_pos": "2_3",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "清水如泉·二",
+     "desc": "释放50点湿润值/每秒"
+    },
+    "en": {
+     "name": "Aguamenti II",
+     "desc": "Increase 50 Moisture points per second."
+    }
+   },
+   "icon": "images/icon_skill_qingshuiruquan_02.png"
+  },
+  {
+   "skill_id": 11001006,
+   "override_id": 11001003,
+   "career_id": 1,
+   "type": 3,
+   "sub_type": 6,
+   "param": [
+    3
+   ],
+   "career_lv_req": 4,
+   "cost_point": 2,
+   "pre_skills": [
+    11001003
+   ],
+   "pre_tasks": [
+    2160004
+   ],
+   "tree_pos": "2_4",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "草药保姆·二",
+     "desc": "同时种植数量+1，当前可同时栽种3株植物进行照料。"
+    },
+    "en": {
+     "name": "Plants Battler II",
+     "desc": "Can grow 1 more plant all at once, making the total to 3."
+    }
+   },
+   "icon": "images/icon_skill_zhushu_03.png"
+  },
+  {
+   "skill_id": 11001007,
+   "override_id": 11001001,
+   "career_id": 1,
+   "type": 3,
+   "sub_type": 7,
+   "param": [
+    1,
+    3
+   ],
+   "career_lv_req": 4,
+   "cost_point": 2,
+   "pre_skills": [
+    11001001
+   ],
+   "pre_tasks": [
+    2160004
+   ],
+   "tree_pos": "2_5",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "收获的喜悦·二",
+     "desc": "收获时,有概率格外多收获1-3株。"
+    },
+    "en": {
+     "name": "Bountiful Harvest II",
+     "desc": "Chance to obtain an additional 1-3 plants when harvesting."
+    }
+   },
+   "icon": "images/icon_skill_wendinghuode_02.png"
+  },
+  {
+   "skill_id": 11001008,
+   "override_id": 11001008,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 2,
+   "param": [
+    1
+   ],
+   "career_lv_req": 4,
+   "cost_point": 0,
+   "pre_skills": [],
+   "pre_tasks": [
+    2160004
+   ],
+   "tree_pos": "2_6",
+   "auto_unlock": true,
+   "reset_flag": false,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "甩掉甩掉！",
+     "desc": "找到害虫，长按捉起，大力丢出花盆！一次一只，小心被咬到！"
+    },
+    "en": {
+     "name": "Pest Plucker",
+     "desc": "Hold and drag to discard pests one by one!"
+    }
+   },
+   "icon": "images/icon_skill_tushouzhuachong.png"
+  },
+  {
+   "skill_id": 11001009,
+   "override_id": 11001009,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 4,
+   "param": [
+    18
+   ],
+   "career_lv_req": 7,
+   "cost_point": 0,
+   "pre_skills": [],
+   "pre_tasks": [
+    2160007
+   ],
+   "tree_pos": "5_8",
+   "auto_unlock": true,
+   "reset_flag": false,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "轻柔抚触",
+     "desc": "手指在植物上滑动，每3次+20心情值，温柔抚摸植物，让它感受到你的关注和爱意，每次将为植物增加20心情值。"
+    },
+    "en": {
+     "name": "Gentle Touch",
+     "desc": "Caress a plant and increase its Mood by 20 by sliding your finger 3 times on the screen."
+    }
+   },
+   "icon": "images/icon_skill_yaorenganlan.png"
+  },
+  {
+   "skill_id": 11001010,
+   "override_id": 11001010,
+   "career_id": 1,
+   "type": 3,
+   "sub_type": 0,
+   "param": [
+    0
+   ],
+   "career_lv_req": 3,
+   "cost_point": 0,
+   "pre_skills": [
+    11001004
+   ],
+   "pre_tasks": [
+    2160003
+   ],
+   "tree_pos": "2_1",
+   "auto_unlock": true,
+   "reset_flag": false,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "色彩大师·一",
+     "desc": "解锁1个植物基础颜色。"
+    },
+    "en": {
+     "name": "Artistic Florist I",
+     "desc": "Unlock a basic colour."
+    }
+   },
+   "icon": "images/icon_skill_tiaose_01.png"
+  },
+  {
+   "skill_id": 11001011,
+   "override_id": 11001004,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 3,
+   "param": [
+    7
+   ],
+   "career_lv_req": 4,
+   "cost_point": 1,
+   "pre_skills": [
+    11001004
+   ],
+   "pre_tasks": [
+    2160003
+   ],
+   "tree_pos": "2_2",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "荧光闪烁·二",
+     "desc": "释放100点光照值/每秒"
+    },
+    "en": {
+     "name": "Lumos II",
+     "desc": "Increase 100 Light points per second."
+    }
+   },
+   "icon": "images/icon_skill_yingguangshansuo_02.png"
+  },
+  {
+   "skill_id": 11001012,
+   "override_id": 11001010,
+   "career_id": 1,
+   "type": 3,
+   "sub_type": 0,
+   "param": [
+    15
+   ],
+   "career_lv_req": 4,
+   "cost_point": 1,
+   "pre_skills": [
+    11001010
+   ],
+   "pre_tasks": [
+    2160004
+   ],
+   "tree_pos": "3_1",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "色彩大师·二",
+     "desc": "每种植物播种并收获15株后，将追加该植物的第2个新颜色区段。"
+    },
+    "en": {
+     "name": "Artistic Florist II",
+     "desc": "Unlock a second colour for a plant that you have harvested 15 units."
+    }
+   },
+   "icon": "images/icon_skill_tiaose_02.png"
+  },
+  {
+   "skill_id": 11001013,
+   "override_id": 11001004,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 3,
+   "param": [
+    8
+   ],
+   "career_lv_req": 4,
+   "cost_point": 1,
+   "pre_skills": [
+    11001011
+   ],
+   "pre_tasks": [
+    2160004
+   ],
+   "tree_pos": "3_2",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "荧光闪烁·三",
+     "desc": "释放300点光照值/每秒"
+    },
+    "en": {
+     "name": "Light Bringer III",
+     "desc": "Increase 300 Light points per second."
+    }
+   },
+   "icon": "images/icon_skill_yingguangshansuo_03.png"
+  },
+  {
+   "skill_id": 11001014,
+   "override_id": 11001014,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 1,
+   "param": [
+    15
+   ],
+   "career_lv_req": 7,
+   "cost_point": 1,
+   "pre_skills": [
+    11001005
+   ],
+   "pre_tasks": [
+    2160007
+   ],
+   "tree_pos": "5_4",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "雷云咒·一",
+     "desc": "释放技能后，湿润度将保持100维持6小时，魔法失效后湿润度开始衰减"
+    },
+    "en": {
+     "name": "Meteolojinx I",
+     "desc": "Increase Moisture level to 100 for 6 hours before weakening."
+    }
+   },
+   "icon": "images/icon_skill_leiyunzhou_01.png"
+  },
+  {
+   "skill_id": 11001015,
+   "override_id": 11001002,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 1,
+   "param": [
+    14
+   ],
+   "career_lv_req": 4,
+   "cost_point": 1,
+   "pre_skills": [
+    11001005
+   ],
+   "pre_tasks": [
+    2160004
+   ],
+   "tree_pos": "3_3",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "清水如泉·三",
+     "desc": "释放100点湿润值/每秒"
+    },
+    "en": {
+     "name": "Aguamenti III",
+     "desc": "Increase 100 Moisture points per second."
+    }
+   },
+   "icon": "images/icon_skill_qingshuiruquan_03.png"
+  },
+  {
+   "skill_id": 11001016,
+   "override_id": 11001003,
+   "career_id": 1,
+   "type": 3,
+   "sub_type": 6,
+   "param": [
+    4
+   ],
+   "career_lv_req": 7,
+   "cost_point": 2,
+   "pre_skills": [
+    11001006
+   ],
+   "pre_tasks": [
+    2160007
+   ],
+   "tree_pos": "5_5",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "草药保姆·三",
+     "desc": "同时种植数量+1，当前可同时栽种4株植物进行照料。"
+    },
+    "en": {
+     "name": "Plants Battler III",
+     "desc": "Can grow 1 more plant all at once, making the total to 4."
+    }
+   },
+   "icon": "images/icon_skill_zhushu_04.png"
+  },
+  {
+   "skill_id": 11001017,
+   "override_id": 11001001,
+   "career_id": 1,
+   "type": 3,
+   "sub_type": 7,
+   "param": [
+    1,
+    5
+   ],
+   "career_lv_req": 7,
+   "cost_point": 1,
+   "pre_skills": [
+    11001007
+   ],
+   "pre_tasks": [
+    2160007
+   ],
+   "tree_pos": "5_6",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "收获的喜悦·三",
+     "desc": "收获时,有概率格外多收获1-5株。"
+    },
+    "en": {
+     "name": "Bountiful Harvest III",
+     "desc": "Chance to obtain an additional 1-5 plants when harvesting."
+    }
+   },
+   "icon": "images/icon_skill_wendinghuode_03.png"
+  },
+  {
+   "skill_id": 11001018,
+   "override_id": 11001018,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 2,
+   "param": [
+    2
+   ],
+   "career_lv_req": 5,
+   "cost_point": 1,
+   "pre_skills": [
+    11001008
+   ],
+   "pre_tasks": [
+    2160005
+   ],
+   "tree_pos": "3_4",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "漂浮咒·一",
+     "desc": "每次释放技能后，在指定范围内驱除最多3只虫子。"
+    },
+    "en": {
+     "name": "Levitation Charm I",
+     "desc": "Repel up to 3 pests in a targeted area."
+    }
+   },
+   "icon": "images/icon_skill_piaofuzhou_01.png"
+  },
+  {
+   "skill_id": 11001020,
+   "override_id": 11001020,
+   "career_id": 1,
+   "type": 3,
+   "sub_type": 0,
+   "param": [
+    150
+   ],
+   "career_lv_req": 10,
+   "cost_point": 1,
+   "pre_skills": [
+    11001035
+   ],
+   "pre_tasks": [
+    2160010
+   ],
+   "tree_pos": "8_1",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "色彩大师·特别版·一",
+     "desc": "每种植物播种并收获150株后，将追加该植物的第5个颜色区段。"
+    },
+    "en": {
+     "name": "Seasoned Artistic Florist I",
+     "desc": "Unlock a fifth colour for a plant after harvesting 150 specimens of it."
+    }
+   },
+   "icon": "images/icon_skill_tiaose_tebieban_01.png"
+  },
+  {
+   "skill_id": 11001021,
+   "override_id": 11001021,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 3,
+   "param": [
+    9
+   ],
+   "career_lv_req": 7,
+   "cost_point": 1,
+   "pre_skills": [
+    11001004
+   ],
+   "pre_tasks": [
+    2160007
+   ],
+   "tree_pos": "5_2",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "亮如白昼·一",
+     "desc": "释放技能后，通过调试光照值选择喜欢的颜色并锁定，锁色将维持3小时，魔法失效后光照值开始衰减。\n光照值的增长速度基于当前学习荧光闪烁的技能速度。"
+    },
+    "en": {
+     "name": "Lumos Solem I",
+     "desc": "Maintains Light level at the configured colour for 3 hours before weakening.\nThe speed at which Light level increases is based on your current Lumos level."
+    }
+   },
+   "icon": "images/icon_skill_guangzhaoshu_01.png"
+  },
+  {
+   "skill_id": 11001022,
+   "override_id": 11001022,
+   "career_id": 1,
+   "type": 3,
+   "sub_type": 13,
+   "param": [
+    400
+   ],
+   "career_lv_req": 7,
+   "cost_point": 1,
+   "pre_skills": [
+    11001015
+   ],
+   "pre_tasks": [
+    2160007
+   ],
+   "tree_pos": "5_3",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "乐善好施·一",
+     "desc": "帮助其他巫师浇水或清洁，总上限400湿润度或清洁度/每天."
+    },
+    "en": {
+     "name": "Helping Hand I",
+     "desc": "Help others water their plants for a total of 400 Moisture/Hygiene points per day."
+    }
+   },
+   "icon": "images/icon_skill_zhulijiaoshui_01.png"
+  },
+  {
+   "skill_id": 11001023,
+   "override_id": 11001003,
+   "career_id": 1,
+   "type": 3,
+   "sub_type": 6,
+   "param": [
+    5
+   ],
+   "career_lv_req": 7,
+   "cost_point": 2,
+   "pre_skills": [
+    11001016
+   ],
+   "pre_tasks": [
+    2160007
+   ],
+   "tree_pos": "6_2",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "草药保姆·四",
+     "desc": "同时种植数量+1，当前可同时栽种5株植物进行照料。"
+    },
+    "en": {
+     "name": "Plants Battler IV",
+     "desc": "Can grow 1 more plant all at once, making the total to 5."
+    }
+   },
+   "icon": "images/icon_skill_zhushu_05.png"
+  },
+  {
+   "skill_id": 11001025,
+   "override_id": 11001018,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 2,
+   "param": [
+    3
+   ],
+   "career_lv_req": 5,
+   "cost_point": 1,
+   "pre_skills": [
+    11001018
+   ],
+   "pre_tasks": [
+    2160005
+   ],
+   "tree_pos": "4_1",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "漂浮咒·二",
+     "desc": "驱逐全部害虫，且12小时内不会再次触发虫害。"
+    },
+    "en": {
+     "name": "Levitation Charm II",
+     "desc": "Repel all pests and prevent pest infestations for the next 12 hours."
+    }
+   },
+   "icon": "images/icon_skill_piaofuzhou_02.png"
+  },
+  {
+   "skill_id": 11001026,
+   "override_id": 11001010,
+   "career_id": 1,
+   "type": 3,
+   "sub_type": 0,
+   "param": [
+    45
+   ],
+   "career_lv_req": 7,
+   "cost_point": 1,
+   "pre_skills": [
+    11001012
+   ],
+   "pre_tasks": [
+    2160007
+   ],
+   "tree_pos": "5_1",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "色彩大师·三",
+     "desc": "每种植物播种并收获45株后，将追加该植物的第3个新颜色区段。"
+    },
+    "en": {
+     "name": "Artistic Florist III",
+     "desc": "Unlock a third colour for a plant that you have harvested 45 units."
+    }
+   },
+   "icon": "images/icon_skill_tiaose_03.png"
+  },
+  {
+   "skill_id": 11001027,
+   "override_id": 11001021,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 3,
+   "param": [
+    10
+   ],
+   "career_lv_req": 10,
+   "cost_point": 1,
+   "pre_skills": [
+    11001021
+   ],
+   "pre_tasks": [
+    2160010
+   ],
+   "tree_pos": "8_2",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "亮如白昼·二",
+     "desc": "释放技能后，通过调试光照值选择喜欢的颜色并锁定，锁色将维持6小时，魔法失效后光照值开始衰减。\n光照值的增长速度基于当前学习荧光闪烁的技能速度。"
+    },
+    "en": {
+     "name": "Lumos Solem II",
+     "desc": "Maintains Light level at the configured colour for 6 hours before weakening.\nThe speed at which Light level increases is based on your current Lumos level."
+    }
+   },
+   "icon": "images/icon_skill_guangzhaoshu_02.png"
+  },
+  {
+   "skill_id": 11001028,
+   "override_id": 11001014,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 1,
+   "param": [
+    16
+   ],
+   "career_lv_req": 10,
+   "cost_point": 1,
+   "pre_skills": [
+    11001014
+   ],
+   "pre_tasks": [
+    2160010
+   ],
+   "tree_pos": "8_4",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "雷云咒·二",
+     "desc": "释放技能后，湿润度将保持100维持12小时，魔法失效后湿润度开始衰减"
+    },
+    "en": {
+     "name": "Meteolojinx II",
+     "desc": "Increase Moisture level to 100 for 12 hours before weakening."
+    }
+   },
+   "icon": "images/icon_skill_leiyunzhou_02.png"
+  },
+  {
+   "skill_id": 11001029,
+   "override_id": 11001022,
+   "career_id": 1,
+   "type": 3,
+   "sub_type": 13,
+   "param": [
+    800
+   ],
+   "career_lv_req": 10,
+   "cost_point": 1,
+   "pre_skills": [
+    11001022
+   ],
+   "pre_tasks": [
+    2160010
+   ],
+   "tree_pos": "8_3",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "乐善好施·二",
+     "desc": "帮助其他巫师浇水或清洁，总上限800湿润度或清洁度/每天."
+    },
+    "en": {
+     "name": "Helping Hand II",
+     "desc": "Help others water their plants for a total of 800 Moisture/Hygiene points per day."
+    }
+   },
+   "icon": "images/icon_skill_zhulijiaoshui_02.png"
+  },
+  {
+   "skill_id": 11001030,
+   "override_id": 11001003,
+   "career_id": 1,
+   "type": 3,
+   "sub_type": 6,
+   "param": [
+    6
+   ],
+   "career_lv_req": 10,
+   "cost_point": 2,
+   "pre_skills": [
+    11001023
+   ],
+   "pre_tasks": [
+    2160010
+   ],
+   "tree_pos": "8_5",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "草药保姆·五",
+     "desc": "同时种植数量+1，当前可同时栽种6株植物进行照料。"
+    },
+    "en": {
+     "name": "Plants Battler V",
+     "desc": "Can grow 1 more plant all at once, making the total to 6."
+    }
+   },
+   "icon": "images/icon_skill_zhushu_06.png"
+  },
+  {
+   "skill_id": 11001031,
+   "override_id": 11001001,
+   "career_id": 1,
+   "type": 3,
+   "sub_type": 7,
+   "param": [
+    2,
+    5
+   ],
+   "career_lv_req": 10,
+   "cost_point": 2,
+   "pre_skills": [
+    11001017
+   ],
+   "pre_tasks": [
+    2160010
+   ],
+   "tree_pos": "8_6",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "收获的喜悦·四",
+     "desc": "收获时,有概率格外多收获2-5株。"
+    },
+    "en": {
+     "name": "Bountiful Harvest IV",
+     "desc": "Chance to obtain an additional 2-5 plants when harvesting."
+    }
+   },
+   "icon": "images/icon_skill_wendinghuode_04.png"
+  },
+  {
+   "skill_id": 11001033,
+   "override_id": 11001018,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 2,
+   "param": [
+    4
+   ],
+   "career_lv_req": 10,
+   "cost_point": 1,
+   "pre_skills": [
+    11001025
+   ],
+   "pre_tasks": [
+    2160010
+   ],
+   "tree_pos": "8_7",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "漂浮咒·三",
+     "desc": "驱逐全部害虫，且24小时内不会再次触发虫害。"
+    },
+    "en": {
+     "name": "Levitation Charm III",
+     "desc": "Repel all pests and prevent pest infestations for the next 24 hours."
+    }
+   },
+   "icon": "images/icon_skill_piaofuzhou_03.png"
+  },
+  {
+   "skill_id": 11001034,
+   "override_id": 11001034,
+   "career_id": 1,
+   "type": 2,
+   "sub_type": 9,
+   "param": [
+    1004
+   ],
+   "career_lv_req": 7,
+   "cost_point": 1,
+   "pre_skills": [
+    11001018
+   ],
+   "pre_tasks": [
+    2160007
+   ],
+   "tree_pos": "5_7",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "增强免疫力·一",
+     "desc": "出现害虫或杂草时，此技能可以保护植物6小时内不受到伤害，不产生负面结算效果。"
+    },
+    "en": {
+     "name": "Healthy Resilience I",
+     "desc": "Protects plants from pest infestations and adverse effects from pests for 6 hours."
+    }
+   },
+   "icon": "images/icon_skill_chonghaiyujing_01.png"
+  },
+  {
+   "skill_id": 11001035,
+   "override_id": 11001010,
+   "career_id": 1,
+   "type": 3,
+   "sub_type": 0,
+   "param": [
+    100
+   ],
+   "career_lv_req": 7,
+   "cost_point": 1,
+   "pre_skills": [
+    11001026
+   ],
+   "pre_tasks": [
+    2160007
+   ],
+   "tree_pos": "6_1",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "色彩大师·四",
+     "desc": "每种植物播种并收获100株后，将追加该植物的第4个新颜色区段。"
+    },
+    "en": {
+     "name": "Artistic Florist IV",
+     "desc": "Unlock a fourth colour for a plant that you have harvested 100 units."
+    }
+   },
+   "icon": "images/icon_skill_tiaose_04.png"
+  },
+  {
+   "skill_id": 11001036,
+   "override_id": 11001036,
+   "career_id": 1,
+   "type": 3,
+   "sub_type": 0,
+   "param": [
+    250
+   ],
+   "career_lv_req": 13,
+   "cost_point": 1,
+   "pre_skills": [
+    11001020
+   ],
+   "pre_tasks": [
+    2160013
+   ],
+   "tree_pos": "10_2",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "色彩大师·特别版·二",
+     "desc": "每种植物播种并收获250株后，将追加该植物的第6个颜色区段。"
+    },
+    "en": {
+     "name": "Seasoned Artistic Florist II",
+     "desc": "Unlock a sixth colour for a plant after harvesting 250 specimens of it."
+    }
+   },
+   "icon": "images/icon_skill_tiaose_tebieban_02.png"
+  },
+  {
+   "skill_id": 11001037,
+   "override_id": 11001021,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 3,
+   "param": [
+    11
+   ],
+   "career_lv_req": 13,
+   "cost_point": 2,
+   "pre_skills": [
+    11001027
+   ],
+   "pre_tasks": [
+    2160013
+   ],
+   "tree_pos": "10_1",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "亮如白昼·三",
+     "desc": "释放技能后，通过调试光照值选择喜欢的颜色并锁定，锁色将维持12小时，魔法失效后光照值开始衰减。\n光照值的增长速度基于当前学习荧光闪烁的技能速度。"
+    },
+    "en": {
+     "name": "Lumos Solem III",
+     "desc": "Maintains Light level at the configured colour for 12 hours before weakening.\nThe speed at which Light level increases is based on your current Lumos level."
+    }
+   },
+   "icon": "images/icon_skill_guangzhaoshu_03.png"
+  },
+  {
+   "skill_id": 11001038,
+   "override_id": 11001014,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 1,
+   "param": [
+    17
+   ],
+   "career_lv_req": 13,
+   "cost_point": 2,
+   "pre_skills": [
+    11001028
+   ],
+   "pre_tasks": [
+    2160013
+   ],
+   "tree_pos": "10_3",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "雷云咒·三",
+     "desc": "释放技能后，湿润度将保持100维持24小时，魔法失效后湿润度开始衰减"
+    },
+    "en": {
+     "name": "Meteolojinx III",
+     "desc": "Increase Moisture level to 100 for 24 hours before weakening."
+    }
+   },
+   "icon": "images/icon_skill_leiyunzhou_03.png"
+  },
+  {
+   "skill_id": 11001039,
+   "override_id": 11001022,
+   "career_id": 1,
+   "type": 3,
+   "sub_type": 13,
+   "param": [
+    1200
+   ],
+   "career_lv_req": 13,
+   "cost_point": 1,
+   "pre_skills": [
+    11001029
+   ],
+   "pre_tasks": [
+    2160013
+   ],
+   "tree_pos": "10_4",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "乐善好施·三",
+     "desc": "帮助其他巫师浇水或清洁，总上限1200湿润度或清洁度/每天."
+    },
+    "en": {
+     "name": "Helping Hand III",
+     "desc": "Help others water their plants for a total of 1,200 Moisture/Hygiene points per day."
+    }
+   },
+   "icon": "images/icon_skill_zhulijiaoshui_03.png"
+  },
+  {
+   "skill_id": 11001040,
+   "override_id": 11001003,
+   "career_id": 1,
+   "type": 3,
+   "sub_type": 6,
+   "param": [
+    8
+   ],
+   "career_lv_req": 13,
+   "cost_point": 2,
+   "pre_skills": [
+    11001030
+   ],
+   "pre_tasks": [
+    2160013
+   ],
+   "tree_pos": "10_5",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "草药保姆·六",
+     "desc": "同时种植数量+2，当前可同时栽种8株植物进行照料。"
+    },
+    "en": {
+     "name": "Plants Battler VI",
+     "desc": "Can grow 2 more plants all at once, making the total to 8."
+    }
+   },
+   "icon": "images/icon_skill_zhushu_08.png"
+  },
+  {
+   "skill_id": 11001041,
+   "override_id": 11001001,
+   "career_id": 1,
+   "type": 3,
+   "sub_type": 7,
+   "param": [
+    3,
+    5
+   ],
+   "career_lv_req": 13,
+   "cost_point": 2,
+   "pre_skills": [
+    11001031
+   ],
+   "pre_tasks": [
+    2160013
+   ],
+   "tree_pos": "10_6",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "收获的喜悦·五",
+     "desc": "收获时,有概率格外多收获3-5株。"
+    },
+    "en": {
+     "name": "Bountiful Harvest V",
+     "desc": "Chance to obtain an additional 3-5 plants when harvesting."
+    }
+   },
+   "icon": "images/icon_skill_wendinghuode_05.png"
+  },
+  {
+   "skill_id": 11001042,
+   "override_id": 11001018,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 2,
+   "param": [
+    5
+   ],
+   "career_lv_req": 13,
+   "cost_point": 2,
+   "pre_skills": [
+    11001033
+   ],
+   "pre_tasks": [
+    2160013
+   ],
+   "tree_pos": "10_7",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "漂浮咒·四",
+     "desc": "驱逐全部害虫，且36小时内不会再次触发虫害。"
+    },
+    "en": {
+     "name": "Levitation Charm IV",
+     "desc": "Repel all pests and prevent pest infestations for the next 36 hours."
+    }
+   },
+   "icon": "images/icon_skill_piaofuzhou_04.png"
+  },
+  {
+   "skill_id": 11001043,
+   "override_id": 11001034,
+   "career_id": 1,
+   "type": 2,
+   "sub_type": 9,
+   "param": [
+    1005
+   ],
+   "career_lv_req": 10,
+   "cost_point": 2,
+   "pre_skills": [
+    11001034
+   ],
+   "pre_tasks": [
+    2160010
+   ],
+   "tree_pos": "8_8",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "增强免疫力·二",
+     "desc": "出现害虫或杂草时，此技能可以保护植物9小时内不受到伤害，不产生负面结算效果。"
+    },
+    "en": {
+     "name": "Healthy Resilience II",
+     "desc": "Protects plants from pest infestations and adverse effects from pests for 9 hours."
+    }
+   },
+   "icon": "images/icon_skill_chonghaiyujing_02.png"
+  },
+  {
+   "skill_id": 11001045,
+   "override_id": 11001045,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 4,
+   "param": [
+    19
+   ],
+   "career_lv_req": 8,
+   "cost_point": 2,
+   "pre_skills": [
+    11001009
+   ],
+   "pre_tasks": [
+    2160008
+   ],
+   "tree_pos": "6_3",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "音乐演奏",
+     "desc": "为植物演奏音乐，心情值将保持100维持3小时，过时后心情值开始衰减。"
+    },
+    "en": {
+     "name": "Play Music",
+     "desc": "Plays music for a plant, keeping its mood level at 100 for 3 hours before weakening."
+    }
+   },
+   "icon": "images/icon_skill_yinyue_01.png"
+  },
+  {
+   "skill_id": 11001046,
+   "override_id": 11001046,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 11,
+   "param": [
+    20
+   ],
+   "career_lv_req": 2,
+   "cost_point": 0,
+   "pre_skills": [],
+   "pre_tasks": [
+    2160002
+   ],
+   "tree_pos": "1_5",
+   "auto_unlock": true,
+   "reset_flag": false,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "擦擦擦·一",
+     "desc": "手动清洁种植缸，擦除其中的污垢。\n每擦一下+5清洁值"
+    },
+    "en": {
+     "name": "Stain Removal I",
+     "desc": "Removes stains and unwanted residue on your aquatic planter.\n+5 Hygiene per Action"
+    }
+   },
+   "icon": "images/icon_skill_caboli_01.png"
+  },
+  {
+   "skill_id": 11001047,
+   "override_id": 11001046,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 11,
+   "param": [
+    21
+   ],
+   "career_lv_req": 4,
+   "cost_point": 1,
+   "pre_skills": [
+    11001046
+   ],
+   "pre_tasks": [
+    2160004
+   ],
+   "tree_pos": "2_7",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "擦擦擦·二",
+     "desc": "熟练的清理大师，拥有高效的手动清洁技巧！\n每擦一下+10清洁值"
+    },
+    "en": {
+     "name": "Stain Removal II",
+     "desc": "Removes stains and unwanted residue on your aquatic planter at a faster speed.\n+10 Hygiene per Action"
+    }
+   },
+   "icon": "images/icon_skill_caboli_02.png"
+  },
+  {
+   "skill_id": 11001048,
+   "override_id": 11001046,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 11,
+   "param": [
+    22
+   ],
+   "career_lv_req": 6,
+   "cost_point": 1,
+   "pre_skills": [
+    11001047
+   ],
+   "pre_tasks": [
+    2160007
+   ],
+   "tree_pos": "4_2",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "擦擦擦·三",
+     "desc": "熟练的清洁大师，快速清洁对你来说不在话下！\n每擦一下+50清洁值"
+    },
+    "en": {
+     "name": "Stain Removal III",
+     "desc": "Removes stains and unwanted residue on your aquatic planter at an even faster speed.\n+50 Hygiene per Action"
+    }
+   },
+   "icon": "images/icon_skill_caboli_03.png"
+  },
+  {
+   "skill_id": 11001049,
+   "override_id": 11001049,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 11,
+   "param": [
+    23
+   ],
+   "career_lv_req": 7,
+   "cost_point": 1,
+   "pre_skills": [
+    11001046
+   ],
+   "pre_tasks": [
+    2160007
+   ],
+   "tree_pos": "5_9",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "污垢除除净·一",
+     "desc": "释放技能后，清洁度将保持100维持6小时，魔法失效后清洁度开始衰减"
+    },
+    "en": {
+     "name": "Scour Away I",
+     "desc": "Maintains Hygiene at 100 for 6 hours before weakening."
+    }
+   },
+   "icon": "images/icon_skill_qingjiezhou_01.png"
+  },
+  {
+   "skill_id": 11001050,
+   "override_id": 11001049,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 11,
+   "param": [
+    24
+   ],
+   "career_lv_req": 9,
+   "cost_point": 1,
+   "pre_skills": [
+    11001049
+   ],
+   "pre_tasks": [
+    2160009
+   ],
+   "tree_pos": "7_1",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "污垢除除净·二",
+     "desc": "释放技能后，清洁度将保持100维持12小时，魔法失效后清洁度开始衰减"
+    },
+    "en": {
+     "name": "Scour Away II",
+     "desc": "Maintains Hygiene at 100 for 12 hours before weakening."
+    }
+   },
+   "icon": "images/icon_skill_qingjiezhou_02.png"
+  },
+  {
+   "skill_id": 11001051,
+   "override_id": 11001049,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 11,
+   "param": [
+    25
+   ],
+   "career_lv_req": 11,
+   "cost_point": 2,
+   "pre_skills": [
+    11001050
+   ],
+   "pre_tasks": [
+    2160011
+   ],
+   "tree_pos": "8_10",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "污垢除除净·三",
+     "desc": "释放技能后，清洁度将保持100维持24小时，魔法失效后清洁度开始衰减"
+    },
+    "en": {
+     "name": "Scour Away III",
+     "desc": "Maintains Hygiene at 100 for 24 hours before weakening."
+    }
+   },
+   "icon": "images/icon_skill_qingjiezhou_03.png"
+  },
+  {
+   "skill_id": 11001052,
+   "override_id": 11001052,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 10,
+   "param": [
+    26
+   ],
+   "career_lv_req": 10,
+   "cost_point": 0,
+   "pre_skills": [],
+   "pre_tasks": [
+    2160007
+   ],
+   "tree_pos": "8_11",
+   "auto_unlock": true,
+   "reset_flag": false,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "拔拔拔！",
+     "desc": "长按杂草，并将杂草丢出种植盆！"
+    },
+    "en": {
+     "name": "Declutter",
+     "desc": "Hold and drag to remove unwanted invasive growths from your planting station."
+    }
+   },
+   "icon": "images/icon_skill_shoudongchucao.png"
+  },
+  {
+   "skill_id": 11001053,
+   "override_id": 11001053,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 10,
+   "param": [
+    27
+   ],
+   "career_lv_req": 11,
+   "cost_point": 1,
+   "pre_skills": [
+    11001052
+   ],
+   "pre_tasks": [
+    2160005
+   ],
+   "tree_pos": "9_1",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "切割咒·一",
+     "desc": "清除所有杂草，且12小时内不会再次生长杂草。"
+    },
+    "en": {
+     "name": "Diffindo I",
+     "desc": "Keeps the planting station clear of all invasive growths for 12 hours."
+    }
+   },
+   "icon": "images/icon_skill_qiegezhou_01.png"
+  },
+  {
+   "skill_id": 11001054,
+   "override_id": 11001053,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 10,
+   "param": [
+    28
+   ],
+   "career_lv_req": 13,
+   "cost_point": 1,
+   "pre_skills": [
+    11001053
+   ],
+   "pre_tasks": [
+    2160005
+   ],
+   "tree_pos": "10_9",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "切割咒·二",
+     "desc": "清除所有杂草，且24小时内不会再次生长杂草。"
+    },
+    "en": {
+     "name": "Diffindo II",
+     "desc": "Keeps the planting station clear of all invasive growths for 24 hours."
+    }
+   },
+   "icon": "images/icon_skill_qiegezhou_02.png"
+  },
+  {
+   "skill_id": 11001055,
+   "override_id": 11001053,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 10,
+   "param": [
+    29
+   ],
+   "career_lv_req": 15,
+   "cost_point": 1,
+   "pre_skills": [
+    11001054
+   ],
+   "pre_tasks": [
+    2160010
+   ],
+   "tree_pos": "12_2",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "切割咒·三",
+     "desc": "清除所有杂草，且36小时内不会再次生长杂草。"
+    },
+    "en": {
+     "name": "Diffindo III",
+     "desc": "Keeps the planting station clear of all invasive growths for 36 hours."
+    }
+   },
+   "icon": "images/icon_skill_qiegezhou_03.png"
+  },
+  {
+   "skill_id": 11001060,
+   "override_id": 11001045,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 4,
+   "param": [
+    30
+   ],
+   "career_lv_req": 10,
+   "cost_point": 2,
+   "pre_skills": [
+    11001045
+   ],
+   "pre_tasks": [
+    2160010
+   ],
+   "tree_pos": "8_9",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "音乐演奏·二",
+     "desc": "演奏音乐后，植物的心情值将在6小时内保持在100，6小时后心情值将开始衰减。"
+    },
+    "en": {
+     "name": "Play Music II",
+     "desc": "Plays music for a plant, keeping its mood level at 100 for 6 hours before weakening."
+    }
+   },
+   "icon": "images/icon_skill_yinyue_02.png"
+  },
+  {
+   "skill_id": 11001061,
+   "override_id": 11001045,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 4,
+   "param": [
+    31
+   ],
+   "career_lv_req": 13,
+   "cost_point": 2,
+   "pre_skills": [
+    11001060
+   ],
+   "pre_tasks": [
+    2160013
+   ],
+   "tree_pos": "10_8",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "音乐演奏·三",
+     "desc": "演奏音乐后，植物的心情值将在12小时内保持在100，12小时后心情值将开始衰减。"
+    },
+    "en": {
+     "name": "Play Music III",
+     "desc": "Plays music for a plant, keeping its mood level at 100 for 12 hours before weakening."
+    }
+   },
+   "icon": "images/icon_skill_yinyue_03.png"
+  },
+  {
+   "skill_id": 11001062,
+   "override_id": 11001045,
+   "career_id": 1,
+   "type": 1,
+   "sub_type": 4,
+   "param": [
+    32
+   ],
+   "career_lv_req": 15,
+   "cost_point": 2,
+   "pre_skills": [
+    11001061
+   ],
+   "pre_tasks": [
+    2160015
+   ],
+   "tree_pos": "12_1",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "音乐演奏·四",
+     "desc": "演奏音乐后，植物的心情值将在24小时内保持在100，24小时后心情值将开始衰减。"
+    },
+    "en": {
+     "name": "Play Music IV",
+     "desc": "Plays music for a plant, keeping its mood level at 100 for 24 hours before weakening."
+    }
+   },
+   "icon": "images/icon_skill_yinyue_04.png"
+  },
+  {
+   "skill_id": 21001001,
+   "override_id": 21001001,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 15,
+   "param": [
+    5
+   ],
+   "career_lv_req": 1,
+   "cost_point": 1,
+   "pre_skills": [],
+   "pre_tasks": [
+    25052201
+   ],
+   "tree_pos": "1_2",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "庖耐力王·一",
+     "desc": "增加订单挑战玩法时长5秒。"
+    },
+    "en": {
+     "name": "Race Against Time I",
+     "desc": "Extends each Order Gauntlet by 5 seconds."
+    }
+   },
+   "icon": "images/icon_skill_zengjiashichang_01.png"
+  },
+  {
+   "skill_id": 21001002,
+   "override_id": 21001001,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 15,
+   "param": [
+    8
+   ],
+   "career_lv_req": 4,
+   "cost_point": 1,
+   "pre_skills": [
+    21001001
+   ],
+   "pre_tasks": [
+    25052204
+   ],
+   "tree_pos": "2_3",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "庖耐力王·二",
+     "desc": "增加订单挑战玩法时长8秒。"
+    },
+    "en": {
+     "name": "Race Against Time II",
+     "desc": "Extends each Order Gauntlet by 8 seconds."
+    }
+   },
+   "icon": "images/icon_skill_zengjiashichang_02.png"
+  },
+  {
+   "skill_id": 21001003,
+   "override_id": 21001001,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 15,
+   "param": [
+    12
+   ],
+   "career_lv_req": 7,
+   "cost_point": 1,
+   "pre_skills": [
+    21001002
+   ],
+   "pre_tasks": [
+    25052207
+   ],
+   "tree_pos": "5_4",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "庖耐力王·三",
+     "desc": "增加订单挑战玩法时长12秒。"
+    },
+    "en": {
+     "name": "Race Against Time III",
+     "desc": "Extends each Order Gauntlet by 12 seconds."
+    }
+   },
+   "icon": "images/icon_skill_zengjiashichang_03.png"
+  },
+  {
+   "skill_id": 21001004,
+   "override_id": 21001001,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 15,
+   "param": [
+    16
+   ],
+   "career_lv_req": 10,
+   "cost_point": 1,
+   "pre_skills": [
+    21001003
+   ],
+   "pre_tasks": [
+    25052210
+   ],
+   "tree_pos": "8_4",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "庖耐力王·四",
+     "desc": "增加订单挑战玩法时长16秒。"
+    },
+    "en": {
+     "name": "Race Against Time IV",
+     "desc": "Extends each Order Gauntlet by 16 seconds."
+    }
+   },
+   "icon": "images/icon_skill_zengjiashichang_04.png"
+  },
+  {
+   "skill_id": 21001006,
+   "override_id": 21001006,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 16,
+   "param": [
+    5
+   ],
+   "career_lv_req": 1,
+   "cost_point": 1,
+   "pre_skills": [],
+   "pre_tasks": [
+    25052201
+   ],
+   "tree_pos": "1_5",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "美味的小费·一",
+     "desc": "每道菜获得的基础分提升5分。"
+    },
+    "en": {
+     "name": "Points of Perfection I",
+     "desc": "Gain 5 extra base points per dish."
+    }
+   },
+   "icon": "images/icon_skill_paimingshangmingshangshen_01.png"
+  },
+  {
+   "skill_id": 21001007,
+   "override_id": 21001006,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 16,
+   "param": [
+    8
+   ],
+   "career_lv_req": 4,
+   "cost_point": 1,
+   "pre_skills": [
+    21001006
+   ],
+   "pre_tasks": [
+    25052204
+   ],
+   "tree_pos": "5_9",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "美味的小费·二",
+     "desc": "每道菜获得的基础分提升8分。"
+    },
+    "en": {
+     "name": "Points of Perfection II",
+     "desc": "Gain 8 extra base points per dish."
+    }
+   },
+   "icon": "images/icon_skill_paimingshangmingshangshen_02.png"
+  },
+  {
+   "skill_id": 21001008,
+   "override_id": 21001006,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 16,
+   "param": [
+    12
+   ],
+   "career_lv_req": 6,
+   "cost_point": 1,
+   "pre_skills": [
+    21001007
+   ],
+   "pre_tasks": [
+    25052206
+   ],
+   "tree_pos": "7_1",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "美味的小费·三",
+     "desc": "每道菜获得的基础分提升12分。"
+    },
+    "en": {
+     "name": "Points of Perfection III",
+     "desc": "Gain 12 extra base points per dish."
+    }
+   },
+   "icon": "images/icon_skill_paimingshangmingshangshen_03.png"
+  },
+  {
+   "skill_id": 21001009,
+   "override_id": 21001006,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 16,
+   "param": [
+    16
+   ],
+   "career_lv_req": 7,
+   "cost_point": 1,
+   "pre_skills": [
+    21001008
+   ],
+   "pre_tasks": [
+    25052207
+   ],
+   "tree_pos": "8_10",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "美味的小费·四",
+     "desc": "每道菜获得的基础分提升16分。"
+    },
+    "en": {
+     "name": "Points of Perfection IV",
+     "desc": "Gain 16 extra base points per dish."
+    }
+   },
+   "icon": "images/icon_skill_paimingshangmingshangshen_04.png"
+  },
+  {
+   "skill_id": 21001041,
+   "override_id": 21001041,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 17,
+   "param": [
+    0.05
+   ],
+   "career_lv_req": 5,
+   "cost_point": 1,
+   "pre_skills": [],
+   "pre_tasks": [
+    25052205
+   ],
+   "tree_pos": "3_3",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "熟能生巧·一",
+     "desc": "收取精灵委托烹饪时,5%概率额外产出一个食物。"
+    },
+    "en": {
+     "name": "Double Portion I",
+     "desc": "5% chance to receive an extra dish from a Hearth Helper commission."
+    }
+   },
+   "icon": "images/icon_skill_guajifanhuancailiao_01.png"
+  },
+  {
+   "skill_id": 21001042,
+   "override_id": 21001041,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 17,
+   "param": [
+    0.1
+   ],
+   "career_lv_req": 7,
+   "cost_point": 1,
+   "pre_skills": [
+    21001041
+   ],
+   "pre_tasks": [
+    25052207
+   ],
+   "tree_pos": "5_3",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "熟能生巧·二",
+     "desc": "收取精灵委托烹饪时,10%概率额外产出一个食物。"
+    },
+    "en": {
+     "name": "Double Portion II",
+     "desc": "10% chance to receive an extra dish from a Hearth Helper commission."
+    }
+   },
+   "icon": "images/icon_skill_guajifanhuancailiao_02.png"
+  },
+  {
+   "skill_id": 21001043,
+   "override_id": 21001041,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 17,
+   "param": [
+    0.15
+   ],
+   "career_lv_req": 10,
+   "cost_point": 1,
+   "pre_skills": [
+    21001042
+   ],
+   "pre_tasks": [
+    25052210
+   ],
+   "tree_pos": "8_3",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "熟能生巧·三",
+     "desc": "收取精灵委托烹饪时,15%概率额外产出一个食物。"
+    },
+    "en": {
+     "name": "Double Portion III",
+     "desc": "15% chance to receive an extra dish from a Hearth Helper commission."
+    }
+   },
+   "icon": "images/icon_skill_guajifanhuancailiao_03.png"
+  },
+  {
+   "skill_id": 21001044,
+   "override_id": 21001041,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 17,
+   "param": [
+    0.2
+   ],
+   "career_lv_req": 13,
+   "cost_point": 1,
+   "pre_skills": [
+    21001043
+   ],
+   "pre_tasks": [
+    25052213
+   ],
+   "tree_pos": "11_3",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "熟能生巧·四",
+     "desc": "收取精灵委托烹饪时,20%概率额外产出一个食物。"
+    },
+    "en": {
+     "name": "Double Portion IV",
+     "desc": "20% chance to receive an extra dish from a Hearth Helper commission."
+    }
+   },
+   "icon": "images/icon_skill_guajifanhuancailiao_04.png"
+  },
+  {
+   "skill_id": 21001046,
+   "override_id": 21001046,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 18,
+   "param": [
+    1
+   ],
+   "career_lv_req": 1,
+   "cost_point": 1,
+   "pre_skills": [],
+   "pre_tasks": [
+    25052201
+   ],
+   "tree_pos": "1_6",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "烹出的惊喜·一",
+     "desc": "完成订单挑战获得的委托券数量+1。"
+    },
+    "en": {
+     "name": "Ticket to the Hearth I",
+     "desc": "Receive 1 extra Hearth Ticket from completed Order Gauntlets."
+    }
+   },
+   "icon": "images/icon_skill_peifang_1.png"
+  },
+  {
+   "skill_id": 21001047,
+   "override_id": 21001046,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 18,
+   "param": [
+    2
+   ],
+   "career_lv_req": 4,
+   "cost_point": 1,
+   "pre_skills": [
+    21001046
+   ],
+   "pre_tasks": [
+    25052204
+   ],
+   "tree_pos": "2_6",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "烹出的惊喜·二",
+     "desc": "完成订单挑战获得的委托券数量+2。"
+    },
+    "en": {
+     "name": "Ticket to the Hearth II",
+     "desc": "Receive 2 extra Hearth Tickets from completed Order Gauntlets."
+    }
+   },
+   "icon": "images/icon_skill_peifang_2.png"
+  },
+  {
+   "skill_id": 21001048,
+   "override_id": 21001046,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 18,
+   "param": [
+    3
+   ],
+   "career_lv_req": 7,
+   "cost_point": 1,
+   "pre_skills": [
+    21001047
+   ],
+   "pre_tasks": [
+    25052207
+   ],
+   "tree_pos": "5_11",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "烹出的惊喜·三",
+     "desc": "完成订单挑战获得的委托券数量+3。"
+    },
+    "en": {
+     "name": "Ticket to the Hearth III",
+     "desc": "Receive 3 extra Hearth Tickets from completed Order Gauntlets."
+    }
+   },
+   "icon": "images/icon_skill_peifang_3.png"
+  },
+  {
+   "skill_id": 21001049,
+   "override_id": 21001046,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 18,
+   "param": [
+    4
+   ],
+   "career_lv_req": 10,
+   "cost_point": 1,
+   "pre_skills": [
+    21001048
+   ],
+   "pre_tasks": [
+    25052210
+   ],
+   "tree_pos": "8_7",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "烹出的惊喜·四",
+     "desc": "完成订单挑战获得的委托券数量+4。"
+    },
+    "en": {
+     "name": "Ticket to the Hearth IV",
+     "desc": "Receive 4 extra Hearth Tickets from completed Order Gauntlets."
+    }
+   },
+   "icon": "images/icon_skill_peifang_4.png"
+  },
+  {
+   "skill_id": 21001050,
+   "override_id": 21001046,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 18,
+   "param": [
+    5
+   ],
+   "career_lv_req": 13,
+   "cost_point": 1,
+   "pre_skills": [
+    21001049
+   ],
+   "pre_tasks": [
+    25052213
+   ],
+   "tree_pos": "11_7",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "烹出的惊喜·五",
+     "desc": "完成订单挑战获得的委托券数量+5。"
+    },
+    "en": {
+     "name": "Ticket to the Hearth V",
+     "desc": "Receive 5 extra Hearth Tickets from completed Order Gauntlets."
+    }
+   },
+   "icon": "images/icon_skill_peifang_5.png"
+  },
+  {
+   "skill_id": 21001051,
+   "override_id": 21001051,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 19,
+   "param": [
+    0.05
+   ],
+   "career_lv_req": 1,
+   "cost_point": 1,
+   "pre_skills": [],
+   "pre_tasks": [
+    25052201
+   ],
+   "tree_pos": "1_7",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "极速出品·一",
+     "desc": "委托小精灵烹饪菜品时，菜品的烹饪时长缩减5%。"
+    },
+    "en": {
+     "name": "Faster Than Flame I",
+     "desc": "Reduces Hearth Helper commission duration by 5%."
+    }
+   },
+   "icon": "images/icon_skill_jianshaoqimindengdai_jianguo_01.png"
+  },
+  {
+   "skill_id": 21001052,
+   "override_id": 21001051,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 19,
+   "param": [
+    0.1
+   ],
+   "career_lv_req": 4,
+   "cost_point": 1,
+   "pre_skills": [
+    21001051
+   ],
+   "pre_tasks": [
+    25052204
+   ],
+   "tree_pos": "2_2",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "极速出品·二",
+     "desc": "委托小精灵烹饪菜品时，菜品的烹饪时长缩减10%。"
+    },
+    "en": {
+     "name": "Faster Than Flame II",
+     "desc": "Reduces Hearth Helper commission duration by 10%."
+    }
+   },
+   "icon": "images/icon_skill_jianshaoqimindengdai_jianguo_02.png"
+  },
+  {
+   "skill_id": 21001053,
+   "override_id": 21001051,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 19,
+   "param": [
+    0.15
+   ],
+   "career_lv_req": 7,
+   "cost_point": 1,
+   "pre_skills": [
+    21001052
+   ],
+   "pre_tasks": [
+    25052207
+   ],
+   "tree_pos": "5_10",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "极速出品·三",
+     "desc": "委托小精灵烹饪菜品时，菜品的烹饪时长缩减15%。"
+    },
+    "en": {
+     "name": "Faster Than Flame III",
+     "desc": "Reduces Hearth Helper commission duration by 15%."
+    }
+   },
+   "icon": "images/icon_skill_jianshaoqimindengdai_jianguo_03.png"
+  },
+  {
+   "skill_id": 21001054,
+   "override_id": 21001051,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 19,
+   "param": [
+    0.2
+   ],
+   "career_lv_req": 10,
+   "cost_point": 1,
+   "pre_skills": [
+    21001053
+   ],
+   "pre_tasks": [
+    25052210
+   ],
+   "tree_pos": "8_6",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "极速出品·四",
+     "desc": "委托小精灵烹饪菜品时，菜品的烹饪时长缩减20%。"
+    },
+    "en": {
+     "name": "Faster Than Flame IV",
+     "desc": "Reduces Hearth Helper commission duration by 20%."
+    }
+   },
+   "icon": "images/icon_skill_jianshaoqimindengdai_jianguo_04.png"
+  },
+  {
+   "skill_id": 21001055,
+   "override_id": 21001051,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 19,
+   "param": [
+    0.25
+   ],
+   "career_lv_req": 13,
+   "cost_point": 1,
+   "pre_skills": [
+    21001054
+   ],
+   "pre_tasks": [
+    25052213
+   ],
+   "tree_pos": "11_4",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "极速出品·五",
+     "desc": "委托小精灵烹饪菜品时，菜品的烹饪时长缩减25%。"
+    },
+    "en": {
+     "name": "Faster Than Flame V",
+     "desc": "Reduces Hearth Helper commission duration by 25%."
+    }
+   },
+   "icon": "images/icon_skill_jianshaoqimindengdai_jianguo_05.png"
+  },
+  {
+   "skill_id": 21001056,
+   "override_id": 21001056,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 23,
+   "param": [
+    2
+   ],
+   "career_lv_req": 7,
+   "cost_point": 1,
+   "pre_skills": [],
+   "pre_tasks": [
+    25052207
+   ],
+   "tree_pos": "5_7",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "灶台战略家·一",
+     "desc": "可以同时委托小精灵代工的烹饪台数量+1，现在最多可以同时委托2个小精灵。"
+    },
+    "en": {
+     "name": "The Delegator I",
+     "desc": "Increases the number of House-elves you can assign at the Gastronome's Station by 1. You can now have up to 2 working simultaneously."
+    }
+   },
+   "icon": "images/icon_skill_gongzuotai01.png"
+  },
+  {
+   "skill_id": 21001057,
+   "override_id": 21001056,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 23,
+   "param": [
+    3
+   ],
+   "career_lv_req": 10,
+   "cost_point": 1,
+   "pre_skills": [
+    21001056
+   ],
+   "pre_tasks": [
+    25052210
+   ],
+   "tree_pos": "8_8",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "灶台战略家·二",
+     "desc": "可以同时委托小精灵代工的烹饪台数量+2，现在最多可以同时委托3个小精灵。"
+    },
+    "en": {
+     "name": "The Delegator II",
+     "desc": "Increases the number of House-elves you can assign at the Gastronome's Station by 2. You can now have up to 3 working simultaneously."
+    }
+   },
+   "icon": "images/icon_skill_gongzuotai02.png"
+  },
+  {
+   "skill_id": 21001058,
+   "override_id": 21001058,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 24,
+   "param": [
+    10
+   ],
+   "career_lv_req": 7,
+   "cost_point": 1,
+   "pre_skills": [],
+   "pre_tasks": [
+    25052207
+   ],
+   "tree_pos": "5_8",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "知名大厨·一",
+     "desc": "订单挑战玩法初始知名度提升10。"
+    },
+    "en": {
+     "name": "First Bite Advantage I",
+     "desc": "Gain +10 starting Visibility in Order Gauntlets."
+    }
+   },
+   "icon": "images/icon_skill_redu_01.png"
+  },
+  {
+   "skill_id": 21001059,
+   "override_id": 21001058,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 24,
+   "param": [
+    20
+   ],
+   "career_lv_req": 8,
+   "cost_point": 1,
+   "pre_skills": [
+    21001058
+   ],
+   "pre_tasks": [
+    25052208
+   ],
+   "tree_pos": "6_3",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "知名大厨·二",
+     "desc": "订单挑战玩法初始知名度提升20。"
+    },
+    "en": {
+     "name": "First Bite Advantage II",
+     "desc": "Gain +20 starting Visibility in Order Gauntlets."
+    }
+   },
+   "icon": "images/icon_skill_redu_02.png"
+  },
+  {
+   "skill_id": 21001060,
+   "override_id": 21001058,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 24,
+   "param": [
+    30
+   ],
+   "career_lv_req": 10,
+   "cost_point": 1,
+   "pre_skills": [
+    21001059
+   ],
+   "pre_tasks": [
+    25052210
+   ],
+   "tree_pos": "8_9",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "知名大厨·三",
+     "desc": "订单挑战玩法初始知名度提升30。"
+    },
+    "en": {
+     "name": "First Bite Advantage III",
+     "desc": "Gain +30 starting Visibility in Order Gauntlets"
+    }
+   },
+   "icon": "images/icon_skill_redu_03.png"
+  },
+  {
+   "skill_id": 21001061,
+   "override_id": 21001058,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 24,
+   "param": [
+    50
+   ],
+   "career_lv_req": 13,
+   "cost_point": 1,
+   "pre_skills": [
+    21001060
+   ],
+   "pre_tasks": [
+    25052213
+   ],
+   "tree_pos": "10_1",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "知名大厨·四",
+     "desc": "订单挑战玩法初始知名度提升50。"
+    },
+    "en": {
+     "name": "First Bite Advantage IV",
+     "desc": "Gain +50 starting Visibility in Order Gauntlets."
+    }
+   },
+   "icon": "images/icon_skill_redu_04.png"
+  },
+  {
+   "skill_id": 21001062,
+   "override_id": 21001062,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 26,
+   "param": [
+    1,
+    10
+   ],
+   "career_lv_req": 4,
+   "cost_point": 1,
+   "pre_skills": [],
+   "pre_tasks": [
+    25052204
+   ],
+   "tree_pos": "2_1",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "品质优选·一",
+     "desc": "每完成一个烹饪研究任务，售卖烹饪菜品时，菜品的售卖价格增加1%，最多增加10%。"
+    },
+    "en": {
+     "name": "Profits à la Mode I",
+     "desc": "Dish sell price +1% per Gastronomic Explorer research task completed, up to 10%."
+    }
+   },
+   "icon": "images/icon_skill_zjgjgaojicaipingailv_01.png"
+  },
+  {
+   "skill_id": 21001063,
+   "override_id": 21001062,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 26,
+   "param": [
+    1,
+    20
+   ],
+   "career_lv_req": 5,
+   "cost_point": 1,
+   "pre_skills": [
+    21001062
+   ],
+   "pre_tasks": [
+    25052205
+   ],
+   "tree_pos": "3_1",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "品质优选·二",
+     "desc": "每完成一个烹饪研究任务，售卖烹饪菜品时，菜品的售卖价格增加1%，最多增加20%。"
+    },
+    "en": {
+     "name": "Profits à la Mode II",
+     "desc": "Dish sell price +1% per Gastronomic Explorer research task completed, up to 20%."
+    }
+   },
+   "icon": "images/icon_skill_zjgjgaojicaipingailv_02.png"
+  },
+  {
+   "skill_id": 21001064,
+   "override_id": 21001062,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 26,
+   "param": [
+    1,
+    30
+   ],
+   "career_lv_req": 7,
+   "cost_point": 1,
+   "pre_skills": [
+    21001063
+   ],
+   "pre_tasks": [
+    25052207
+   ],
+   "tree_pos": "5_1",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "品质优选·三",
+     "desc": "每完成一个烹饪研究任务，售卖烹饪菜品时，菜品的售卖价格增加1%，最多增加30%。"
+    },
+    "en": {
+     "name": "Profits à la Mode III",
+     "desc": "Dish sell price +1% per Gastronomic Explorer research task completed, up to 30%."
+    }
+   },
+   "icon": "images/icon_skill_zjgjgaojicaipingailv_03.png"
+  },
+  {
+   "skill_id": 21001065,
+   "override_id": 21001062,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 26,
+   "param": [
+    1,
+    40
+   ],
+   "career_lv_req": 8,
+   "cost_point": 1,
+   "pre_skills": [
+    21001064
+   ],
+   "pre_tasks": [
+    25052208
+   ],
+   "tree_pos": "6_1",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "品质优选·四",
+     "desc": "每完成一个烹饪研究任务，售卖烹饪菜品时，菜品的售卖价格增加1%，最多增加40%。"
+    },
+    "en": {
+     "name": "Profits à la Mode IV",
+     "desc": "Dish sell price +1% per Gastronomic Explorer research task completed, up to 40%."
+    }
+   },
+   "icon": "images/icon_skill_zjgjgaojicaipingailv_04.png"
+  },
+  {
+   "skill_id": 21001066,
+   "override_id": 21001062,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 26,
+   "param": [
+    1,
+    50
+   ],
+   "career_lv_req": 10,
+   "cost_point": 1,
+   "pre_skills": [
+    21001065
+   ],
+   "pre_tasks": [
+    25052210
+   ],
+   "tree_pos": "8_1",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "品质优选·五",
+     "desc": "每完成一个烹饪研究任务，售卖烹饪菜品时，菜品的售卖价格增加1%，最多增加50%。"
+    },
+    "en": {
+     "name": "Profits à la Mode V",
+     "desc": "Dish sell price +1% per Gastronomic Explorer research task completed, up to 50%."
+    }
+   },
+   "icon": "images/icon_skill_zjgjgaojicaipingailv_05.png"
+  },
+  {
+   "skill_id": 21001067,
+   "override_id": 21001062,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 26,
+   "param": [
+    1,
+    60
+   ],
+   "career_lv_req": 13,
+   "cost_point": 1,
+   "pre_skills": [
+    21001066
+   ],
+   "pre_tasks": [
+    25052213
+   ],
+   "tree_pos": "11_1",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "品质优选·六",
+     "desc": "每完成一个烹饪研究任务，售卖烹饪菜品时，菜品的售卖价格增加1%，最多增加60%。"
+    },
+    "en": {
+     "name": "Profits à la Mode VI",
+     "desc": "Dish sell price +1% per Gastronomic Explorer research task completed, up to 60%."
+    }
+   },
+   "icon": "images/icon_skill_zjgjgaojicaipingailv_06.png"
+  },
+  {
+   "skill_id": 21001068,
+   "override_id": 21001068,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 25,
+   "param": [
+    1,
+    10
+   ],
+   "career_lv_req": 1,
+   "cost_point": 1,
+   "pre_skills": [],
+   "pre_tasks": [
+    25052201
+   ],
+   "tree_pos": "1_1",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "顾客之选·一",
+     "desc": "每完成一个残谱的菜品研究，售卖烹饪菜品时，菜品的售卖价格增加1%，最多增加10%。"
+    },
+    "en": {
+     "name": "Recipe Refiner I",
+     "desc": "Dish sell price +1% per Unfinished Recipe completed, up to 10%."
+    }
+   },
+   "icon": "images/icon_skill_zjhuodefenshu_01.png"
+  },
+  {
+   "skill_id": 21001069,
+   "override_id": 21001068,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 25,
+   "param": [
+    1,
+    20
+   ],
+   "career_lv_req": 7,
+   "cost_point": 1,
+   "pre_skills": [
+    21001068
+   ],
+   "pre_tasks": [
+    25052207
+   ],
+   "tree_pos": "5_2",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "顾客之选·二",
+     "desc": "每完成一个残谱的菜品研究，售卖烹饪菜品时，菜品的售卖价格增加1%，最多增加20%。"
+    },
+    "en": {
+     "name": "Recipe Refiner II",
+     "desc": "Dish sell price +1% per Unfinished Recipe completed, up to 20%."
+    }
+   },
+   "icon": "images/icon_skill_zjhuodefenshu_02.png"
+  },
+  {
+   "skill_id": 21001070,
+   "override_id": 21001068,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 25,
+   "param": [
+    1,
+    30
+   ],
+   "career_lv_req": 10,
+   "cost_point": 1,
+   "pre_skills": [
+    21001069
+   ],
+   "pre_tasks": [
+    25052210
+   ],
+   "tree_pos": "8_2",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "顾客之选·三",
+     "desc": "每完成一个残谱的菜品研究，售卖烹饪菜品时，菜品的售卖价格增加1%，最多增加30%。"
+    },
+    "en": {
+     "name": "Recipe Refiner III",
+     "desc": "Dish sell price +1% per Unfinished Recipe completed, up to 30%."
+    }
+   },
+   "icon": "images/icon_skill_zjhuodefenshu_03.png"
+  },
+  {
+   "skill_id": 21001071,
+   "override_id": 21001068,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 25,
+   "param": [
+    1,
+    40
+   ],
+   "career_lv_req": 13,
+   "cost_point": 1,
+   "pre_skills": [
+    21001070
+   ],
+   "pre_tasks": [
+    25052213
+   ],
+   "tree_pos": "11_2",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "顾客之选·四",
+     "desc": "每完成一个残谱的菜品研究，售卖烹饪菜品时，菜品的售卖价格增加1%，最多增加40%。"
+    },
+    "en": {
+     "name": "Recipe Refiner IV",
+     "desc": "Dish sell price +1% per Unfinished Recipe completed, up to 40%."
+    }
+   },
+   "icon": "images/icon_skill_zjhuodefenshu_04.png"
+  },
+  {
+   "skill_id": 21001073,
+   "override_id": 21001073,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 27,
+   "param": [
+    2
+   ],
+   "career_lv_req": 1,
+   "cost_point": 1,
+   "pre_skills": [],
+   "pre_tasks": [
+    25052201
+   ],
+   "tree_pos": "1_4",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "全能主厨·一",
+     "desc": "进入订单挑战可携带的菜谱数量提升为2张。"
+    },
+    "en": {
+     "name": "Menu Curator I",
+     "desc": "Can select up to 2 recipes to bring into each Order Gauntlet."
+    }
+   },
+   "icon": "images/icon_skill_zjguajixulie_01.png"
+  },
+  {
+   "skill_id": 21001074,
+   "override_id": 21001073,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 27,
+   "param": [
+    3
+   ],
+   "career_lv_req": 4,
+   "cost_point": 1,
+   "pre_skills": [
+    21001073
+   ],
+   "pre_tasks": [
+    25052204
+   ],
+   "tree_pos": "2_5",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "全能主厨·二",
+     "desc": "进入订单挑战可携带的菜谱数量提升为3张。"
+    },
+    "en": {
+     "name": "Menu Curator II",
+     "desc": "Can select up to 3 recipes to bring into each Order Gauntlet."
+    }
+   },
+   "icon": "images/icon_skill_zjguajixulie_02.png"
+  },
+  {
+   "skill_id": 21001075,
+   "override_id": 21001073,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 27,
+   "param": [
+    4
+   ],
+   "career_lv_req": 7,
+   "cost_point": 1,
+   "pre_skills": [
+    21001074
+   ],
+   "pre_tasks": [
+    25052207
+   ],
+   "tree_pos": "5_6",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "全能主厨·三",
+     "desc": "进入订单挑战可携带的菜谱数量提升为4张。"
+    },
+    "en": {
+     "name": "Menu Curator III",
+     "desc": "Can select up to 4 recipes to bring into each Order Gauntlet."
+    }
+   },
+   "icon": "images/icon_skill_zjguajixulie_03.png"
+  },
+  {
+   "skill_id": 21001076,
+   "override_id": 21001076,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 28,
+   "param": [
+    0
+   ],
+   "career_lv_req": 1,
+   "cost_point": 0,
+   "pre_skills": [],
+   "pre_tasks": [
+    25052201
+   ],
+   "tree_pos": "1_3",
+   "auto_unlock": true,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "烹饪流水线·一",
+     "desc": "每张烹饪台，小精灵的等待队列中准备烹饪的菜品数量提升到1道。"
+    },
+    "en": {
+     "name": "Reserve Mastery I",
+     "desc": "Each Gastronome's Station can hold 1 dish for Hearth Helper commissions in the Reserve queue."
+    }
+   },
+   "icon": "images/icon_skill_zjguajiashuliang_01.png"
+  },
+  {
+   "skill_id": 21001077,
+   "override_id": 21001076,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 28,
+   "param": [
+    1
+   ],
+   "career_lv_req": 4,
+   "cost_point": 1,
+   "pre_skills": [
+    21001076
+   ],
+   "pre_tasks": [
+    25052204
+   ],
+   "tree_pos": "2_4",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "烹饪流水线·二",
+     "desc": "每张烹饪台，小精灵的等待队列中准备烹饪的菜品数量提升到2道。"
+    },
+    "en": {
+     "name": "Reserve Mastery II",
+     "desc": "Each Gastronome's Station can hold up to 2 dishes for Hearth Helper commissions in the Reserve queue."
+    }
+   },
+   "icon": "images/icon_skill_zjguajiashuliang_02.png"
+  },
+  {
+   "skill_id": 21001078,
+   "override_id": 21001076,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 28,
+   "param": [
+    2
+   ],
+   "career_lv_req": 7,
+   "cost_point": 1,
+   "pre_skills": [
+    21001077
+   ],
+   "pre_tasks": [
+    25052207
+   ],
+   "tree_pos": "5_5",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "烹饪流水线·三",
+     "desc": "每张烹饪台，小精灵的等待队列中准备烹饪的菜品数量提升到3道。"
+    },
+    "en": {
+     "name": "Reserve Mastery III",
+     "desc": "Each Gastronome's Station can hold up to 3 dishes for Hearth Helper commissions in the Reserve queue."
+    }
+   },
+   "icon": "images/icon_skill_zjguajiashuliang_03.png"
+  },
+  {
+   "skill_id": 21001079,
+   "override_id": 21001076,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 28,
+   "param": [
+    3
+   ],
+   "career_lv_req": 8,
+   "cost_point": 1,
+   "pre_skills": [
+    21001078
+   ],
+   "pre_tasks": [
+    25052208
+   ],
+   "tree_pos": "6_2",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "烹饪流水线·四",
+     "desc": "每张烹饪台，小精灵的等待队列中准备烹饪的菜品数量提升到4道。"
+    },
+    "en": {
+     "name": "Reserve Mastery IV",
+     "desc": "Each Gastronome's Station can hold up to 4 dishes for Hearth Helper commissions in the Reserve queue."
+    }
+   },
+   "icon": "images/icon_skill_zjguajiashuliang_04.png"
+  },
+  {
+   "skill_id": 21001080,
+   "override_id": 21001076,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 28,
+   "param": [
+    4
+   ],
+   "career_lv_req": 10,
+   "cost_point": 1,
+   "pre_skills": [
+    21001079
+   ],
+   "pre_tasks": [
+    25052210
+   ],
+   "tree_pos": "8_5",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "烹饪流水线·五",
+     "desc": "每张烹饪台，小精灵的等待队列中准备烹饪的菜品数量提升到5道。"
+    },
+    "en": {
+     "name": "Reserve Mastery V",
+     "desc": "Each Gastronome's Station can hold up to 5 dishes for Hearth Helper commissions in the Reserve queue."
+    }
+   },
+   "icon": "images/icon_skill_zjguajiashuliang_05.png"
+  },
+  {
+   "skill_id": 21001081,
+   "override_id": 21001076,
+   "career_id": 2,
+   "type": 3,
+   "sub_type": 28,
+   "param": [
+    5
+   ],
+   "career_lv_req": 13,
+   "cost_point": 1,
+   "pre_skills": [
+    21001080
+   ],
+   "pre_tasks": [
+    25052213
+   ],
+   "tree_pos": "11_5",
+   "auto_unlock": false,
+   "reset_flag": true,
+   "is_shield": false,
+   "i18n": {
+    "zh": {
+     "name": "烹饪流水线·六",
+     "desc": "每张烹饪台，小精灵的等待队列中准备烹饪的菜品数量提升到6道。"
+    },
+    "en": {
+     "name": "Reserve Mastery VI",
+     "desc": "Each Gastronome's Station can hold up to 6 dishes for Hearth Helper commissions in the Reserve queue."
+    }
+   },
+   "icon": "images/icon_skill_zjguajiashuliang_06.png"
+  }
+ ],
+ "rarity_backgrounds": {
+  "1": "images/bg_huixiang_pingzhidi_01.png",
+  "2": "images/bg_huixiang_pingzhidi_02.png",
+  "3": "images/bg_huixiang_pingzhidi_03.png",
+  "4": "images/bg_huixiang_pingzhidi_04.png"
+ }
+}

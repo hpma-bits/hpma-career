@@ -1,0 +1,62 @@
+{
+ "schema_version": 1,
+ "data_version": "20261026",
+ "generated_at": "2026-10-26T18:32:11+08:00",
+ "dataset": "career",
+ "locales": [
+  "zh",
+  "en"
+ ],
+ "image_spec": "职业图标 PNG（植物/料理/种子/材料/炊具/职业等级/研究技能，按文件名去重）",
+ "counts": {
+  "plants": 29,
+  "dishes": 45,
+  "seeds": 29,
+  "ingredients": 43,
+  "recipes": 44,
+  "utensils": 6,
+  "shop_levels": 6,
+  "career_levels": 36,
+  "research": 101
+ },
+ "coverage": {
+  "plants": 29,
+  "dishes": 45,
+  "plant_icons": 29,
+  "dish_icons": 45,
+  "seed_icons": 29,
+  "ingredient_icons": 43,
+  "missing_icons": [],
+  "en_name_plants": 29,
+  "en_name_dishes": 45,
+  "en_name_seeds": 29,
+  "en_name_ingredients": 43,
+  "gem_tier_plants": 5,
+  "gem_tier_dishes": 5,
+  "gem_price_seeds": 2,
+  "plant_sourced_ingredients": 4,
+  "recipes_gastronome": 22,
+  "recipes_dessert": 22,
+  "utensil_icons": 6,
+  "career_level_icons": 36,
+  "research_icons": 101,
+  "en_name_career_levels": 36,
+  "en_name_research": 101,
+  "en_desc_research": 101
+ },
+ "notes": [
+  "币种按档独立（currency gold/gems）：存在低档金币、绽放档宝石的混币种植物；消费端按 (条目, 档位) 取价，不要按条目假定单一币种",
+  "price 为基础价（收购=收购价 / 购入=商店售价）。商店等级带来的是**高价收购**通道：shop_levels[].hva_rate 是额外倍率（1/2/3 即+100/200/300%），hva_slots 为每周件数、hva_budget 为每周预算区间；职业天赋的菜品售价加成见 research（sub_type 25/26，param = [每份研究 +X%, 上限 Y%]）",
+  "plants[].tiers[].price_rare_color 为观赏稀有色植株的收购价；稀有色是运行时着色（11 种观赏色），没有独立图片。该值等于 price 表示该档没有稀有色溢价（如鳃囊草全档相等），消费端不要用图片判断",
+  "dishes 同名称多变体（配方分支）价格一致时归并入 item_ids；图标取代表物品，变体差异图标不逐一入包",
+  "档位为 int：植物 1..4 / 料理 2..4，显示名查 labels（两套档位词表不同，勿混用）",
+  "seeds 为购入侧（草药商店 1 层）：unlock_career_lv 是职业**小等级**1..18（对应 career_levels[].level），buy_limit 99 是游戏真上限（不是\"无限\"哨兵）；种子与 plants 一一对应",
+  "ingredients 的获取通道恰一：shop=美食商店购入 / plant=植物自种（植物源调料，绽放档收获物，herb_id+tier 链回 plants）",
+  "recipes[].steps 的 duration_ms 是**毫秒**，÷1000 = 秒（不是分钟）；配方自有名文本键悬空，显示名经 dishes[].recipe_ids 联接取料理名；炊具显示名文本键全链悬空（utensils[].i18n 的名称为 null，name_key 只作溯源），消费端自行命名",
+  "rarity_backgrounds（可选）：商店/通用物品格品质光环 153x147，键 1..4 = 白/蓝/紫/金（按物品 rarity 直排）；植物与料理的 tiers[].tier 共用这把尺，消费端把物品图标叠光环中心即为商店格观感",
+  "shop_levels 为商店大等级 1..6（高价收购倍率按大等级两两一档）；career_levels 为职业小等级 1..18（big_level 1..6 = 每 3 小级一大级），stats 保留该职业的玩法数值（订单/队列等），语义由消费端按需解释",
+  "research 为职业研究技能树：type/sub_type/param 是游戏效果编码，本包原样保留；param 为数字数组（百分比/次数/时长秒数视 sub_type 而定）"
+ ],
+ "webp_images": "images_webp/",
+ "webp_spec": "图标 WebP 副本集 images_webp/<同名>.webp（q82）；消费端优先加载、失败回退 PNG"
+}
